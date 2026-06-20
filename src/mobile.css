@@ -17,12 +17,13 @@
   .site-header { 
     width: 95%; 
     min-width: auto; 
-    padding: 1rem 1.5rem; 
-    border-radius: 1rem; 
+    height: 70px; /* Explicit height set to 70px as requested */
+    padding: 0 1.25rem; 
+    border-radius: 2rem; 
     top: 1rem; 
-    /* Keep it as row, not column, so logo and hamburger sit side-by-side */
     flex-direction: row; 
     justify-content: space-between;
+    align-items: center; /* Perfectly center items vertically */
   }
   
   .header-logo { 
@@ -31,18 +32,18 @@
     gap: 0.75rem; /* Less gap on mobile */
   }
 
-  .header-logo img {
-    height: 35px; /* Slightly smaller logo on mobile */
-  }
-
   .header-logo-name {
-    font-size: 1rem; /* Prevent wrapping on narrow screens */
+    font-size: 2rem; /* Noticeably larger font size for mobile logo */
     white-space: nowrap;
+    line-height: 1; 
+    padding-bottom: 0; 
+    margin-top: 5px; /* Visual nudge downwards to center the font perfectly with the hamburger menu */
+    display: flex;
+    align-items: center;
   }
 
   .header-logo-tagline {
-    font-size: 0.6rem;
-    white-space: nowrap;
+    display: none; /* Hide tagline on mobile to ensure perfect vertical centering of the main logo */
   }
   
   /* --- Language Selector overrides for mobile --- */
@@ -56,17 +57,15 @@
 
   .global-lang-select {
     position: static;
-    margin-right: 1rem;
-    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem; /* Reduced margin to bring it closer to the hamburger */
+    padding: 0.4rem 0.6rem;
     padding-right: 1.5rem;
     border-radius: 4px;
     border: 1px solid var(--color-border);
     background-color: transparent;
+    font-size: 0.85rem;
     color: var(--color-ink);
-    font-size: 0.8rem;
-    font-weight: 500;
-    box-shadow: none;
-    transform: none;
+    align-self: center; /* Ensure vertical alignment */
     background-size: 0.5rem auto;
     background-position: right 0.5rem top 50%;
   }
@@ -142,7 +141,7 @@
   .hero-vatican-inner {
     flex-direction: column;
     text-align: center;
-    padding-top: 10rem; /* Reduced padding slightly to fit everything */
+    padding-top: 8rem; /* Reduced padding slightly to fit everything */
     padding-bottom: 2rem;
   }
   
@@ -178,8 +177,10 @@
   .hymn-index,
   .hymn-page,
   .prayers-page,
-  .mass-page {
-    padding: 14rem 1.5rem 4rem; /* More top padding to clear thick mobile nav */
+  .mass-page,
+  .readings-page,
+  .today-page {
+    padding: 8rem 1.5rem 4rem; /* Adjusted top padding to be more reasonable */
   }
 }
 
@@ -244,6 +245,33 @@
   
   .speaker-text {
     font-size: 1.1rem;
+  }
+
+  /* --- Header adjustments for small phones --- */
+  .site-header {
+    padding: 0.6rem 1rem;
+    width: 96%;
+  }
+
+  .header-logo-name {
+    font-size: 0.9rem;
+  }
+
+  .header-logo-tagline {
+    display: none; /* Hide tagline on very small screens to prevent overflow */
+  }
+
+  .global-lang-select {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    padding-right: 1.2rem;
+    margin-right: 0.5rem;
+    background-size: 0.4rem auto;
+  }
+
+  .lang-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
   }
 
   /* --- Footers --- */

@@ -8,6 +8,7 @@ import PrayersPage from './pages/PrayersPage'
 import MassPage from './pages/MassPage'
 import AboutPage from './pages/AboutPage'
 import ReadingsPage from './pages/ReadingsPage'
+import TodayPage from './pages/TodayPage'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -34,14 +35,14 @@ function App() {
       {/* Site Header */}
       <header className="site-header">
         <Link to="/" className="header-logo" onClick={closeMobileMenu}>
-          <img src="/Binelang Morena (2)/Icon_Dark.svg" alt="" aria-hidden="true" />
           <div className="header-logo-text">
-            <span className="header-logo-name">Binelang Morena</span>
+            <span className="header-logo-name">The Good Shepherd</span>
             <span className="header-logo-tagline">{t('tagline')}</span>
           </div>
         </Link>
         <nav className={`header-nav ${isMobileMenuOpen ? 'open' : ''}`} aria-label="Main navigation">
           <NavLink to="/" end onClick={closeMobileMenu}>{t('nav_home')}</NavLink>
+          <NavLink to="/today" onClick={closeMobileMenu}>Today</NavLink>
           <NavLink to="/lifela" onClick={closeMobileMenu}>{t('nav_hymns')}</NavLink>
           <NavLink to="/merapelo" onClick={closeMobileMenu}>{t('nav_prayers')}</NavLink>
           <NavLink to="/misa" onClick={closeMobileMenu}>{t('nav_mass')}</NavLink>
@@ -86,6 +87,7 @@ function App() {
           <Route path="/merapelo" element={<PrayersPage />} />
           <Route path="/misa" element={<MassPage />} />
           <Route path="/readings" element={<ReadingsPage />} />
+          <Route path="/today" element={<TodayPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </main>
@@ -94,10 +96,10 @@ function App() {
       <footer className="site-footer">
         <div className="footer-inner">
           <div className="footer-logo">
-            <img src="/Binelang Morena (1)/Logo_Dark.svg" alt="Binelang Morena Logo" />
+            <img src="/The Good Shepherd (1)/Logo_Dark.svg" alt="The Good Shepherd Logo" />
           </div>
           <p className="footer-text">
-            <em>Binelang Morena &mdash; {t('tagline')}</em>
+            <em>The Good Shepherd &mdash; {t('tagline')}</em>
           </p>
           <p className="footer-text">
             {t('footer_source_hymns')}{' '}

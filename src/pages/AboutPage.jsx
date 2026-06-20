@@ -8,13 +8,13 @@ function AboutPage() {
     <div className="about-page" style={{ padding: '10rem 1.5rem 6rem', maxWidth: '800px', margin: '0 auto' }}>
       <div className="index-header" style={{ textAlign: 'center', marginBottom: '3rem' }}>
         <span className="section-label">{t('nav_about')}</span>
-        <h1 className="section-title">Binelang Morena</h1>
+        <h1 className="section-title">The Good Shepherd</h1>
         <div className="divider"></div>
       </div>
 
       <div style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-ink)', marginBottom: '3rem' }}>
         <p style={{ marginBottom: '1.5rem' }}>
-          <strong>Binelang Morena</strong> {t('about_p1').replace('Binelang Morena ', '')}
+          <strong>The Good Shepherd</strong> {t('about_p1').replace('The Good Shepherd ', '')}
         </p>
 
         <p style={{ marginBottom: '1.5rem' }}>

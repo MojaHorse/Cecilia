@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
 
 :root {
   --color-burgundy: #7A191B; /* Deeper, more traditional Catholic red */
@@ -11,6 +11,7 @@
   --color-ink-light: #5A544F;
   --color-border: #E6DFD3;
   --color-white: #FFFFFF;
+  --font-legendary: 'Cinzel Decorative', serif; /* Legendary display font */
   --font-serif-heading: 'Playfair Display', Georgia, serif; /* For majestic titles */
   --font-serif-body: 'Lora', Georgia, serif; /* For readable, classic body text */
   --font-sans: 'Inter', system-ui, sans-serif; /* For tiny utility text only */
@@ -174,23 +175,22 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
   justify-content: center;
 }
 .header-logo-name {
-  font-family: var(--font-serif-heading);
-  font-weight: 600;
-  font-size: 1.3rem; 
+  font-family: var(--font-legendary);
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
   color: var(--color-ink);
   line-height: 1.1;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  padding-bottom: 0.1rem;
 }
 
-.header-logo-tagline {
+.header-logo-tagline { 
   font-family: var(--font-sans);
-  font-size: 0.75rem; 
-  color: var(--color-gold);
+  font-size: 0.65rem; 
+  color: var(--color-ink-light); 
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  line-height: 1.2;
-  margin-top: 4px;
+  letter-spacing: 0.25em;
+  font-weight: 700;
 }
 
 .header-nav {
@@ -321,23 +321,7 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
   overflow: hidden;
 }
 
-/* Subtle, massive logo watermark in the background */
-.hero-vatican::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translateY(-50%);
-  width: 800px;
-  height: 800px;
-  background-image: url('/Binelang Morena (2)/Icon_light.svg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.1; /* Very faint so it looks elegant and doesn't distract */
-  z-index: 1;
-  pointer-events: none;
-}
+
 
 .hero-curve {
   position: absolute;
@@ -519,6 +503,15 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 .hymn-index {
   padding: 8rem 1.5rem 6rem;
   max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+   TODAY PAGE
+   ============================================================ */
+.today-page {
+  padding: 10rem 1.5rem 6rem; /* Ensure content clears the fixed header */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -840,11 +833,15 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 }
 
 .lang-toggle {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
   background-color: var(--color-cream);
   padding: 0.25rem;
   border-radius: 8px;
   border: 1px solid var(--color-border);
+  max-width: 100%;
 }
 
 .lang-btn {
@@ -1139,3 +1136,172 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
   color: var(--color-burgundy);
   text-decoration: underline;
 }
+
+/* ============================================================
+   DASHBOARD WIDGETS (Today Page)
+   ============================================================ */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch; /* Allow cards to stretch to fill their assigned row heights neatly on desktop */
+  }
+  
+  .dashboard-card.liturgy-card {
+    grid-column: span 3;
+    /* Removed row flex so it stays a stacked banner, making text large and readable */
+  }
+
+  .dashboard-card.saint-card {
+    grid-column: span 1;
+    grid-row: span 2; /* Spans two rows vertically to accommodate the image */
+  }
+}
+
+.dashboard-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-card.liturgy-card {
+  background: linear-gradient(135deg, #1f1b18 0%, #3a322c 100%);
+  color: var(--color-white);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border: none;
+}
+
+.dashboard-label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.dashboard-card-title {
+  font-family: var(--font-serif-heading);
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  margin-bottom: 1rem;
+}
+
+.dashboard-card.liturgy-card .dashboard-card-title {
+  color: var(--color-white);
+}
+
+.widget-link {
+  margin-top: auto;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-burgundy);
+  text-decoration: none;
+}
+
+.widget-link:hover {
+  text-decoration: underline;
+}
+
+/* Checklist */
+.checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-serif-body);
+  font-size: 1.05rem;
+  color: var(--color-ink);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.checklist-item.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.checklist-item input {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--color-gold);
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.checklist-item input:checked + .checkbox-custom {
+  background-color: var(--color-gold);
+}
+
+.checklist-item input:checked + .checkbox-custom::after {
+  content: '✓';
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Quick Prayers */
+.quick-prayers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quick-prayer-item {
+  background-color: var(--color-cream);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--color-ink);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.quick-prayer-item:hover {
+  background-color: var(--color-ivory);
+  transform: translateY(-2px);
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+}
+
+.quick-prayer-item strong {
+  font-family: var(--font-serif-heading);
+  font-size: 1.1rem;
+  color: var(--color-burgundy);
+}
+
+.quick-prayer-item span {
+  font-family: var(--font-serif-body);
+  font-size: 0.9rem;
+  color: var(--color-ink-light);
+  font-style: italic;
+}
+
