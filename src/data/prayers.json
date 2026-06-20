@@ -1,0 +1,277 @@
+[
+  {
+    "id": "sign-of-cross",
+    "translations": {
+      "sesotho": {
+        "title": "Pontšo ea Sefapano",
+        "content": "Ka lebitso la Ntate, le la Mora, le la Moea o Halalelang. Amen."
+      },
+      "english": {
+        "title": "Sign of the Cross",
+        "content": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+      "zulu": {
+        "title": "Uphawu Lwesiphambano",
+        "content": "Egameni likaYise, nelikaNdodana, nelikaMoya oNgcwele. Amen."
+      },
+      "xhosa": {
+        "title": "Uphawu Lomnqamlezo",
+        "content": "Egameni loYise, neloNyana, neloMoya oyiNgcwele. Amen."
+      },
+      "setswana": {
+        "title": "Sefapaano",
+        "content": "Mo Leineng la Rara, le la Morwa, le la Mowa o o Boitshepo. Amen."
+      }
+    }
+  },
+  {
+    "id": "our-father",
+    "translations": {
+      "sesotho": {
+        "title": "Ntat'a Rona",
+        "content": "Ntat'a rona ea maholimong, lebitso la hao a le halaletswe; 'muso oa hao a o tle; thato ea hao a e etsoe lefatsheng, joaloka ha e etsoa leholimong. U re fe kajeno bohobe ba rona ba tsatsi le leng le le leng; u re tšoarele melato ea rona, joaloka ha re tšoarela ba ba re sitetseng; 'me u se ke oa re isa molekong, u mpe u re lopolle bobeng. Amen."
+      },
+      "english": {
+        "title": "The Our Father",
+        "content": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven.\n\nGive us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+      },
+      "zulu": {
+        "title": "Baba Wethu",
+        "content": "Baba wethu osezulwini, malingcweliswe igama lakho; mawufike umbuso wakho; mayenziwe intando yakho emhlabeni njengasezulwini.\n\nAwusiphe namuhla isinkwa sethu semihla ngemihla; usithethelele izono zethu, njengoba nathi sibathethelela abasonayo; ungasingenisi ekulingweni, kodwa usisindise kokubi. Amen."
+      },
+      "xhosa": {
+        "title": "Bawo Wethu",
+        "content": "Bawo wethu osezulwini, maliphathwe ngobungcwele igama lakho. Ubukumkani bakho mabuze. Intando yakho mayenziwe emhlabeni, njengokuba isenziwa ezulwini.\n\nSiphe namhlanje isonka sethu semihla ngemihla. Usixolele izono zethu, njengokuba nathi sibaxolela abo basonayo. Ungasingenisi ekulingweni, koko usihlangule enkohlakalweni. Amen."
+      },
+      "setswana": {
+        "title": "Rraetsho",
+        "content": "Rraetsho yo o kwa legodimong, leina la gago a le itshepisiwe; bogosi jwa gago a bo tle; thato ya gago a e dirwe mo lefatsheng jaaka e dirwa kwa legodimong.\n\nO re fe gompieno sejo sa rona sa malatsi otlhe; o re itshwarele melato ya rona, jaaka le rona re itshwarela ba ba re leofetseng; mme o se ka wa re isa mo thaelong, mme o re golole mo bosuleng. Amen."
+      }
+    }
+  },
+  {
+    "id": "hail-mary",
+    "translations": {
+      "sesotho": {
+        "title": "Ahe Maria",
+        "content": "Ahe Maria, ea tletseng grasia, Morena o na le uena; u lehlohonolo har'a basali, le Jesu, ngoana oa popelo ea hao, o lehlohonolo.\n\nMaria ea halalelang, 'Ma Molimo, u re rapelle rona baetsalibe, joale le ka nako ea ho shoa ha rona. Amen."
+      },
+      "english": {
+        "title": "Hail Mary",
+        "content": "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus.\n\nHoly Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+      },
+      "zulu": {
+        "title": "Yethi Maria",
+        "content": "Yethi Maria, ogcwele igrasia, iNkosi inawe; ubusisiwe wena esifazaneni, futhi ibusisiwe inzalo yesisu sakho, uJesu.\n\nMaria oNgcwele, Nina kaNkulunkulu, sikhulekele thina zoni, kalokhu nasezikhathini zokufa kwethu. Amen."
+      },
+      "xhosa": {
+        "title": "Bhota Mariya",
+        "content": "Bhota Mariya, uzele lufefe, iNkosi inawe. Usikelelwe wena phakathi kwabafazi, isikelelwe nesiqhamo sesizalo sakho, uYesu.\n\nMariya oyiNgcwele, Mama kaThixo, sithandazele thina boni, ngoku nangexa lokufa kwethu. Amen."
+      },
+      "setswana": {
+        "title": "Dumela Maria",
+        "content": "Dumela Maria, o tletseng tshegofatso, Morena o na le wena; o sego wena mo basading, mme go sego leungo la sebopelo sa gago, Jesu.\n\nMaria yo o Boitshepo, Mma Modimo, re rapelele rona baleofi, jaanong le mo nakong ya loso lwa rona. Amen."
+      }
+    }
+  },
+  {
+    "id": "glory-be",
+    "translations": {
+      "sesotho": {
+        "title": "Letlotlo",
+        "content": "Letlotlo le be ho Ntate, le ho Mora, le ho Moea o Halalelang. Joaloka ha e ne e le teng tšimolohong, le joale, le kamehla, le ka ho sa feleng. Amen."
+      },
+      "english": {
+        "title": "Glory Be",
+        "content": "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
+      },
+      "zulu": {
+        "title": "Udumo",
+        "content": "Udumo malube kuYise, nakuyo iNdodana, nakuMoya oNgcwele. Njengoba lwalunjalo ekuqaleni, lunjalo nanamuhla, luyakuba njalo kuze kube phakade. Amen."
+      },
+      "xhosa": {
+        "title": "Uzuko",
+        "content": "Uzuko malube kuYise, nakuNyana, nakuMoya oyiNgcwele. Njengokuba lwalunjalo ekuqaleni, lunjalo nangoku, luya kuba njalo kude kube ngunaphakade. Amen."
+      },
+      "setswana": {
+        "title": "Kgalalelo",
+        "content": "Kgalalelo a e nne go Rara, le go Morwa, le go Mowa o o Boitshepo. Jaaka go ne go ntse mo tshimologong, le jaanong, le ka bosakhutleng. Amen."
+      }
+    }
+  },
+  {
+    "id": "fatima-prayer",
+    "translations": {
+      "sesotho": {
+        "title": "Thapelo ea Fatima",
+        "content": "Oho Jesu oa ka, aku re tšoarele libe tsa rona, u re phemise mollong oa lihele, 'me u etse hore meea eohle e finyelle leholimong, haholo meea e hlokang ho feta thuso ea mohau oa hao."
+      },
+      "english": {
+        "title": "Fatima Prayer",
+        "content": "O my Jesus, forgive us our sins, save us from the fires of hell, and lead all souls to Heaven, especially those in most need of Thy mercy."
+      },
+      "zulu": {
+        "title": "Umkhuleko WaseFatima",
+        "content": "O Jesu wami, sithethelele izono zethu, usisindise emlilweni wesihogo, uholele imiphefumulo yonke ezulwini, ikakhulu leyo edinga kakhulu umusa wakho."
+      },
+      "xhosa": {
+        "title": "Umthandazo waseFatima",
+        "content": "O Yesu wam, sixolele izono zethu, usisindise emlilweni wesihogo, ukhokelele imiphefumulo yonke ezulwini, ngakumbi loo mifumulo iswele kakhulu inceba yakho."
+      },
+      "setswana": {
+        "title": "Thapelo ya Fatima",
+        "content": "Oho Jesu wa me, re itshwarele maleo a rona, re golole mo molelong wa dihele, mme o ise meya yotlhe kwa Legodimong, segolobogolo e e tlhokang thata kutlwelobotlhoko ya gago."
+      }
+    }
+  },
+  {
+    "id": "apostles-creed",
+    "translations": {
+      "sesotho": {
+        "title": "Tumelo ea Baapostola",
+        "content": "Ke lumela ho Molimo Ntate ea matla ohle, Mmopi oa leholimo le oa lefatše.\n\nLe ho Jesu Kriste, Mora oa hae a inotsi, Morena oa rona, ea emotsoeng ka Moea o Halalelang, ea tsoetsoeng ke Maria Movirigo, ea utloisisitsoeng bohloko pusong ea Ponso Pilato, ea thakhisitsoeng sefapanong, a shoa, a patoa lebitleng, a theohela nqalong ea bafu.\n\nA tsoha bafung ka letsatsi la boraro, a nyolohela leholimong. O lutse ka letsohong le letona la Molimo Ntate ea matla ohle, mme o tla khutla teng ho tla ahlola ba phelang le ba shoeleng.\n\nKe lumela ho Moea o Halalelang, ho Kereke e Halalelang e Katolike, selekane sa bahalaledi, tsoarelo ea libe, tsoho ea bafu, le bophelo bo sa feleng. Amen."
+      },
+      "english": {
+        "title": "The Apostles' Creed",
+        "content": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead.\n\nI believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+      },
+      "zulu": {
+        "title": "InKolelo YabaPhostoli",
+        "content": "Ngiyakholwa kuNkulunkulu uYise uMninimandla onke, uMdali wezulu nomhlaba; nakuJesu Kristo, iNdodana yakhe ezelwe yodwa, iNkosi yethu; owathathwa ngoMoya oNgcwele, wazalwa nguMaria iVirgo; wahlushwa phansi kukaPontiyu Pilatu; wabethelwa esiphambanweni, wafa, wembelwa; wehlela kwabafileyo; ngosuku lwesithathu wavuka kwabafileyo; wenyukela ezulwini, uhlezi ngakwesokunene sikaNkulunkulu uYise uMninimandla onke; uyakuvela lapho azakwahlulela abaphilayo nabafileyo.\n\nNgiyakholwa kuMoya oNgcwele; neBandla elingcwele elikhatholika; nokuhlangana kwabangcwele; nokuthethelelwa kwezono; nokuvuka komzimba; nokuphila okuphakade. Amen."
+      },
+      "xhosa": {
+        "title": "IsiVumo soKholo sabaPostile",
+        "content": "Ndiyakholwa kuThixo uYise uSomandla, uMdali wezulu nomhlaba; nakuYesu Krestu, uNyana wakhe okuphela kwamzeleyo, iNkosi yethu; owaqhawulwa nguMoya oyiNgcwele, wazalwa nguMariya iNtombi; wava ubunzima phantsi koPontiyo Pilato; wabethelelwa emnqamlezweni, wafa, wangcwatywa; wehlela kwabafileyo; ngomhla wesithathu wavuka kwabafileyo; wenyukela ezulwini, uhleli ngasekunene kukaThixo uYise uSomandla; uya kuvela apho, aze kugweba abaphilayo nabafileyo.\n\nNdiyakholwa kuMoya oyiNgcwele; iBandla elingcwele elikatholika; ubudlelane babangcwele; ukuxolelwa kwezono; ukuvuka komzimba; nobomi obungunaphakade. Amen."
+      },
+      "setswana": {
+        "title": "Tumelo ya Baaposetoloi",
+        "content": "Ke dumela mo go Modimo Rara Mothatayotlhe, Mmopi wa legodimo le lefatshe; le mo go Jesu Keresete, Morwawe a le esi, Morena wa rona; yo o imilweng ka Mowa o o Boitshepo, a tsalwa ke Maria Lekgarebe; a bogisiwa mo pusong ya ga Pontio Pilato; a bapolwa mo sefapaanong, a swa, a fitlhwa; a fologela felong ga baswi; ka letsatsi la boraro a tsoga mo baswing; a tlhatlogela kwa legodimong, o ntse fa seatleng sa moja sa Modimo Rara Mothatayotlhe; koo o tla tlang a tswa teng go atlhola batshedi le baswi.\n\nKe dumela mo go Mowa o o Boitshepo; Kereke e e boitshepo ya katholika; kopano ya baitshepi; boitshwarelo jwa maleo; tsogo ya mmele; le botshelo jo bo sa khutleng. Amen."
+      }
+    }
+  },
+  {
+    "id": "hail-holy-queen",
+    "translations": {
+      "sesotho": {
+        "title": "Ahe Mofumahali",
+        "content": "Ahe Mofumahali, Mmamohau, uena bophelo bo monate le tšepo ya rona ahe! Re hoeletsa ho oena rona ba lelekiloeng bana ba Eva. Re u hloloheloa ka pelo e hlomohileng e meokho, ha re ntse re le koano sekhutlong sena sa lillo.\n\nOho hle uena moemeli oa rona, u re talime ka mahlo ana a hao a tsebang ho hauhela; 'me ha ho se ho fetile nako ea teleko ea rona, u re bontše Jesu, ngoana ea lehlohonolo oa popelo ea hao, oho uena ea mohau, ea mosa, ea monate, Movirigo Maria.\n\nV. U re rapelle 'Me ea halalelang oa Molimo.\nR. Re tle re tsoaneloe ke lipallo tsa Jesu Kriste."
+      },
+      "english": {
+        "title": "Hail Holy Queen",
+        "content": "Hail, Holy Queen, Mother of Mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve: to thee do we send up our sighs, mourning and weeping in this valley of tears.\n\nTurn then, most gracious Advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary!\n\nV. Pray for us, O Holy Mother of God,\nR. That we may be made worthy of the promises of Christ."
+      },
+      "zulu": {
+        "title": "Yethi Ndlovukazi ENGcwele",
+        "content": "Yethi Ndlovukazi eNgcwele, Nina wesihawu, ukuphila kwethu, ubumnandi bethu, nethemba lethu, yethi. Sikhalela kuwe thina bantwana baka-Eva abadingisiweyo; sibubula kuwe, silila sikhala kulesi sigodi sezinyembezi.\n\nPhendula-ke, Mmeli wethu onomusa, amehlo akho esiha kuqhubeke; nangemva kwalokhu kudingiswa kwethu, usibonise inzalo ebusisiweyo yesisu sakho, uJesu. O omuhle, O onothando, O Maria iVirgo elimnandi!\n\nV. Sikhulekele Nina oNgcwele kaNkulunkulu.\nR. Ukuze sifanele izithembiso zikaKristo."
+      },
+      "xhosa": {
+        "title": "Bhota Kumkanikazi OyiNgcwele",
+        "content": "Bhota Kumkanikazi oyiNgcwele, Mama wenceba, ubomi bethu, iswekile yethu nethemba lethu. Siyakhala kuwe, thina bantwana bakaEva abagxothiweyo; siyancwina kuwe, sikhala kulo mfula weenyembezi.\n\nJikela ke, Mthetheleli onomusa, amehlo akho enceba kuthi; nangesemva kolu lugxothwa lwethu, usibonise isiqhamo esisikelelweyo sesizalo sakho, uYesu. O ozele lufefe, O onothando, O Mariya iNtombi emnandi!\n\nV. Sithandazele Mama oyiNgcwele kaThixo.\nR. Ukuze sibe bafanele izithembiso zikaKrestu."
+      },
+      "setswana": {
+        "title": "Dumela Mohumagadi Yo O Boitshepo",
+        "content": "Dumela Mohumagadi yo o Boitshepo, Mma Kutlwelobotlhoko, botshelo jwa rona, monate wa rona le tsholofelo ya rona, dumela. Re lelela go wena, rona bana ba ga Efa ba ba kobilweng; re fegelwa go wena, re lela mo mokgatšheng ono wa dikeledi.\n\nKa jalo he, Mmuelli wa rona yo o bopelonomi, tlhabisa matlho a gago a kutlwelobotlhoko go rona; mme morago ga tholego ya rona e, o re bontshe leungo le le sego la sebopelo sa gago, Jesu. O yo o bonolo, O yo o lorato, O Maria Lekgarebe le le monate!\n\nV. Re rapelele Mma Modimo yo o Boitshepo.\nR. Gore re nne ba ba tshwanetseng ditsholofetso tsa ga Keresete."
+      }
+    }
+  },
+  {
+    "id": "angelus",
+    "translations": {
+      "sesotho": {
+        "title": "Tumediso ya Lengeloi",
+        "content": "V. Lengeloi la Morena la behela Maria.\nR. Mme a emola ka matla a Moya o Halalelang.\n(Ahe Maria...)\n\nV. Ke nna lekgabunyane la Morena.\nR. Ho etswe ho nna jwalokaha o boletse.\n(Ahe Maria...)\n\nV. Mme lentswe la iketsa motho.\nR. Mme la aha har'a rona.\n(Ahe Maria...)\n\nV. O re rapelle Mme ea halalelang wa Modimo.\nR. Re tle re tshwanelwe ke dipallo tsa Jesu Kriste.\n\nA re rapeleng: Oho Morena, ak'o tshele moyeng wa rona thuso ya hao, hore, ha re se re tsebisitswe ka polelo ya lengeloi hore Jesu Kriste Mora wa hao o n'a iketse motho, re fihlele letlotlo la tsoho ya hae, ka tokelo ya lefu la hae le ya sefapano sa hae. Ke seo re se kopang ka yena enwa Morena wa rona. Jesu Kriste. Amen."
+      },
+      "english": {
+        "title": "The Angelus",
+        "content": "V. The Angel of the Lord declared to Mary:\nR. And she conceived of the Holy Spirit.\n(Hail Mary...)\n\nV. Behold the handmaid of the Lord:\nR. Be it done unto me according to Thy word.\n(Hail Mary...)\n\nV. And the Word was made Flesh:\nR. And dwelt among us.\n(Hail Mary...)\n\nV. Pray for us, O Holy Mother of God,\nR. That we may be made worthy of the promises of Christ.\n\nLet us pray: Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the incarnation of Christ, Thy Son, was made known by the message of an angel, may by His Passion and Cross be brought to the glory of His Resurrection, through the same Christ Our Lord. Amen."
+      },
+      "zulu": {
+        "title": "I-Angelus",
+        "content": "V. Ingelosi yeNkosi yabikela uMaria.\nR. Wakhulelwa ngoMoya oNgcwele.\n(Yethi Maria...)\n\nV. Bheka incekukazi yeNkosi.\nR. Makwenziwe kimi njengezwi lakho.\n(Yethi Maria...)\n\nV. UZwi waba yinyama.\nR. Wahlala phakathi kwethu.\n(Yethi Maria...)\n\nV. Sikhulekele Nina oNgcwele kaNkulunkulu.\nR. Ukuze sifanele izithembiso zikaKristo.\n\nMasikhuleke: Sithululele, siyakuncenga Nkosi, umusa wakho ezinhliziyweni zethu; ukuze thina, esazisiwe ngokubikela kwengelosi ukuba umuntu kukaKristo iNdodana yakho, ngokuHlupheka nangesiPhambano sakhe, silethwe enkazimulweni yoKuvuka kwakhe, ngoKristo ofanayo iNkosi yethu. Amen."
+      },
+      "xhosa": {
+        "title": "I-Angelus",
+        "content": "V. Ingelosi yeNkosi yaxelela uMariya.\nR. Wakhawula ngoMoya oyiNgcwele.\n(Bhota Mariya...)\n\nV. Nantsi isicakazana seNkosi.\nR. Makwenziwe kum ngokwelizwi lakho.\n(Bhota Mariya...)\n\nV. ILizwi lenziwa iNyama.\nR. Lahlala phakathi kwethu.\n(Bhota Mariya...)\n\nV. Sithandazele Mama oyiNgcwele kaThixo.\nR. Ukuze sibe bafanele izithembiso zikaKrestu.\n\nMasithandaze: Sithululele, siyakubongoza Nkosi, ufefe lwakho ezintliziyweni zethu; ukuze thina, abaziswe ngesigidimi sengelosi ukuba uKrestu uNyana wakho waba ngumntu, ngokuBandezeleka nangoMnqamlezo wakhe, siziswe eluzukweni loKuvuka kwakhe, ngaYe uKrestu iNkosi yethu. Amen."
+      },
+      "setswana": {
+        "title": "Moengele Wa Morena",
+        "content": "V. Moengele wa Morena a begela Maria.\nR. Mme a ima ka Mowa o o Boitshepo.\n(Dumela Maria...)\n\nV. Bona lelata la Morena.\nR. A go dirwe go nna ka fa lefokong la gago.\n(Dumela Maria...)\n\nV. Mme Lefoko la nna Nama.\nR. A nna mo go rona.\n(Dumela Maria...)\n\nV. Re rapelele Mma Modimo yo o Boitshepo.\nR. Gore re nne ba ba tshwanetseng ditsholofetso tsa ga Keresete.\n\nA re rapeleng: Re a go rapela, Morena, tshololela tshegofatso ya gago mo dipelong tsa rona; gore rona, ba re itsisitsweng ke moengele ka ga go nna motho ga ga Keresete Morwao, re isiwe kwa kgalalelong ya Tsogo ya gagwe ka Dipogo le Sefapaano sa gagwe, ka ene Keresete Morena wa rona. Amen."
+      }
+    }
+  },
+  {
+    "id": "confiteor",
+    "translations": {
+      "sesotho": {
+        "title": "Ke Ipolelea",
+        "content": "Ke ipolelea ho Molimo ea Matla 'Ohle le ho uena, banab'eso, hore ke entse sebe haholo, menahanong ea ka le ka mantsoe a ka, ka seo ke se entseng le ho seo ke sa hlolang ho se etsa, ka molato oa ka, ka molato oa ka, ka phoso ea ka e bohloko ka ho fetisisa; ke ka hona ke kopang Maria ea kileng a ba moroetsana kamehla, Mangeloi 'ohle le bahalaleli, le uena, banab'eso, ho nthapela ho Jehova, Molimo oa rona."
+      },
+      "english": {
+        "title": "The Confiteor (I Confess)",
+        "content": "I confess to almighty God and to you, my brothers and sisters, that I have greatly sinned, in my thoughts and in my words, in what I have done and in what I have failed to do, through my fault, through my fault, through my most grievous fault; therefore I ask blessed Mary ever-Virgin, all the Angels and Saints, and you, my brothers and sisters, to pray for me to the Lord our God."
+      },
+      "zulu": {
+        "title": "Ngiyavuma",
+        "content": "Ngiyavuma kuNkulunkulu uMninimandla onke nakuni bazalwane bami, ukuthi ngonile kakhulu, emicabangweni yami nasemazwini ami, kulokho engikwenzileyo nakulokho engishiyile ukukwenza, ngecala lami, ngecala lami, ngecala lami elikhulu kakhulu; ngakho-ke ngicela uMaria obusisiweyo ohlezi eyiVirgo, nezingelosi zonke nabangcwele, nakuni bazalwane bami, ukuba ningikhulekele eNkosini uNkulunkulu wethu."
+      },
+      "xhosa": {
+        "title": "Ndiyavuma",
+        "content": "Ndiyavuma kuThixo uSomandla nakuni bazalwana bam, ukuba ndonile kakhulu, ezingcingeni zam nasemazwini am, kwinto endiyenzileyo nakuloo nto ndingayenzanga, ngetyala lam, ngetyala lam, ngetyala lam elikhulu kangaka; ngoko ke ndicela uMariya osikelelweyo ohlala eyiNtombi, nazo zonke iingelosi nabangcwele, nakuni bazalwana bam, ukuba nindithandazele eNkosini uThixo wethu."
+      },
+      "setswana": {
+        "title": "Ke Ipolela",
+        "content": "Ke ipolela mo go Modimo Mothatayotlhe le mo go lona, bakaulengwe ba me, gore ke leofile thata, mo dikakanyong tsa me le mo mafokong a me, mo go se ke se dirileng le mo go se ke paletsweng go se dira, ka molato wa me, ka molato wa me, ka molato wa me o mogolo; ka jalo ke kopa Maria yo o sego Lekgarebe ka metlha, Baengele botlhe le Baitshepi, le lona, bakaulengwe ba me, go nthapelela mo go Morena Modimo wa rona."
+      }
+    }
+  },
+  {
+    "id": "act-of-contrition",
+    "translations": {
+      "sesotho": {
+        "title": "Thapelo ea ho Ikoahlaea",
+        "content": "O Molimo oa ka, ke utloile bohloko haholo ka ho u siteloa, hobane u motle, 'me u tšoaneloa ke lerato lohle la ka. Ka thuso ea mohau oa hao, ke ikemiselitse ka tieo ho se hlole ke etsa sebe, le ho qoba lintho tse ka nkisang sebeng. Amen."
+      },
+      "english": {
+        "title": "Act of Contrition",
+        "content": "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve with the help of Thy grace to sin no more and to avoid the near occasion of sin. Amen."
+      },
+      "zulu": {
+        "title": "Isenzo Sokuzisola",
+        "content": "O Nkulunkulu wami, ngiyazisola kakhulu ngokukucasula kwami, futhi ngiyazizonda zonke izono zami ngenxa yezijeziso zakho ezilungileyo, kodwa kakhulu ngenxa yokuthi zikucasula Wena, Nkulunkulu wami, onguMhle kakhulu ofanelwe uthando lwami lonke. Ngizimisele ngenhliziyo yami yonke, ngosizo lomusa wakho, ukungaphinde ngone nokugwema amathuba esono. Amen."
+      },
+      "xhosa": {
+        "title": "Isenzo Sokuzisola",
+        "content": "O Thixo wam, ndizisola kakhulu ngokukukhathaza kwam, yaye ndiyazicaphukela zonke izono zam ngenxa yezohlwayo zakho ezilungileyo, kodwa ngakumbi kuba zikukhathaza Wena, Thixo wam, ulungileyo kakhulu kwaye ufanele lonke uthando lwam. Ndizimisele ngokuzingileyo, ngoncedo lofefe lwakho, ukuba ndingaphindi ndone, nokubaleka amathuba esono. Amen."
+      },
+      "setswana": {
+        "title": "Thapelo ya Boikotlhao",
+        "content": "O Modimo wa me, ke utlwile botlhoko thata ka go go leofela, mme ke tlhoile maleo a me otlhe ka ntlha ya dikotlhao tsa gago tse di siameng, mme segolobogolo ka gonne a go kgopisa wena, Modimo wa me, yo o leng molemo otlhe mme o tshwanelwa ke lorato lwa me lotlhe. Ke ikaeletse ka tlhomamo, ka thuso ya tshegofatso ya gago, go se tlhole ke leofa, le go tila dibaka tsa boleo. Amen."
+      }
+    }
+  },
+  {
+    "id": "st-michael",
+    "translations": {
+      "sesotho": {
+        "title": "Thapelo ho Mikaele Moarekangeloi",
+        "content": "Oho Mikaele Moarekangeloi ea halalelang, u re qobeletse letsatsing la ntoa, u be setšabelo sa rona hara makhopo le maraba a satane.\n\nRe rapela ka boikokobetso Molimo a mo khalemele! 'Me oena, Tona ea makhotla a leholimo, u mo lihele liheleng ka matla a Molimo, hammoho le meea e meng e mebe e sollang lefatšeng, e batlang ho senya meea ea batho. Amen."
+      },
+      "english": {
+        "title": "Prayer to St. Michael the Archangel",
+        "content": "St. Michael the Archangel, defend us in battle. Be our defense against the wickedness and snares of the Devil. May God rebuke him, we humbly pray, and do thou, O Prince of the heavenly hosts, by the power of God, thrust into hell Satan, and all the evil spirits, who prowl about the world seeking the ruin of souls. Amen."
+      },
+      "zulu": {
+        "title": "Umkhuleko KuMikaeli ONgcwele",
+        "content": "Mikaeli oNgcwele iNgelosi enkulu, sivikele empini. Yiba yisivikelo sethu ebubini nasezihibeni zikaSathane. Kwangathi uNkulunkulu angamkhuza, sikhuleka ngokuzithoba, nawe Nkosana yamabandla asezulwini, ngamandla kaNkulunkulu, mphonse esihogweni uSathane nayo yonke imimoya emibi, ezula emhlabeni ifuna ukubhubhisa imiphefumulo. Amen."
+      },
+      "xhosa": {
+        "title": "Umthandazo KuMikayeli OyiNgcwele",
+        "content": "Mikayeli oyiNgcwele iNgelosi enkulu, sikhusele edabini. Yiba yikhaka lethu kuyo inkohlakalo nakwizihogo zikaSathana. Wanga uThixo angamkhalimela, sithandaza ngokuzithoba, kwaye wena Nkosana yomkhosi wasezulwini, ngamandla kaThixo, mphonse esihogweni uSathana, nayo yonke imimoya engendawo, ebhadula ehlabathini ifuna ukonakalisa imiphefumulo. Amen."
+      },
+      "setswana": {
+        "title": "Thapelo go Mikaele yo o Boitshepo",
+        "content": "Mikaele yo o Boitshepo Moengele mogolo, re femele mo tlhabanong. E nne thebe ya rona kgatlhanong le boikepo le dirai tsa ga Satane. E kete Modimo o ka mo kgalemela, re rapela ka boikokobetso, mme wena Kgosana ya masomosomo a legodimo, ka maatla a Modimo, latlhela Satane kwa diheleng, le meya yotlhe e e bosula, e e kgarakgatshegang mo lefatsheng e batla go senya meya. Amen."
+      }
+    }
+  }
+]

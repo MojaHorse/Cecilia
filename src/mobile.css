@@ -1,0 +1,253 @@
+/* ============================================================
+   MOBILE RESPONSIVE STYLES
+   This file manages all layout changes for Tablets and Phones.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   TABLETS & SMALLER (max-width: 900px)
+   ------------------------------------------------------------ */
+@media (max-width: 900px) {
+  
+  /* --- Global & Typography --- */
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  /* --- Navigation --- */
+  .site-header { 
+    width: 95%; 
+    min-width: auto; 
+    padding: 1rem 1.5rem; 
+    border-radius: 1rem; 
+    top: 1rem; 
+    /* Keep it as row, not column, so logo and hamburger sit side-by-side */
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+  
+  .header-logo { 
+    border-right: none; 
+    padding-right: 0; 
+    gap: 0.75rem; /* Less gap on mobile */
+  }
+
+  .header-logo img {
+    height: 35px; /* Slightly smaller logo on mobile */
+  }
+
+  .header-logo-name {
+    font-size: 1rem; /* Prevent wrapping on narrow screens */
+    white-space: nowrap;
+  }
+
+  .header-logo-tagline {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+  
+  /* --- Language Selector overrides for mobile --- */
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .global-lang-select {
+    position: static;
+    margin-right: 1rem;
+    padding: 0.3rem 0.6rem;
+    padding-right: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+    background-color: transparent;
+    color: var(--color-ink);
+    font-size: 0.8rem;
+    font-weight: 500;
+    box-shadow: none;
+    transform: none;
+    background-size: 0.5rem auto;
+    background-position: right 0.5rem top 50%;
+  }
+  
+  .global-lang-select:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  .hamburger-menu {
+    display: flex !important;
+    margin-left: auto; /* Push it to the right */
+  }
+
+  /* The top line rotates to form the first half of the X */
+  .hamburger-menu.open .hamburger-line:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  /* The middle line vanishes */
+  .hamburger-menu.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  /* The bottom line rotates to form the second half of the X */
+  .hamburger-menu.open .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  
+  .header-nav { 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    /* Hidden by default via opacity and transform, not display:none for smooth transitions */
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .header-nav.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .header-nav a {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* --- Hero Section --- */
+  .hero-vatican {
+    min-height: 80vh;
+    flex-direction: column; /* Stack inner content and relative image vertically */
+    justify-content: center;
+  }
+  
+  .hero-vatican-inner {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10rem; /* Reduced padding slightly to fit everything */
+    padding-bottom: 2rem;
+  }
+  
+  .hero-vatican-text {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-vatican-text .section-title, 
+  .hero-vatican-text .section-label {
+    text-align: center;
+  }
+  
+  .hero-vatican-text .section-title {
+    font-size: 3rem;
+  }
+  
+  .hero-vatican-image {
+    position: relative;
+    right: auto;
+    width: 85%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* --- Grids --- */
+  .news-grid { 
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
+  }
+  
+  /* --- Pages --- */
+  .hymn-index,
+  .hymn-page,
+  .prayers-page,
+  .mass-page {
+    padding: 14rem 1.5rem 4rem; /* More top padding to clear thick mobile nav */
+  }
+}
+
+/* ------------------------------------------------------------
+   PHONES & SMALLER (max-width: 600px)
+   ------------------------------------------------------------ */
+@media (max-width: 600px) {
+
+  /* --- Global & Typography --- */
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+  }
+
+  /* --- Hero Section --- */
+  .hero-vatican-text .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-vatican-text p {
+    font-size: 1rem;
+  }
+  
+  .hero-vatican-image {
+    width: 95%;
+  }
+
+  /* --- Grids --- */
+  .news-grid { 
+    grid-template-columns: 1fr; 
+  }
+  
+  .prayers-grid {
+    gap: 2rem;
+  }
+  
+  /* --- Hymns --- */
+  .hymn-page-title {
+    font-size: 2.2rem;
+  }
+  
+  .hymn-page-lyrics {
+    font-size: 1.15rem;
+    line-height: 2;
+  }
+
+  /* --- Mass Page --- */
+  .mass-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  .mass-section-title {
+    font-size: 1.8rem;
+  }
+  
+  .mass-dialogues {
+    padding: 1.5rem 1rem;
+  }
+  
+  .speaker-text {
+    font-size: 1.1rem;
+  }
+
+  /* --- Footers --- */
+  .footer-logo img {
+    height: 120px;
+  }
+}

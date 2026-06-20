@@ -1,0 +1,191 @@
+[
+  {
+    "section": "Litloaelo tsa Qalo",
+    "sectionEn": "Introductory Rites",
+    "parts": [
+      {
+        "title": "Pontšo ea Sefapano",
+        "titleEn": "Sign of the Cross",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Ka lebitso la Ntate, le la Mora, le la Moea o Halalelang.", "textEn": "In the name of the Father, and of the Son, and of the Holy Spirit." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Amen.", "textEn": "Amen." }
+        ]
+      },
+      {
+        "title": "Tumediso",
+        "titleEn": "Greeting",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Mohau oa Morena oa rona Jesu Kriste le lerato la Molimo Ntate, le kopano ea Moea o Halalelang li be le lona bohle.", "textEn": "The grace of our Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Le ka moya wa hao.", "textEn": "And with your spirit." }
+        ]
+      },
+      {
+        "title": "Ketso ea Boikoahleo",
+        "titleEn": "Penitential Act",
+        "rubric": "E mong le e mong o itlhahloba matsoalo, ebe bohle ba ipobola ho Molimo.",
+        "rubricEn": "All briefly examine their consciences, then confess to God.",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ke bolela ho Molimo ea Matla 'Ohle le ho uena, banab'eso, hore ke entse sebe haholo, menahanong ea ka le ka mantsoe a ka, ka seo ke se entseng le ho seo ke sa hlolang ho se etsa, ka molato oa ka, ka molato oa ka, ka phoso ea ka e bohloko ka ho fetisisa; ke ka hona ke kopang Maria ea kileng a ba moroetsana kamehla, Mangeloi 'ohle le bahalaleli, le uena, banab'eso, ho nthapela ho Jehova, Molimo oa rona.", "textEn": "I confess to almighty God and to you, my brothers and sisters, that I have greatly sinned, in my thoughts and in my words, in what I have done and in what I have failed to do, through my fault, through my fault, through my most grievous fault; therefore I ask blessed Mary ever-Virgin, all the Angels and Saints, and you, my brothers and sisters, to pray for me to the Lord our God." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Molimo ea matla 'ohle a re hauhele, a re tšoarele libe tsa rona, a re ise bophelong bo sa feleng.", "textEn": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Amen.", "textEn": "Amen." }
+        ]
+      },
+      {
+        "title": "Kyrie",
+        "titleEn": "Kyrie",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Morena, eba le mohau.", "textEn": "Lord, have mercy." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Morena, eba le mohau.", "textEn": "Lord, have mercy." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Kriste, eba le mohau.", "textEn": "Christ, have mercy." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Kriste, eba le mohau.", "textEn": "Christ, have mercy." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Morena, eba le mohau.", "textEn": "Lord, have mercy." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Morena, eba le mohau.", "textEn": "Lord, have mercy." }
+        ]
+      },
+      {
+        "title": "Gloria",
+        "titleEn": "Gloria",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Khanya e be ho Molimo maholimong, 'me khotso e be ho batho ba lokileng lefatšeng. Re a u rorisa, re a u boka, re a u khumamela, re a u tlotlisa. Re u leboha ka baka la letlotlo la hao le leholo, Morena Molimo, Morena oa leholimo, Molimo Ntate ea matla 'ohle. Morena, Mora a inotsi, Jesu Kriste. Morena Molimo, Konyana ea Molimo, Mora oa Ntate, uena ea tlosang libe tsa lefatše, u re hauhele; uena ea tlosang libe tsa lefatše, u amohele thapelo ea rona; uena ea lutseng letsohong le letona la Ntate, u re hauhele. Hobane ke uena feela ea Halalelang, uena feela Morena, uena feela ea Phahameng ka ho fetisisa, Jesu Kriste, hammoho le Moea o Halalelang letlotlong la Molimo Ntate. Amen.", "textEn": "Glory to God in the highest, and on earth peace to people of good will. We praise you, we bless you, we adore you, we glorify you, we give you thanks for your great glory, Lord God, heavenly King, O God, almighty Father. Lord Jesus Christ, Only Begotten Son, Lord God, Lamb of God, Son of the Father, you take away the sins of the world, have mercy on us; you take away the sins of the world, receive our prayer; you are seated at the right hand of the Father, have mercy on us. For you alone are the Holy One, you alone are the Lord, you alone are the Most High, Jesus Christ, with the Holy Spirit, in the glory of God the Father. Amen." }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Tšebeletso ea Lentswe",
+    "sectionEn": "Liturgy of the Word",
+    "parts": [
+      {
+        "title": "Ka mora Palo ya Pele le ya Bobedi",
+        "titleEn": "After the First and Second Readings",
+        "dialogues": [
+          { "speaker": "'Mali", "speakerEn": "Reader", "text": "Lentswe la Morena.", "textEn": "The word of the Lord." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ho bokoe Molimo.", "textEn": "Thanks be to God." }
+        ]
+      },
+      {
+        "title": "Kosepele",
+        "titleEn": "The Gospel",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Morena a be le lona.", "textEn": "The Lord be with you." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Le ka moya wa hao.", "textEn": "And with your spirit." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Pale ea Kosepele e halalelang e ngotsoeng ke ...", "textEn": "A reading from the holy Gospel according to ..." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Khanya e be ho uena, Morena.", "textEn": "Glory to you, O Lord." }
+        ]
+      },
+      {
+        "title": "Ka mora Kosepele",
+        "titleEn": "After the Gospel",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Lentswe la Morena.", "textEn": "The Gospel of the Lord." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ho bokoe uena, Morena Jesu Kriste.", "textEn": "Praise to you, Lord Jesus Christ." }
+        ]
+      },
+      {
+        "title": "Tumelo",
+        "titleEn": "The Creed",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ke lumela ho Molimo Ntate ea matla ohle, Mmopi oa leholimo le oa lefatše. Le ho Jesu Kriste, Mora oa hae a inotsi, Morena oa rona, ea emotsoeng ka Moea o Halalelang, ea tsoetsoeng ke Maria Movirigo, ea utloisisitsoeng bohloko pusong ea Ponso Pilato, ea thakhisitsoeng sefapanong, a shoa, a patoa lebitleng, a theohela nqalong ea bafu. A tsoha bafung ka letsatsi la boraro, a nyolohela leholimong. O lutse ka letsohong le letona la Molimo Ntate ea matla ohle, mme o tla khutla teng ho tla ahlola ba phelang le ba shoeleng. Ke lumela ho Moea o Halalelang, ho Kereke e Halalelang e Katolike, selekane sa bahalaledi, tsoarelo ea libe, tsoho ea bafu, le bophelo bo sa feleng. Amen.", "textEn": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen." }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Tšebeletso ea Eukariste",
+    "sectionEn": "Liturgy of the Eucharist",
+    "parts": [
+      {
+        "title": "Nehelo ea Linyepetsi",
+        "titleEn": "Preparation of the Gifts",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Rapelang banab'eso, e le hore sehlabelo sa ka, e leng sa lona, se ke se amohelehe ho Molimo Ntate ea matla 'ohle.", "textEn": "Pray, brethren (brothers and sisters), that my sacrifice and yours may be acceptable to God, the almighty Father." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Morena a amohele sehlabelo se etsoang ka matsoho a hao, ho rorisa le ho tlotlisa lebitso la hae, molemong oa rona, le oa Kereke eohle ea hae e halalelang.", "textEn": "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good and the good of all his holy Church." }
+        ]
+      },
+      {
+        "title": "Thapelo ea Teboho",
+        "titleEn": "Eucharistic Prayer Preface",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Morena a be le lona.", "textEn": "The Lord be with you." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Le ka moya wa hao.", "textEn": "And with your spirit." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Ha re phahamiseng lipelo tsa rona.", "textEn": "Lift up your hearts." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Re li phahamiselitse ho Morena.", "textEn": "We lift them up to the Lord." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "A re leboheng Morena, Molimo oa rona.", "textEn": "Let us give thanks to the Lord our God." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Hoa mo tšoanela, ebile ho lokile.", "textEn": "It is right and just." }
+        ]
+      },
+      {
+        "title": "Sanctus",
+        "titleEn": "Sanctus (Holy, Holy)",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Oa halalela, oa halalela, oa halalela, Morena Molimo oa Makhotla. Leholimo le lefatše li tletse khanya ea hao. Hosanna maholimong. O lehlohonolo ea tlang ka lebitso la Morena. Hosanna maholimong.", "textEn": "Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest." }
+        ]
+      },
+      {
+        "title": "Sephiri sa Tumelo",
+        "titleEn": "Mystery of Faith",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Sena ke sephiri sa tumelo.", "textEn": "The mystery of faith." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Re bolela lefu la hao, Morena, 'me re paka tsoho ea hao bafung, ho fihlela u e-tla.", "textEn": "We proclaim your Death, O Lord, and profess your Resurrection until you come again." }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Tšebeletso ea Selallo",
+    "sectionEn": "Communion Rite",
+    "parts": [
+      {
+        "title": "Ntat'a Rona",
+        "titleEn": "Our Father",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ntat'a rona ea maholimong, lebitso la hao a le halaletswe; 'muso oa hao a o tle; thato ea hao a e etsoe lefatsheng, joaloka ha e etsoa leholimong. U re fe kajeno bohobe ba rona ba tsatsi le leng le le leng; u re tšoarele melato ea rona, joaloka ha re tšoarela ba ba re sitetseng; 'me u se ke oa re isa molekong, u mpe u re lopolle bobeng.", "textEn": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Re lopolle bobeng bohle, Morena, re nehe khotso mehleng ea rona... re ntse re lebeletse tšepo e lehlohonolo le ho tla ha 'Moloki oa rona Jesu Kriste.", "textEn": "Deliver us, Lord, we pray, from every evil, graciously grant peace in our days... as we await the blessed hope and the coming of our Savior, Jesus Christ." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Hobane 'muso ke oa hao, le matla, le khanya, ka ho sa feleng.", "textEn": "For the kingdom, the power and the glory are yours now and for ever." }
+        ]
+      },
+      {
+        "title": "Pontšo ea Khotso",
+        "titleEn": "Sign of Peace",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Khotso ea Morena e be le lona kamehla.", "textEn": "The peace of the Lord be with you always." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Le ka moya wa hao.", "textEn": "And with your spirit." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "A re faneng khotso.", "textEn": "Let us offer each other the sign of peace." }
+        ]
+      },
+      {
+        "title": "Agnus Dei",
+        "titleEn": "Agnus Dei (Lamb of God)",
+        "dialogues": [
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Konyana ea Molimo, e tlosang libe tsa lefatše, u re hauhele. Konyana ea Molimo, e tlosang libe tsa lefatše, u re hauhele. Konyana ea Molimo, e tlosang libe tsa lefatše, u re fe khotso.", "textEn": "Lamb of God, you take away the sins of the world, have mercy on us. Lamb of God, you take away the sins of the world, have mercy on us. Lamb of God, you take away the sins of the world, grant us peace." }
+        ]
+      },
+      {
+        "title": "Mema ea Selallo",
+        "titleEn": "Invitation to Communion",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Bonang Konyana ya Modimo, bonang ea tlosang libe tsa lefatše. Ho lehlohonolo ba memetsoeng moketeng oa Konyana.", "textEn": "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Morena, ha ke tshwanelehe hore u kene tlas'a marulelo a ka; empa bua lentswe feela, mme moya wa ka o tla fola.", "textEn": "Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed." }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Litloaelo tsa Phello",
+    "sectionEn": "Concluding Rites",
+    "parts": [
+      {
+        "title": "Phello le Tlhohonolofatso",
+        "titleEn": "Blessing and Dismissal",
+        "dialogues": [
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Morena a be le lona.", "textEn": "The Lord be with you." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Le ka moya wa hao.", "textEn": "And with your spirit." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "Molimo ea matla 'ohle a le hlohonolofatse, Ntate, le Mora, le Moea o Halalelang.", "textEn": "May almighty God bless you, the Father, and the Son, and the Holy Spirit." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Amen.", "textEn": "Amen." },
+          { "speaker": "Moprista", "speakerEn": "Priest", "text": "E-eang ka khotso, Misa o felile.", "textEn": "Go forth, the Mass is ended." },
+          { "speaker": "Phutheho", "speakerEn": "People", "text": "Ho bokoe Molimo.", "textEn": "Thanks be to God." }
+        ]
+      }
+    ]
+  }
+]

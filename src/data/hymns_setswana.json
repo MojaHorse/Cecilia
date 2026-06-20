@@ -1,0 +1,770 @@
+[
+  {
+    "id": "akofa-go-tla",
+    "title": "Akofa go tla",
+    "lyrics": "Akofa go tla, Jesu Mesia,\n\nMorena, se diege,\n\nGonne o Mogolodi wa rona\n\nMme re go lebeletse.\n\nAkofa, Kresste, o re golole,\n\nMmaba o re katika.\n\nO re ntshe kgolegong ya Satane:\n\nTla jaana mo go rona.\n\nAkofela go rona, re buse,\n\nOh Kgosi ya merafe,\n\nRe goge, re etelele pele:\n\nRe tshaba sa Bakreste.\n\nAkofela go rona, re rute,\n\nRe fapogile thata.\n\nRe rute molao wa botlhale\n\nTla go re bontsha tsela.\n\nAkofela go rona, re dise,\n\nRe letsomane ja ‘go,\n\nO modisa wa boammaruri\n\nMme re tla go latela.\n\nAkofa, Kreste, o re boloke\n\nRe se ka ra latlhega,\n\nMo katlholong o re rekegele:\n\nRe tsene legodimong.",
+    "related_hymns": []
+  },
+  {
+    "id": "akofang-bakreste",
+    "title": "Akofang, Bakreste",
+    "lyrics": "Akofang, Bakreste, ka boitumelo,\n\nTlang, lotlhe, tlang lotlhe Betlhema.\n\nO re tsaletswe: mung wa baengele.\n\nTlang a re obameleng,\n\nTlang a re obameleng,\n\nTlang a re obameleng, Morena.\n\nBadisa ba lesa matlhape a bone,\n\nBa tloga ba akofela kwa ngwaneng.\n\nA re yeng nabo go bona losea.\n\nLesedi je lentle je le tswang leseding:\n\nModimo o tswang mo Modimong Rara.\n\nO diregile nama gompieno.\n\nBonang khumanego, bonang boingotlo;\n\nLorato lo lo sa gaisiweng.\n\nA re mo rateng, re mo amogeleng.\n\nBaengele lotlhe, opelang Sefela,\n\nLe lona, masomo mo legodimong:\n\nA kgalalelo e nne mo Modimong.\n\nJaanong, ngwana Jesu, ka o re tsaletswe,\n\nAmogela kgobalalo ya rona.\n\nA o bakwe ka bosenabokhutlo.",
+    "related_hymns": []
+  },
+  {
+    "id": "aleluya-lo-itumele",
+    "title": "Aleluya, lo itumele",
+    "lyrics": "Aleluya, lo itumele,\n\nDitshika tsotlhe lefatsheng.\n\nJesu Kreste, Mogolodi\n\nO tsogile ruri baswing.\n\nO na a letse lebitleng;\n\nJaanong ga go ope mo teng.\n\nO fentse Kgosi ya baba.\n\nAle-aleluya.\n\nAleluya, lo itumele,\n\nBaagi ba legodimo:\n\nBaengele, baitshephi,\n\nKopanang le rona jaanong:\n\nGo gakgamala, go tlotla\n\nBonatla le yone thata\n\nYa ga Jesu, mung wa loso.\n\nAle-aleluya.\n\nAleluya, o itumele,\n\nOh Maria, mma Mmoloki,\n\nJaanong o ka bona Jesu\n\nKgalalelong le mo Bontleng.\n\nGase lobaka lwa telo,\n\nKe nako ya Boipelo.\n\nRe tla ipela le wena.\n\nAle-aleluya.",
+    "related_hymns": []
+  },
+  {
+    "id": "o-anna-mm-a-maria",
+    "title": "O Anna, Mm’a Maria",
+    "lyrics": "O Anna, Mm’a Maria,\n\nO reetse dithapelo\n\nLe maikaelelo\n\nA ba ba go ratang.\n\nRe thuse go siama\n\n\nKa go tshwana le wena;\n\n\nRe direle Modimo\n\n\nKa malatsilatsi.\n\nRona re bomm’abana,\n\nRe tlamela leiso.\n\nLolwapa ke bogosi,\n\nBogosi jwa rona.\n\nBorra, bomma le bana:\n\nLolwapa lwa bakreste:\n\nRe tseye tsela rotlhe\n\nGo ya legodimong.",
+    "related_hymns": []
+  },
+  {
+    "id": "a-o-tlotliwe",
+    "title": "A o tlotliwe",
+    "lyrics": "A o tlotliwe, a o tlotliwe,\n\nA o tlotliwe, Morena wa me.\n\nA o lebogwe, a o lebogwe,\n\nA o lebogwe, Morena wa me.\n\nO boitsepo, o boitshepho,\n\nO boitshepho, Kgosi ya me.\n\nO itshephisiwe, o galalediwa,\n\nWena o tlang leineng ja Morena.",
+    "related_hymns": []
+  },
+  {
+    "id": "a-sakramente-se",
+    "title": "A Sakramente se!",
+    "lyrics": "A Sakramente se!Se a re gakgamatsa\n\nFa re se lebile:Molemo wa fatshe.\n\nJesu, re kopa, re utlwe\n\nJaanong fa re phuthegile.\n\nA Sakramente se, A Sakramente se.’\n\nA Sakramente se! Sejo sa badumedi,\n\nO kgorise botlhe, o re lapolose.\n\nJesu, thusa ba ba tlaleng\n\nBa ba etang mo sekakeng.\n\nA Sakramente se, A Sakramente se.’\n\nA Sakramente se! Nonofo kidibalong,\n\nBona, re koame ekete re sule.\n\nJesu, fodisa balwadi,\n\nRudisa le bone baswi.\n\nA Sakramente se, A Sakramente se.’",
+    "related_hymns": [
+      {
+        "lang": "zulu",
+        "id": "amasakrament-angcwele",
+        "title": "AmaSakrament’ aNgcwele"
+      },
+      {
+        "lang": "xhosa",
+        "id": "nantsi-isakramente",
+        "title": "Nantsi isakramente"
+      },
+      {
+        "lang": "xhosa",
+        "id": "zisixhenx-isakramente",
+        "title": "Zisixhenx’ iSakramente"
+      }
+    ]
+  },
+  {
+    "id": "a-re-mo-rateng",
+    "title": "A re mo rateng",
+    "lyrics": "A re mo rateng,\n\nRe mo ineeleng.\n\nA re mo utlweng:\n\nJeso, Kgosi, Morena.\n\nRe mo godiseng,\n\nRe mo direleng,\n\nRe mo obameleng\n\nJeso, Kgosi, Morena.\n\nRe mo ikanyeng,\n\nRe mo tsheleleng,\n\nMme re mo sweleng,\n\nJeso, Kgosi, Morena.\n\nA re mo tlotleng,\n\nA re mo kgatlheng.\n\nRe opeleleng\n\nJeso, Kgosi, Morena",
+    "related_hymns": []
+  },
+  {
+    "id": "a-re-rapeleng",
+    "title": "A re rapeleng",
+    "lyrics": "A re rapeleng Rara:\n\nRara wa ditshaba, Rara le wa rona,\n\nRara wa dikhutsana tse di tlalelong,\n\nRara, re tlamela, Rara re okame,\n\nRara re babalele jaanong ka metlha le metlha.\n\nA re rapeleng Morwa:\n\nMorwa, Jesu Kreste O Kgosi ya botlhe.\n\nTsotlhe di go bopetswe mo tshimologong.\n\nJesu, rekolola, Jesu segofatsa;\n\nJesu, re eletsa poloko ka wena.\n\nA re rapeleng Moya:\n\nMoya wa Modimo Molelo wa ‘rato,\n\nMoya wa boitshepho le wa tshiamo;\n\nMoya, itshepise, Moya re bonese;\n\nMoya, o gotse lorato mo go rona.",
+    "related_hymns": []
+  },
+  {
+    "id": "a-re-tsamayeng",
+    "title": "A re tsamayeng",
+    "lyrics": "A re tsamayeng, a re yeng gae\n\nSetlhabelo se fedile.\n\nRe itumetse, re segofaditswe,\n\nThapelo e re thusitse.\n\nKagiso ya Modimo, kagiso ya one\n\nE nne le rona ka metlha.\n\nGrasia ya Morena, Grasia ya gagwe\n\nE sale mo teng ga rona.",
+    "related_hymns": []
+  },
+  {
+    "id": "badumedi-tlotlang",
+    "title": "Badumedi tlotlang",
+    "lyrics": "Badumedi tlotlang Sakramente\n\nJesu o agile aletareng\n\nRe etseng barongwa legodimong,\n\nA re obameleng Morena.\n\nYa re o galalediwa thabeng\n\nRraago a go bitsa morategi\n\nLe rona oh Jesu re rialo,\n\nGonne rotlhe re a go rata.\n\nRraago kwa legodimong o leba\n\nBontle jwa gago le gompieno\n\nO ntse a kgatlhega mo go wena,\n\nLe rona Jesu wa re kgatlha.\n\nRe itumela thata go itse\n\nO gone jaanong pele ga rona\n\nRe go dumedisa ka lorato,\n\nJesu a ko o re tshegofatse.",
+    "related_hymns": []
+  },
+  {
+    "id": "bakang-mofenyi",
+    "title": "Bakang mofenyi",
+    "lyrics": "Bakang mofenyi wa loso\n\nYo o neng a bapolwa.\n\nO tsogile ka tlotlego.\n\nMmakeng ka, “Aleluya.”\n\nPelo a di itumele;\n\nTeme di mo opelela;\n\nGonne Jeso oa tshela.\n\nO n’a fologetse losung\n\nGo re golola dibing.\n\nGo re gogela botshelong;\n\nMme o tsogile baswing.\n\nJaanong o kwa kgalalelong.\n\nO mo bogosing jwa tlotlo.\n\nRuri Jeso oa tshela.\n\nO re eteletse pele\n\nGo ya pusong ya gagwe,\n\nGo re direla modiro:\n\nSelalelo sa botshe.\n\nJeso, Kgosi le Mmoloki\n\nModimo le moatlhodi.\n\nRe tla tshela le wena.",
+    "related_hymns": []
+  },
+  {
+    "id": "bakreste-ba-phuthego",
+    "title": "Bakreste ba phuthego",
+    "lyrics": "Bakreste ba phuthego\n\nTsogang, lo ipele,\n\nRe lebogeng Modimo\n\nO o re thusitseng.\n\nDipelo di itumele,\n\nDi tletse tebogo;\n\nRara o re supeditse\n\nTshwaro le molemo.\n\nMorena, re lebogela\n\nNeo tse dikgalo.\n\nRe di bolele tsotlhe jang?\n\nDi dintsi segolo.\n\nO re neile botshelo\n\nBoitekanelo,\n\nDijo tsa malatsi otlhe\n\nGo ya gompieno.\n\nO re file ditshenolo,\n\nO re file Jeso\n\nLe Kereke le tumelo:\n\nTsela ya poloko.\n\nGantsi o re rekegetse,\n\nO re itshwaretse;\n\nO re nonotshitse tirong,\n\nO re bolokile.\n\nO re tlametse ka ‘rato\n\nMatlung le malwapeng,\n\nO re rutile tshiamo,\n\nO re nameditse.",
+    "related_hymns": []
+  },
+  {
+    "id": "bakreste-gopolang",
+    "title": "Bakreste, gopolang",
+    "lyrics": "Bakreste, gopolang\n\nTirafalo tsa bofelo:\n\nKe loso le katlholo,\n\nMolete, ‘godimo.\n\nBankana, bankana,\n\n\nA re di gopoleng.\n\nBakreste gopolang:\n\nGonne mmele wa rona\n\nO atlholetswe go swa\n\nKa ntlha ya ditlolo.\n\nBakreste, gopolang\n\nModimo mo katlholong\n\nO duela molemo,\n\nO watlhaya tsebe.\n\nBakreste gopolang,\n\nLoso lwa mosiami\n\nLo mo gorosa sentle,\n\nMotsing wa lesedi.",
+    "related_hymns": []
+  },
+  {
+    "id": "ba-mmapotse",
+    "title": "Ba mmapotse",
+    "lyrics": "Ba mmapotse, mmapotse mo sefapanong:\n\nJesu wa me, moratwi wa pelo ya me.\n\nMagdalena, Johane, ene Maria\n\nBa tsholotse dikeledi, baa lela, baa lela.\n\nKe lona, baleofi, lo bapotse Mmoloki;\n\nKe lona, ke lona lo bapotse Jesu;\n\nKe lona, ke lona lo bapotse Jesu.\n\nKhutsafalo e kgolo ya nna lobopong,\n\nMme letsatsi ja fitlha ‘sedi ja jone;\n\nLefatshe ja roroma; one mafika\n\nA phatloga, mme mabitla atlhamologa.\n\nGo ne go swa Modimo; tsotlhe tsa nna botlhokong;\n\nGodimong, moleting tsotlhe tsa roroma.\n\nGodimong, moleting tsotlhe tsa roroma.",
+    "related_hymns": []
+  },
+  {
+    "id": "boitshubelo",
+    "title": "Boitshubelo",
+    "lyrics": "Boitshubelo jwa rona\n\nBo bonwa Modimong;\n\nKe jone jo bo ikanngwang\n\nFa re le pogisong.\n\nKe jone jo bo tlhomameng\n\nBogolo go tsotlhe,\n\nKe tsotlhe tse di mo fatshing\n\nDi wela tshenyegong.\n\nGo molapo o o elang,\n\nO tswa legodimong,\n\nKe one o o ka nosang batho.\n\nKe tshenolo ya Morena,\n\nE tsile ka Jesu,\n\nKe yone e e gomotsang\n\nBa ba mo tlalelong.\n\nLefika je le sa khutleng,\n\nModimo wa rona,\n\nMo go jone go thailwe\n\nTumelo ya rona.",
+    "related_hymns": []
+  },
+  {
+    "id": "boitumelo-jwa-gago",
+    "title": "Boitumelo jwa gago",
+    "lyrics": "Boitumelo jwa gago, Morena,\n\nKe go nna mo dipelong tsa rona.\n\nJaaka moeng le moeti botlhukong\n\nO eme fa tlung o konyakonya.\n\nTsena moeti yo o tlotlegileng,\n\nItapolose mo moyeng wa me.\n\nKe tla go disa, ke tla go gomotsa,\n\nTsena go ja selalelo le nna.\n\nE rile o tswa tlhabanong e kgolo\n\nO etetse barutwa ba Emao.\n\nA kgakgamatso, ka ba go itsile\n\nFa o ba ngathoganyetsa senkgwe.\n\nA bo go sego bone baitshephi!\n\nO ba tlotlile, wa itshenola,\n\nLe nna ke ratago go theseletsa,\n\nGo segofadiwa jaaka bone.\n\nMagdalena ene ke mo gopola\n\nA go tsholela mo tlung ya gagwe.\n\nO ne a go utlwa ka boineelo\n\nA dutse fa dinaung tsa gago.\n\nWa re, ‘Marea, o itlhaoletse\n\nKabelo e e molemo thata.’\n\nLe nna, Jeso, Ke tla go utlwa jalo:\n\nKe itlholelele kabelo e.",
+    "related_hymns": []
+  },
+  {
+    "id": "bomonate-jwa-godimo",
+    "title": "Bomonate jwa godimo",
+    "lyrics": "Bomonate jwa godimo\n\nbo tlatsa moya pelo\n\nke utlwile molaetsa\n\nModimo ke wa gago .\n\nletsatsi ja gompieno\n\nke modiro o montle\n\nka barongwa ba a mpitsa\n\nngwana tla kwano kgosing.\n\nO mmoloki morategi\n\no ntimole lenyora ,\n\nke nyelela mo sekakeng\n\nwena o le kgakala.\n\nPelo yame o e tshware\n\ne nne e nne ya gago\n\no nkgorose kwa godimong\n\nkwa pusong ya ga raago.",
+    "related_hymns": []
+  },
+  {
+    "id": "bontle-jwa-jesu",
+    "title": "Bontle jwa Jesu",
+    "lyrics": "Bontle jwa Jesu bo nkgathile:\n\nKe rata go mmona kgantele.\n\nKe tenegela botshelo;\n\nKe eletsa fela Jeso,\n\nKe eletsa fela Jesu.\n\nOh bonang legodimo\n\nJe le atlhamologileng:\n\nTse di kwa teng di dintle;\n\nRuri ke eletsa Jesu.\n\nTse di kwa teng di dintle,\n\nKe eletsa Jesu.\n\nBotshelo ke nako ya teko,\n\nLefatshe ke felo ga telo.\n\nKwano dintwa le tlalelo\n\nDi tshwenya bana ba batho.\n\nKe tla dira’ng Morena?\n\nKa gonne ke tlhoka thata\n\nGo tlhatlogela fale\n\nKwa go wena boipelong.\n\nO ntlhatlosetse fale\n\nKwa boitumelong.\n\nBotshelo jwa rona lefatsheng\n\nBo bokhutshwane ka go feta;\n\nMatsapa a oba pelo\n\nMme re tlhoka boikhutso.\n\nMme gone legodimong\n\nModimo o a ishenola;\n\nO tlotla basiami,\n\nO ba abela borena.\n\nO tlotla basiami\n\nO ba fa borena.",
+    "related_hymns": []
+  },
+  {
+    "id": "didimalang",
+    "title": "Didimalang",
+    "lyrics": "Didimalang, magodimo,\n\nLefatshe, tla o lele;\n\nGonne kwana ya Modimo\n\nYa tlhajwa, e go swele;\n\nRoromelang Mogolodi,\n\nO tlhorwa Getsemaneng;\n\nBonang o fufula madi\n\nKa kampano mo moweng.\n\nJo! Judase o mo atla\n\nKa katlo ya mooki;\n\nBangwe ba mmofa diatla\n\nBa tlhora Moitshoki.\n\nBa tlabeletsa ka maano,\n\nMmoloki yo’ siameng;\n\nBa mmelesa sefapano,\n\nBa mo kgweeletsa thabeng.\n\nMme mo felong ga digata\n\nBa ema jaaka manong;\n\nNoto le tshipi tse ‘thata\n\nDi mmapola mokgorong.\n\nBa mo tlhoma le ditlodi\n\nSetlharing se se rogwang;\n\nJaana go kaya mokwadi\n\nSe o se bolaetsweng.\n\nJesu o sa rapelela\n\nBaba ba ba mo tlhabang;\n\nLorato lo sa ‘tshwarela\n\nKilo e’ lo bolayang.\n\nJo! Lefifi le lenyora,\n\nSatane le molete,\n\n“Thonkgo di ntse di mo tlhora,\n\nDi mmolaetse nnete.”\n\nDikgalo di sa oketsa\n\nDintho tse di sa balweng;\n\nTiro ya’gwe a e swetsa\n\nKa pelo e ‘robilweng;\n\nMme jaana a neela moya,\n\nA goa, “Go fedile,”\n\nImanwele wa tsamaya;\n\nTefo o e lefile.",
+    "related_hymns": []
+  },
+  {
+    "id": "dudueletsa-morena",
+    "title": "Dudueletsa Morena",
+    "lyrics": "Dudueletsa Morena,\n\nWena, lefatshe jotlhe.\n\nGodisa Modimo Moya\n\nMo moletlong wa one.\n\nBolela dikgakgamatso,\n\nO di itumelela.\n\nBarutiwa ba ga Jeso\n\nBa ne ba nnela ruri\n\nThapelong go lebelela\n\nGo tla ga Mogomotsi.\n\nKa tsatsi ja gompijeno\n\nA tswa legodimong.\n\nMo mosumong o mogolo\n\nDitemeng tsa molelo\n\nGa goromediwa Moya,\n\nNeo tsa bomodimo.\n\nPelo tsa botlhe tsa tuka\n\nBothitong jwa lorato.\n\nBa rera kaga Modimo:\n\n“Ipolokeng tatlhegong,\n\nTlhapang kolobetsong e ntsha\n\nYa metsi, ya molelo.”\n\nMme ditshaba tsa ikoba\n\nMme ga tsalwa Kereke.\n\nPhuthego e, ya Modimo\n\nKe borara ba rona,\n\nMme ke Mm’a rona tumelong.\n\nSetlharing re dikala,\n\nMme botshelo jwa setlhare\n\nKe lorato lwa Moya.\n\nBoraro jwa Boitshepo,\n\nRe lebogela thata\n\nDitiro le digrasia\n\nTsa gago mo go rona,\n\nRe tshedise, re etele,\n\nNna mo pelong ka metlha",
+    "related_hymns": []
+  },
+  {
+    "id": "dumela-kgosi-jesu-kreste",
+    "title": "Dumela, Kgosi Jesu Kreste",
+    "lyrics": "Dumela, Kgosi Jesu Kreste.\n\nRotlhe re go obamela jaana.\n\nPako, tlotlo di nne go wena,\n\nO leng Modimo wa rona.\n\nO buse o laole,\n\n\nOh Morekolodi.\n\n\nO phatlakanye baba,\n\n\nGola, o nne kgosi.\n\nO Kgosi ka botsalo jwa’go,\n\nKa gonne o Morwa Modimo\n\nO o busang lobopo lotlhe:\n\nO busa le wena, Jesu.\n\nO Kgosi ka gonne o fentse\n\nBosula jotlhe mo sefapanong.\n\nO fentse baba ba Morena\n\nBa e leng baba ba batho.\n\nO Kgosi pusong ya ga Rra’go,\n\nYa baitshephi le ya barongwa.\n\nBotlhe ba go tlotla ka metlha,\n\nBa go baka ka difela.\n\nMme o Kgosi ya Badumedi:\n\nBaa go utlwa, baa go obamela.\n\nBa tlotla bogosi jwa gago,\n\nBa go direla ka metlha.\n\nMme o kgosi ya baganetsi\n\nLefa ba ikoba ka dikgalo.\n\nMme le bone ba tla go tlotla\n\nKa letsatsi ja katlholo.",
+    "related_hymns": []
+  },
+  {
+    "id": "dumela-loseana",
+    "title": "Dumela, loseana",
+    "lyrics": "Dumela, loseana,\n\nO tswa kae, mme o mang?\n\n“Ke tswa kgalalelong ya ga Rre?\n\nKe tlogetse Bogosi jwa me,\n\nKe Modimo,\n\nKe Mmoloki wa lona.”\n\nDumela, loseana,\n\nEne Rra’go ke mang?\n\nRre ke motlhodi wa lefatshe.\n\nKgarebane Maria ke Mme,\n\nKe ngwan’a Modimo\n\nMme ke ngwana wa motho.”\n\nDumela, loseana.\n\nO tsile go dira’ng?\n\n“Go lo swela mo sefapanong,\n\nGo boloka mewa tatlhegong.\n\nKe tsile go fenya\n\nBaba botlhe ba lona.”\n\nDumela, loseana,\n\nO rata batho jang!\n\nAmmaaruri go go tshwanetse\n\nGore dibopiwa tsa fatshe\n\nDi go rate tsotlhe\n\nKa boineelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "dumela-maria",
+    "title": "Dumela, Maria",
+    "lyrics": "Dumela, Maria, otletse grasia,\n\nKgosi e na nao, o tlhogonolo.\n\nMme Jesu, ngwana’o o segofetse,\n\nKe loungo lwa gago, Maria yo montle.\n\nMotsala Modimo yo o Boitshepho,\n\nO re rapelele, re baleofi.\n\nO rapele jaanong, malatsi otlhe,\n\nGo tsamaya re go bone losung lo lontle.",
+    "related_hymns": []
+  },
+  {
+    "id": "dumela-sefapano",
+    "title": "Dumela, sefapano",
+    "lyrics": "Dumela, sefapano Wena o belesitswe\n\nMorena wa lefatshe. Ka wena re golotswe.\n\nO aletare ruri E Kwana ya Modimo\n\nO suleng mo go yone Go rebola morafe.\n\nO maretswe ka madi: O belege le mmele:\n\nMaungo a setlhare Sa botshelo, poloko.\n\nMo go wena mofenyi O bolailwe loso,\n\nO tapetile tlhogo Ya noga ya tatlhego.\n\nNoga e n’e raetse Mo setlharing se sele\n\nBatsadi Paradising. Wena o mmusolosi.\n\nDikgwa tsotlhe tsa fatshe Ga di itse setlhare\n\nSe se ka tshwanang nao Ka botshe le monate.\n\nO repise dikala. Di papaletse thata,\n\nDi bogisa Modimo. O tlhomogele pelo.\n\nPagolola morwalo. Mma re robe mabele,\n\nMma re hule mofine. Ka dijo tse, re tshele.\n\nO thobane ya Moshe. Ka wena o beditse\n\nKgosana ya lefifi, A e nyeletsa ruri.\n\nThobane ya Arone E thuntse, e kukuntse,\n\nE ungwile thamane: Ke wena, khumo ya me.\n\nO wesi tsholofelo. Morwaleleng wa sebe\n\nO areka ya Noah: Logong lo, loa boloka.\n\nNkabo ke ka kgaoga Fa dinaung, moruting\n\nWa gago, sefapano. O nneye legodimo.",
+    "related_hymns": []
+  },
+  {
+    "id": "e-rile-ba-nthaya",
+    "title": "E rile ba nthaya",
+    "lyrics": "E rile ba nthaya ba re,\n\n‘A re yeng kwa thapelong.’\n\nKa tloga ka itumela,\n\nKa ke rata Modimo.\n\nOh Morena, o re reetse,\n\nSegofatsa\n\nBa re kitlanyeng mono\n\nTlung ya’go jaana.\n\nMetlaagana ya gago\n\nAna e mentlentle jang!\n\nLe malwapa aa ratega,\n\nLe dibeso, altara,\n\nPelo ya me moya wa me\n\nDi ratile,\n\nDi go tlhologeletswe,\n\nDi itumetse.\n\nTsatsi le le lengwefela\n\nMo malwapeng a gago\n\nLe gaisa ngwaga tsotlhe\n\nMo matlung a boleo.\n\nGo sego ba ba agileng\n\nTlung ya gago!\n\nBa tla nna ba go baka\n\nLe kwa godimong.",
+    "related_hymns": []
+  },
+  {
+    "id": "felo-fano-ga-modimo",
+    "title": "Felo fano ga Modimo",
+    "lyrics": "Felo fano ga Modimo\n\n\nA go \ndume difela\n.\n\n\nA re itumeleng rotlhe:\n\n\nJesu o gone jaana.\n\nO agile mo altareng,\n\nGa a bonwe, o subilwe.\n\nMme mo sebopegong sa bogobe\n\nO tshela ka sebele.\n\nKwana e e se nang, sebe,\n\nLorato lo go tlhabile,\n\nKa o swetse rona baleofi\n\nGore o re golole.\n\nMana a a neleng jale\n\nA tswa kwa legodimong,\n\nJaanong re a bona ga mmanete\n\nMo sakramenteng seno.",
+    "related_hymns": []
+  },
+  {
+    "id": "ga-dikhumo-tsotlhe",
+    "title": "Ga dikhumo tsotlhe",
+    "lyrics": "Ga dikhumo tsotlhe lefatsheng,\n\nRara, re ka go ntshetsa eng?\n\nTlhabelo se se go kgatlhileng\n\nKe Jesu mo sefapanong,\n\nKe jesu mo sefapanong.\n\nRe go intshetsa Setlhabelo\n\nKa boineelo jwa pelo.\n\nMo botshelong re tla sepela\n\nMo tseleng tsa gago fela,\n\nMo tseleng tsa gago fela.\n\nRe tlhomamisa maikano:\n\nRe tla tsholetsa mokgoro\n\nRe tlhoafalele molemo,\n\nRe itshepise botshelo.\n\nRe itshepise botshelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "ga-ke-a-tshwanela",
+    "title": "Ga ke a tshwanela",
+    "lyrics": "Ga ke a tshwanela, Morena Jesu\n\nGore o tle pelong ya me.\n\nFa o bua lefoko lengwe fela\n\nMoya wa me o tla fola.\n\nTsena, Jeso wa me;\n\n\nTsena, Jeso wa me;\n\n\nTsena, tsena, Jeso wa me.\n\nGa ke na go kgorisiwa lefatsheng:\n\nDijo di tlhoka monate.\n\nO nnesetse manna a a rudisang:\n\nMoya wa me o tla fola.\n\nKa tlhologelelo o mpileditse\n\nKopanong ya barutwana,\n\nNtshwara ka dikgole tsa loratano,\n\nMmogo re ye legodimong.\n\nGa ke tshabe sepe ke na le wena,\n\nKe ikobele Modimo.\n\nTsatsi lengwe Rara o tla mpulela\n\nDikgoro tsa legodimo.",
+    "related_hymns": []
+  },
+  {
+    "id": "gaufi-le-wena",
+    "title": "Gaufi le wena",
+    "lyrics": "Gaufi le wena, go monate\n\nO ka inkgogela, impiletse\n\nE rile o boga, o n’o solofetsa\n\nO tla goga botlhe, kwa go wena\n\nKe rata go dira, sepagamo\n\nLe go sepalama, ke go bone\n\nFa e le ‘fapano, ka fa thatong ya’ go\n\nA se ntshole fela, go bolokwa\n\nLe fa ke ralala, dikgwa kotsi\n\nFa nka go fitlhela go lekanye\n\nKe tla itshokela sefako, dipula\n\nGo go atamela, gautshwane\n\nO na le mafoko, a botlhale\n\nE mang yo ke ka yang, kwa go ene\n\nLe tla ke latele, ke go felegetse\n\nKwa thabeng tsele, legodimong",
+    "related_hymns": []
+  },
+  {
+    "id": "go-bakwe-jesu-kreste",
+    "title": "Go bakwe Jesu Kreste",
+    "lyrics": "Go bakwe Jesu Kreste go ya bosafeleng.\n\nO diregile motho go re ntsha mo dibeng.\n\nO n’a tshela ruri kwano mo lefatsheng.\n\nA re tlotleng Mmoloki, a re mo lebogeng.\n\nGo bakwe Jesu Kreste go ya bosafeleng.\n\nO re golotse rotlhe thateng ya molete.\n\nO tsholotse madi otlhe mo setlharing,\n\nA tsena kgalalelong, o busa bogosing.\n\nGo bakwe Jesu Kreste go ya bosafeleng.\n\nJaanong o lebeletse go tla ga barutwa.\n\nRra’gwe o baakantse dyalo ya Morwa ‘we,\n\nRona re banyadiwa, rotlhe re biditswe.\n\nGo bakwe Jesu Kreste go ya bosafeleng.\n\nO thelesetsa mewa mono Sakramenteng.\n\nRe ja digrasia nameng ya Kwanyana,\n\nMading re nwa botshelo, poloko ya rona.\n\nGo bakwe Jesu Kreste go ya bosafeleng.\n\nO re laletsa jaana: “Tlang, ba lo lapileng,\n\nBa lo hutsafalang, le ba lo imelwang,\n\nKe tla lo lapolose, ke lo fe kagiso.”",
+    "related_hymns": []
+  },
+  {
+    "id": "go-leina-je-lentle",
+    "title": "Go leina je lentle",
+    "lyrics": "Go leina je lentle jang:\n\nKe leina ja Jeso.\n\nKe boipelo godimong\n\nLe kgomotso mo bathung.\n\nTeme tsa rona di baka\n\nLeina je, ja Morena:\n\nKe leina ja Jeso.\n\nGa go na leina le sele\n\nJe le kgatlhang dipelo,\n\nJe le itseng go tshedisa\n\nJaaka jone ja Jeso.\n\nKa jone re ka rapela:\n\nNeo tsotlhe re di bona\n\nKa leina ja Jeso.\n\nLeina je le boitsha\n\nBaba botlhe moleting;\n\nLe itumedisa thata\n\nBa ba leng mo mo leseding.\n\nRe utlwile leina je\n\nKe morongwa Gabriele\n\nKe leina ja Jeso.\n\nLeina je, le thata jang:\n\nLe leleka Satane.\n\nKe thebe mo ditlhabanong,\n\nNametso ya balepi.\n\nLe botshe, le monate jang.\n\nKe je re tla le bolelang\n\nLosung: re bitseng Jeso.",
+    "related_hymns": []
+  },
+  {
+    "id": "go-monate-go-go-baka",
+    "title": "Go monate go go baka",
+    "lyrics": "Go monate go go baka,\n\nMotlamedi, rra’etsho!\n\nKa o tlotlilwe segolo\n\nKe Morena Modimo.\n\nOh Josefa, o dumele.\n\n\nRe ipaya mo tisong ya gago.\n\n\nRe a go kopa, re a lopa:\n\n\nUtlwa merapelo.\n\nMorena o go ratile\n\nGo feta rona rotlhe\n\nLe bahumi le dikgosi\n\nKa o n’o itshephile.",
+    "related_hymns": []
+  },
+  {
+    "id": "moya-wa-me",
+    "title": "Moya wa me",
+    "lyrics": "Moya wa me, o iketle, o letele Morena.\n\nBaya pelo, o itshoke, ka o ka solofela.\n\nO Ikanye, se belaele:\n\nBosa bo tloga bo sa kgantele.\n\nMo sefefong, mo tlalelong Morena oa go disa.\n\nLe selemo se tlhatlhama serame sa mariga.\n\nMme lefifi le sutela kgalalelo ya tsatsi.\n\nKe gone: Ineele Modimo,\n\nGa o latlhe, o batla poloko.\n\nMo molemong, mo bosuleng Morena oa go disa.\n\nOa boifa’ng mme oa tshaba’ng? Botshelo bo molemo.\n\nEe, go na le baganetsi, baba le bo-Satane.\n\nMme dilo tsotlhe di mo thateng\n\nMo taolong ya Modimo Rara.\n\nPabalelong ya Morena re bolokesegile.",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-maria-josefa",
+    "title": "Jesu, Maria, Josefa",
+    "lyrics": "Jesu, Maria, Josefa,\n\nMo tlung ya kgalalelo,\n\nLona boora Modimo,\n\nLo utlwang dikopelo.\n\nJesu, Maria, Josefa,\n\nMo tlung ya Nasaretha,\n\nLosika lwa ga Dafida:\n\nRe a lo dumedisa.\n\n\n\nLo dirile jaaka rona:\n\nKa mabogo, diatla,\n\nGo itshephisa botlhanka\n\nLe go bapala dijo.\n\nMotse wa lona o tletse\n\nTumelo le thapelo,\n\nMme lona lo o fetotse\n\nTempele ya Modimo.\n\nLo losika lwa Dikgosi:\n\nLo itira balala,\n\nMme lo ikokobeditse\n\nKa moya wa bongwana.\n\nSekao sa ntlo ya lona\n\nKe sa ntlo ya bokreste.\n\nLo re thuse go lo etsa\n\nRe fele re itshepha.\n\nRe elameleng ka metlha\n\nDitseleng tsa botshelo,\n\nMme bogolo lo re thuse\n\nMo bojosing jwa loso.",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-morati-wa-mewa",
+    "title": "Jesu, morati wa mewa",
+    "lyrics": "Jesu, morati wa mewa,\n\nTsena pelong tsa rona.\n\nDi kgabise ka bontlentle,\n\nBontle jwa legodimo.\n\nDi kgabise ka bontlentle,\n\nBontle jwa legodimo.\n\nBona, re bahumanegi,\n\nMme re mo bohutsaneng.\n\nWena o ka re humisa,\n\nO ka re ntsha go tlhokeng.\n\nWena o ka re humisa,\n\nO ka re ntsha go tlhokeng.\n\nRuri ga re a tshwanela\n\nPelo di tletse dibe.\n\nRe neye boikwatlhao,\n\nGore re itshwarelwe.\n\nRe neye boikwatlhao,\n\nGore re itshwarelwe.\n\nOa ratega, mung wa rona,\n\nRe eletsa go na nao.\n\nBotlhe ba ba amogelang\n\nBa tladiwa masego.\n\nBotlhe ba ba amogelang\n\nBa tladiwa masego.",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-morekolodi-wa-rona",
+    "title": "Jesu, morekolodi wa rona",
+    "lyrics": "Jesu, morekolodi wa rona,\n\n\n Re a go baka re a go tlotla\n\n\n Mmogo le ba ba go kgatlhantsitseng\n\n\n Mogang o tsenang kwa Jerusalema.\n\nYare Jesu a tla Bathefageng\n\nA roma barutwa ba’gwe a re:\n\n“Yang kwa motsing ka pela,\n\nNteretseng eselana.”\n\nBa e fitlhela, ba e golola,\n\nMo go yone kobo ba di baya,\n\nBa kgaola dikala\n\nMo tseleng ba di ala.\n\nMme batho ba mo kgotlhaganyetsa,\n\nBa bina mme ba mo opelela,\n\nBa duduetsa, ba re:\n\n“Morwa Dafida, o bakwe.”\n\nMme a lelela motse wa batho:\n\n“O kabo o itsile molemo\n\nLe tsa kagiso ya ‘go!\n\nDi go subetswe jaanong.”\n\nFa Jesu a tsena tempeleng\n\nBanyana le ba ba anyang ba re:\n\n“Hosanna, Morw’a Dafida.”\n\nBotlhe ba gakgametse.\n\nLe rona re a go dumedisa:\n\n“Go sego Morongwi wa Morena,\n\nKgosi ya Iseraele,\n\nMolaodi wa botlhe.”\n\nJesu, mo tempeleng e, ya rona\n\nTsena go tshola dipako jaana\n\nGo bulelwa dikgoro\n\nKgosi ya kgalalelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-o-boammaruri",
+    "title": "Jesu, o boammaruri",
+    "lyrics": "Jesu, o boammaruri,\n\nO tsela le botshelo.\n\nO nne mogogi wa rona\n\nLoetong la poloko.\n\nO re eteletse pele\n\nGo ya legodimong.\n\nRe ratile go latela,\n\nRe tle re bolokege.\n\nJesu, o boammaruri,\n\nO tsela le botshelo.\n\nWena o re supeditse\n\nkaelo e e isa-ng\n\nKwa kagisong, kwa go Rara\n\nYo o kwa legodimong.\n\nO boletse, ‘K nna tsela,\n\nTlang ba lo e eletsang.’\n\nJesu, o boammaruri,\n\nO tsela le botshelo.\n\nMo lefifing ja lefatshe\n\nLesedi ke tumelo;\n\nKe tshenolo le dithuto\n\nTsotlhe tse re di rutwang.\n\nRuri, o boammaruri\n\nJo re ka bo ikanyang.\n\nJesu, o boammaruri,\n\nO tsela le botshelo.\n\nO babaletse baeti\n\nKa molemo, tsalano\n\nKa mohago wa loeto\n\nO rata go ba jesa.\n\nO rile, ‘Ke nna botshelo\n\nMo go bone ba ba njang.’\n\nJesu, o boammaruri,\n\nO tsela le botshelo.\n\nO gomotsa o tshedisa\n\nba ba leng khutsafalong.\n\nFa ba lapa, fa ba boga,\n\nBa raelwake mamba\n\nO tlo o ba thatafatse\n\nGo fitlha kwa bofelong.\n\nJesu, o boammaruri,\n\nO tsela le botshelo.\n\nO tlo o tlhagise mewa\n\nE e yang tatlhegong.\n\nO e itse, o e bitse,\n\nO e busetse tseleng.\n\nOh Morena, o boloke\n\nRona le mewa yotlhe.",
+    "related_hymns": []
+  },
+  {
+    "id": "jeso-o-ngaka",
+    "title": "Jeso o ngaka",
+    "lyrics": "Jeso o ngaka ya batho,\n\nO alafa moya le pelo.\n\nJaanong ba re lwalang, re bobolang\n\nRe a go itekodisa.\n\nO ntlafaditse lepero\n\nO tsositse losong Lasaro\n\nWa ba wa leleka bo-Satane\n\nWa kabolola ditsebe.\n\nMme jaaka o fodisitse\n\nMalwetse otlhe a mebele\n\nJalo o n’o eleditse thata\n\nGo tlosa one a mewa.\n\nO tlhabolotse dipelo\n\nO senkile dinku tsa gago,\n\nO di biditse, o di o otlile\n\nO di isitse kwa sakeng.\n\nO golotse Magdalena,\n\nO itshepisitse barutwa,\n\nO ba itshwaretse diteofo,\n\nO ba neile nonofo.\n\nGa o rate loso, tshenyo,\n\nYa baleofi boikepong,\n\nMme ga o time lesedinyana\n\nLefa go roba lotlhaka.\n\nAmmaaruri, o mmoloki,\n\nO mofodisi, o mothusi;\n\nJaanong ba re lwalang, re bobolang,\n\nRe a go itekodisa.",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-o-ruta-batho",
+    "title": "Jesu, o ruta batho",
+    "lyrics": "Jesu, o ruta batho Ka dikgakgamatso\n\nDithuto tsa botshelo Tse di tswang godimo,\n\nMoruti wa lefatshe, O re senolele\n\nTaolo tsa Bogosi, Tsa puso ya gago;\n\nTaolo tsa bogosi, Tsa puso ya gago.\n\nBua fela, re a utlwa. Bua fela, re a utlwa\n\nMelao, melao yotlhe, Melao, melao yotlhe.\n\nRe eletsa segolo go e rutwa, Re eletsa le go e boloka.\n\n“Ba ba humanegileng Mo Moyeng ba sego.\n\nBa tla rua Bogosi Jwa Rara Modimo,\n\nMme ba ba pelonomi, Le ba ba molemo\n\nBa tla fenya lefatshe Le jone boleo.\n\nMme go sego, ka botlalo Dipelo, dipelo tsotlhe\n\nTse di tshegetsang thato ya me sentle,\n\nTse di nthatang ka thata ya tsone.\n\nBa ba tlhologetsweng Tshiamo le bontle\n\nBa kgorisiwa thata Menate le botshe.\n\nGo sego ba ba lelang; Ba tla gomodiwa.\n\nMme ba ba itshekileng Ba bona Morena.\n\nLo ikanyeng, lo ipeleng. Barutwa, barutwa ba me.\n\nGonne tuelo ya lona e kgolo\n\nMme Bogosi jwa me ke jwa jone.”",
+    "related_hymns": []
+  },
+  {
+    "id": "jesu-o-tle-go-nna",
+    "title": "Jesu, o tle go nna",
+    "lyrics": "Jesu, o tle go nna mo Sakramenteng,\n\nO Mmopi, Mmoloki, Mointshephisi.\n\nKe dumela ruri, Ka re: O gone.\n\nGa ke kabakanye Ke sa go bone.\n\nKana ke be ke le ‘ng fa o ntekola?\n\nKe go leofetse gantsi le thata.\n\nKe utlwa botlhoko, ke hutsafetse.\n\nGa nkitla ke tlhola ke go kgopisa.\n\nO Modisa wa me mme ke kwanyana.\n\nNkutlwa: Ke timetse, tswe, tla go mpatla.\n\nMo magetleng a ‘go a ko o mpege.\n\nKe tla go ineela ka pelo yotlhe.\n\nMorategi wa me. Ke a go rata.\n\nKe tlhologeletswe go amogela.\n\nMonyadi wa mewa. O nkopanye nao,\n\nO be o nne le nna jaaka modisa.",
+    "related_hymns": []
+  },
+  {
+    "id": "ka-difela",
+    "title": "Ka difela",
+    "lyrics": "Ka difela tse di monate\n\nOpelang, bana ba batho.\n\nRe bonye ngwana gompieno\n\nke ngwana wa legodimo.\n\nEne ke Morwa wa Modimo,\n\nO fologetse go rona.\n\nAmmaaruri o re ratile\n\nA re mo rateng le rona.\n\nBadisa ba ne ba disitse\n\nmafulong a Betlehema.\n\nFong ga tla gare ga bosigo\n\nMoengele wa Morena.\n\nA bonala mme a ba raya:\n\n“Se boifeng, Itumeleng.\n\nMmoloki o tsaletswe lona,\n\nke Jesu Kreste Mesia.”\n\nMme badisa ba tabogela\n\nKwa motsing wa ga Dafida.\n\nBa bona jaaka ba kaetswe\n\nMaria le Jesu, ngwana.\n\nBojelong jwa diphologolo\n\nGo laditswe Morw’a-Motho\n\nA humanegile,\n\nA lela ka ntlha ya batho.\n\nMaria, mma le kgarebane\n\nA tlotla, a obamela,\n\nA khubame mme a akanya\n\nTsotlhe pelong kaga ngwana.\n\nJosefa o eme fa thoko\n\nKa tshisimogo e kgolo.\n\nLe rona a re tlotleng nabo:\n\nRe obameleng Modimo",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-baka-dintho",
+    "title": "Ke baka dintho",
+    "lyrics": "Ke baka dintho tsa gago,\n\nKwanyana ya Modimo.\n\nO di ntshitswe ka ntlha ya me,\n\nDi supa ‘rato lwa’go.\n\nKe go kopa gore tsanko\n\nTsogong je le siameng\n\nE ke e nne losong lwa me\n\nMotswedi wa kgomotso.\n\nKe baka dintho tsa gago,\n\nOh Jeso, monkgolodi.\n\nKe a lopa: O mphapose\n\nKa atla sa molema\n\nGore ke seka ka wela\n\nBobipong jwa molete,\n\nMme ka mabogo a gago\n\nO ntsholele godimong.\n\nKe baka dintho tsa gago,\n\nJeso modisa wa me.\n\nKa tshwanelo ya botlhoko\n\n‘naung lo lo siameng:\n\nO nneye go go latela\n\nMo tseleng e tshesane:\n\nKe tsene ka kgoro e ntle\n\nLefa e pitlagane.\n\nKe baka dintho tsa gago,\n\nJeso morefemedi,\n\nKa matlhoko a lonao\n\nLwa molema o nthuse;\n\nO nthibose mo ditseleng\n\nTsotlhe tsa baikepi.\n\nNnaya ke itekanele\n\n‘taong tsa gago tsotlhe.\n\nKe baka dintho tsa gago,\n\nOh Jeso, botshabelo:\n\nKa dipogo letlhakoreng\n\nO re buletse kgoro\n\nKgoro ya boitshubelo,\n\nKgoro ya boikhutlo.\n\nA botlhe ba lapologe,\n\nJeso, pelong ya gago.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-ba-merafe",
+    "title": "Ke ba merafe",
+    "lyrics": "Ke ba merafe le ditshika,\n\nBa mafatshe otlhe fela.\n\nMme jaanong ba roba mabele\n\nA ba a jetseng matsapeng.\n\nBonang barutwa ba ga Jesu\n\nBa ba rutileng ditshaba.\n\nJaanong ba busa Israele\n\nba beilwe go atlhola.\n\nBonang le baswedi-tumelo:\n\nBone ba tsholotse madi\n\nKa go ngaparela molao;\n\nBa sa etse batenegi.\n\nRe bona ba ba itshekileng:\n\nBafirigo, makgarebe;\n\nBa ne ba tenwa ke thapelo\n\nLe tirelo ya Satane.\n\nMme jaanong re lebeng bontsintsi,\n\nMatshuti-tshuti botlhe\n\nBa ba tshegeditseng tshiamo,\n\nTao tsa kgosi ya bone.\n\nOh ‘tsala tsa rona godimo,\n\nSupang lorato lwa lona.\n\nGopolang, lebang ka tsalano\n\nBa re sa ntseng re tlhabana.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-bona-mang",
+    "title": "Ke bona mang",
+    "lyrics": "Ke bona mang tlase ga sefapano\n\nA na le setoto sa ga Jesu?\n\nOh, ke Maria a lelela ngwana,\n\nMoswi yo montle mabogong a ‘gwe.\n\nA go na le botlhoko jo bo kana\n\nMo pedung ya mma mono lefatsheng?\n\nBo bogolo fela jaaka lewatle.\n\nLotlhe lo mo tlhomogeleng pelo.\n\nMmele o, ke wa Morwa wa Modimo,\n\nO boitshepho mme oa tlotlega.\n\nGotlhe o tletse dintho le matsadi:\n\nKe wa ngwana’o: A oa o itse?\n\nGopola tsatsi jele ja botsalo\n\nSetaleng, motsing wa Betlehema:\n\nO n’o mmaya bojelong jwa dipitsi;\n\njaanong o tla mmaya mo lebitleng.\n\nA kgaogano e e tla phatlolang\n\nPelo ya gago, pelo tsa rona.\n\nRe lela nao, oh kgosi ya babogi;\n\nA re nne nao le mo boipelong.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-go-ikantse-thata",
+    "title": "Ke go ikantse thata",
+    "lyrics": "Ke go ikantse thata, Mm’a Morena wa me.\n\nKe kopa thapelelo: thusa, o ntlamele.\n\nMme mogang ke tlhaela o ntlatse ka thata,\n\nKe swele mo Moreneng, ke tle ke ye bontleng.\n\nMaria, o molemo, ga o nyatse motho,\n\nLe fa a le mo dibeng, kgakala le Jesu,\n\nLe fa nka mo lebala ka wela mo sebeng.\n\nWena o se ntlogele mme o ntlhapelele.\n\nFa ke ya kwa katlholong a k’o mphelegetse;\n\nLeleka baba ba me, roma baengele.\n\nJesu a nkamogele mo pusong ya gagwe.\n\nKe swele mo Moreneng ke tle ke ye bontleng.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-itse-pelo",
+    "title": "Ke itse Pelo",
+    "lyrics": "Ke itse Pelo e e nolo.\n\nE tletse bontlentle le lorato.\n\nJesu, o mpulele Pelo ya ‘go ka gale.\n\n\nA ke age mo teng bosafeleng.\n\nE botsalano jang! E ratile\n\nBa ba hularelang kgoro, bontle.\n\nE rata go phutha mo diphukeng\n\nMamphorwana, ‘kwana mo lesakeng.\n\nE latela kwana le kwa nageng\n\nE re isa gae mo magetleng.\n\nE tla itshwarela dibe tsotlhe\n\nTsa barwa-sesenyi: baleofi.\n\nRe e atameleng jaaka bana,\n\nE tla tshegofatsa, ea re rata.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-moineedi",
+    "title": "Ke moineedi",
+    "lyrics": "Ke moineedi wa Morena,\n\nKe ikanne go nna wa ‘gwe,\n\nMme ke tshwailwe phatleng ya me:\n\nEe, ke Mokreste ka gale.\n\nEe, ke Mokreste, ke tlhatswitswe\n\nKa metsi a a rudisang\n\nMme dibe tsa me di phimotswe\n\nSedibeng se se tshedisang.\n\nEe, ke Mokreste, mme ke ngwana\n\nWa Modimo o o ntsetseng.\n\nKe tla ja legodimo boswa\n\nPuso e ntle ke ya ga Rre.\n\nEe, ke Mokreste, ene Jesu\n\nKe nkgonne, ke a mo rata.\n\nEne maria, mm’a Mmoloki\n\nke ma-etsho, ke mm’a rona.\n\nEe, ke Mokreste, ke ikwadile tokololo\n\nYa phuthego ya Kereke,\n\nMme ka botshelo jwa tshiamo\n\nke tla leka ke e tlotle.\n\nEe, ke mokreste, ke moeti.\n\nka mmele ke wa lefatshe,\n\nKa moya ke wa legodimo\n\nKe tsaletswe Paradisi.\n\nEe, ke Mokreste, ke tla rwala\n\nSerwalo sa kgalalelo.\n\nLegodimong ke tla ipela\n\nMo kagisong ya Modimo.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-ne-ke-rata",
+    "title": "Ke ne ke rata",
+    "lyrics": "“Ke ne ke rata go naya bana ba me\n\nMmele le madi a me le moya.\n\nKe tlhologeletswe go nna setlhabelo\n\nGo dira kgolagano le lona.”\n\nOho Jesu, ruri re a dumela:\n\nRuri o gone mo gare ga rona.\n\nKa go re rata o dule godimo\n\nGo re direla selalelo se\n\nGo re direla selalelo se.\n\n“Mo aletareng, bana ke lo letile\n\nMo motshegareng le mo bosigong.\n\nTlang kwano go nna, lotlhe ba lo lapileng\n\nGore ke lo neye tapoloso.”\n\nOho Jesu, re boifa segolo\n\nGo atamela tafole ya gago.\n\nRe baleofi ba re sa tshwanelang;\n\nRe tlhoka bontle jwa boitshepho.\n\n“Ke a lo raya: Ka nnete, bongwana’ka:\n\nFa lo sa je sejo sa botshelo\n\nGa lo kitla lo tsena ko legodimong;\n\nLo tla swa mo dibing, mo molatung.”\n\nOho Jesu, re go tlhologeletswe\n\nMme re eletsa le jone botshelo.\n\nRe tla itshekisa pelo tsa rona.\n\nRe tla go ja go bona botshelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-tla-lopa-sengwe",
+    "title": "Ke tla lopa sengwe",
+    "lyrics": "Ke tla lopa sengwe\n\nSe se monate;\n\nKe se kopa thata:\n\nSelo se sentle;\n\nKe gore ke age\n\nMo tlung ya ga Rre\n\nka malatsi otlhe\n\nA botshelo jwa me.\n\nGo molemo go nna\n\nGo nna tempeleng,\n\nGo segofadiwa\n\nGo aga Bontleng.\n\nRara, o boloke\n\nBoswa jwa gago.\n\nNnaya ke go bone\n\nFale legodimong.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-tsatsi-ja-paseka",
+    "title": "Ke tsatsi ja Paseka",
+    "lyrics": "Ke tsatsi ja Paseka:\n\nRotlhe re opeleng\n\nKopelo ya Boipelo:\n\nAleluya.\n\nMo lefikeng go dule\n\nMolelo o mosha:\n\nKe Jesu mo kgalalelong.\n\nAleluya.\n\nKerese ya Paseka\n\nKe Jesu mogogi:\n\nMosipuri wa molelo.\n\nAleluya.\n\nRe tseye ga molelo\n\nGo tshuba masedi\n\nKe botshelo jwa grasia.\n\nAleluya.\n\nKa masedi a rona\n\nRe sepela fifing\n\nRe sa boife Satane.\n\nAleluya.\n\nBosigo jo, jwa tsogo\n\nBo bonye Letshego\n\nLe kgakgamatso e kgolo.\n\nAleluya.\n\nBetlehema o bonye\n\nNaledi ngwefela,\n\nMme mono ga tlhaba tsatsi.\n\nAleluya.\n\nTsatsi ke bomodimo:\n\nJesu ka sebele;\n\nBonang phatsimo le marang.\n\nAleluya.\n\nBosigo jo, bo naya\n\nKagiso, tetlanyo,\n\nLe tsholofelo, kgomotso.\n\nAleluya.\n\nBo leleka bosula,\n\nBo tlhatswa maleo,\n\nBo re busetse botshelo.\n\nAleluya.\n\nJesu, re obamela\n\nBogolo jwa gago,\n\nKa pelo yotlhe re ba ‘go.\n\nAleluya.",
+    "related_hymns": []
+  },
+  {
+    "id": "ke-utlwa-fale",
+    "title": "Ke utlwa fale",
+    "lyrics": "Ke utlwa fale dithoteng\n\nBarongwa ba ba tsileng:\n\nTuduetsong ba opela\n\nKopelo ya Mmoloki.\n\nGloria in excelsis Deo\n\n“A kgalalelo e newe\n\nModimo wa godimo.\n\nLefatshing go nne kagiso\n\nBathung ba ba o kgatlhang.”\n\nBadisa, tsogang borokong,\n\nLesang matlhape jaanong.\n\nItlhaganeleng go bona\n\nMogolodi wa lona.\n\nLo tla mmona ke ngwanyana\n\nYo o leng mo bojelong.\n\nMme ke Kgosi ya lobopo,\n\nRuri: Morw’a Modimo.\n\nMme badisa ba akofa,\n\nBa bitsanya mo nageng,\n\nBotlhe ba bolelelana\n\nTsotlhe ba di utlwileng.\n\nKa Boipelo mo pelong\n\nBa tabogela gone:\n\nBa bona Jesu Ngwanyana\n\nMme ba mo khubamelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "kwana-o-tlhabilwe",
+    "title": "Kwana, o tlhabilwe",
+    "lyrics": "Kwana, o tlhabilwe Mme o bolailwe\n\nGo rekela Rara Mewa ya batho.\n\nO na le tshwanelo Go bona tlotlo,\n\nThata le nonofo Le kgalalelo.\n\nO na le tshwanelo Ya go menolola\n\nKwalo la botshelo: Lo kanolole.\n\nO tau ya Juta, Motse wa Dafita.\n\nO fentse, o a busa, Kwana o kgosi.\n\nRona, ditso tsotlhe Ba dipuo tsotlhe,\n\nBa merafe yotlhe Re ba ‘go, Kwana\n\nKa o re dirile Bogosi, puso,\n\nBana ba ga Rra’go Le bomonna’o.\n\nMo mading a gago Re sweufaditswe,\n\nRe tlhatswitse kobo, Pelo tsa rona,\n\nRe go wela pele Ka kobamelo;\n\nRe ntsha malebogo, Kwana, Modimo.\n\nSekgele sa phenyo, Wena sefapano,\n\nO sesupo sele sa Morw’a motho.\n\nO tla bonwa marung Tsatsing ja tsheko.\n\nRe go dumedisa E sale jaanong.",
+    "related_hymns": []
+  },
+  {
+    "id": "leba-ka-bopelonomi",
+    "title": "Leba ka bopelonomi",
+    "lyrics": "Leba ka bopelonomi,\n\nRara wa legodimo,\n\nNtshetso ya Neo tsa rona,\n\nTsa phuthego ya gago.\n\nRe shafatsa tlhabelo\n\nSa Jesu sefapanong\n\nYo o re swetseng mo setlharing\n\nGo re ntsha mo timelong.\n\nBona: re bahumanegi,\n\nGa re itse ka nnete\n\nGo go tlotla ka tshwanelo\n\nFa e se mo go Kreste.\n\nKa tse re nang le tsone\n\nO di re adimile,\n\nJaanong re a di go busetsa,\n\nO di tshole ka tshwaro.\n\nA dineo di tlhakanngwe\n\nTsa rona le tsa Jesu\n\nJaaka metsi le mofine\n\nSenwelong sa poloko.\n\nRona a re nwediwe\n\nMo bomodimong gotlhe.\n\nMo teng ga dipelo tsa rona\n\nJesu fela a buse.",
+    "related_hymns": []
+  },
+  {
+    "id": "leba-rara-modimo",
+    "title": "Leba, Rara, Modimo",
+    "lyrics": "Leba, Rara, Modimo,\n\nKwana mo aletareng.\n\nRe go bontsha Morwa’o,\n\nLorato lwa gagwe.\n\nRe rapela ka ene\n\nMo tlhabelong seno\n\n“O re amogelele\n\nRotlhe botsalanong.”\n\nMoprista yo mogolo,\n\nJesu ka Sebele,\n\nO supa kwa godimong\n\nDintho, madi a ‘gwe.\n\nA nts’a re rapelela:\n\n“Rara, o gopole\n\nTsholofetso ya gago:\n\nO ba itshwarele.”",
+    "related_hymns": []
+  },
+  {
+    "id": "lebogang-modimo",
+    "title": "Lebogang Modimo",
+    "lyrics": "Lebogang Modimo ka pelo le molomo.\n\nRr’a dikgakgamatso botlhale, pabalelo.\n\nE sale re tlholwa o n’a re boloka,\n\nO tsholotse dimpho godimo ga rona.\n\nMorena, re neye pelo e e bonolo,\n\nNaya maikutlo a mantle, a tebogo.\n\nA re se lebale Mmopi wa lefatshe,\n\nMung wa dilo tsotlhe, motsadi wa botlhe.\n\nA go nne tebogo go Rara, Morwa, Moya\n\nTebogo e ntshiwe ke tsotlhe dibopiwa.\n\nBone ba sa itseng tshwanelo ya bone,\n\nA o k’o ba rute ba ke ba ithute.",
+    "related_hymns": []
+  },
+  {
+    "id": "leme-lwa-me",
+    "title": "Leme lwa me",
+    "lyrics": "Leme lwa me, opelela\n\nModimo o o subilweng:\n\nSakramente sa poloko,\n\nSerokolodi sa fatshe.\n\nO gone, Jeso, Mmoloki,\n\nO leng Modimo le motho ruri\n\nLe kgosi ya merafe.\n\nO lounge lwa kgarebe,\n\nNeo e ntle ya Morena.\n\nO tsaletswe mo lefatshing\n\nGo ruta go segofatsa.\n\nMo bokhutlong jwa botshelo\n\nWa ntsha molemo wa kgakgamatso\n\nO o ka fenyang loso.\n\nMo bosigong jo bogolo\n\nO theile selalelo.\n\nWa tsaya bogobe wa re:\n\n‘Mmele o wa me ke sejo.\n\nBarutiwa, tsayang lo je;\n\nBa basa o jeng a tla swabotlhe.\n\nMadi a me ke seno.’\n\nKa thata ya ‘fokoja ‘gwe\n\nSenkgwe sadire ga nama,\n\nMme mofine wa fetoga\n\nMadi a a rekololang.\n\nJeso o mothatiyotlhe;\n\nRe dumela o ka dira tsotlhe\n\nKa ‘foko lengwefela.\n\nSakramente se sekalo\n\nRe se obameleng thata.\n\nMme ditirelo tsa pele\n\nA di sutele tse dintsha.\n\nTemogo e retelelwa\n\nKe go bona, ke go tlhaloganya:\n\nTumeloea re ruta.\n\nMo go Rara, mo go Morwa\n\nA go ntshediwe tebogo,\n\nKgodiso, tlotlo le thata.\n\nDipako le kgalalelo.\n\nMme a regodiseng Moya\n\nO o tswang mo go Rara le Morwa\n\nGo ya ka bosakhutleng.",
+    "related_hymns": []
+  },
+  {
+    "id": "lorato-lwa-gago",
+    "title": "Lorato lwa gago",
+    "lyrics": "Lorato lwa gago, Morena wa me,\n\nLo gaisa thata lorato lotlhe.\n\nMo lefatsheng jotlhe, kwa legodimong\n\nGa go lorato lo lo tshwanang le lo.\n\nLorato lo go lerile mo fatshing\n\nGo re ntsha, go re golola mo dibing.\n\nKa lone o swetse mewa mo mokgorong\n\nGo e bulela gape legodimong.\n\nMme lo go tlhotlheleditse go aga\n\nMo Sakramenteng mo gare ga rona.\n\nGo jesa, go nosa mewa ya batho\n\nLe go re thatafatsa mo tlhabanong.\n\nRe tsile go wena go go rapela,\n\nGo lopa, go kopa go reediwa:\n\nJesu, o tukise pelo tsa rona\n\nRe tle re rate Rara jaaka wena.",
+    "related_hymns": []
+  },
+  {
+    "id": "maria-mm-a-lorato",
+    "title": "Maria, mm’a lorato",
+    "lyrics": "Maria, mm’a lorato,\n\nO ba thuse botlhe\n\nba ba dutseng mo losung,\n\nMo ‘fifing ja sebe.\n\nMaria, naledi,\n\nO nne mokaedi,\n\nO goge baditshaba,\n\nBa senke lesaka.\n\nJesu a go godisa\n\nGo dirwa mm’a batho.\n\nAnamisa tumelo,\n\nBudulola matlho.\n\nA botlhe ba ineele,\n\nBa reetse lefoko.\n\nMme a ba ikobele\n\nGo utlwa molao.\n\nBaruti, barutwana\n\nBa segofadiwe.\n\nThuto ya Efangele\n\nE gape lefatshe.\n\nTlhomamisa kagiso\n\nYa pelo ya gago,\n\nYa pelo ya ga Jesu:\n\nLo buse ka gotlhe.",
+    "related_hymns": []
+  },
+  {
+    "id": "maria-nthuta-go-kopa",
+    "title": "Maria, nthuta go kopa",
+    "lyrics": "Maria, nthuta go kopa\n\nLe go rapela sentle.\n\nKa Jeso o re laotse\n\nGo lopa ineng ja ‘gwe.\n\nA ke Tshwane le Morwao\n\nFa ke khubame dinaung\n\nTsa Morena Modimo.\n\nO nthapelele Modimo,\n\nO ntire monn’a Jeso.\n\nNkapetsa ditswalo tsa ‘gwe\n\nA ke mo etse gotlhe .\n\nKe gone ke tla bonalang\n\nPele ga Rara ke bua:\n\n“Ke nna Jeso wa gago.”\n\nWena, Maria, o etse\n\nRebeka, mm’a Jakobe.\n\nEne o mo apesitse\n\nTswalo tsa mogolo’we.\n\nMme a bona tshegofatsa\n\nLe boswa jwa losika lo.\n\nLetshego la Modimo.\n\nJaanong, Maria, nkapesa\n\nAparo tsa ga Jeso:\n\nO nneye dimapo, mitlwa,\n\nTshotlo, ditlhabi, loso.\n\nO nkapese dipogiso,\n\nLerumo le sefapano,\n\nTsotlhe fela tsa gagwe.\n\nApesa moya le pelo\n\nKobo ya boitshoko.\n\nA ke boge tidimalong,\n\nLoratong, boineelong.\n\nFa wena o di nkabela,\n\nE, ke tla atla seatla\n\nSa gago ka tebogo.",
+    "related_hymns": []
+  },
+  {
+    "id": "maria-rosa",
+    "title": "Maria, Rosa",
+    "lyrics": "Maria, Rosa, o re natefela\n\nKa pono ya bontle, bomonate.\n\nRe rata go go tlotla mo thapelong:\n\nRosaring ka, “Ave, Maria,\n\nAve, Ave, Ave, Maria.\n\nO bidiwa ka maina a mantis,\n\nMme ke rata ja gago ja Fatima:\n\nba re: / “Mohumagadi wa Rosari.”\n\nLe nna ka re: “Ave Maria.”\n\nAve, Ave, Ave, Maria.\n\nGo twe: Ga o itse go mo lebala\n\nYo o go direlang ka boingotlo.\n\nO tla mo utlwa, o tla thusa botlhe\n\nba ba rapelang: / “Ave Maria.”\n\nAve, Ave, Ave, Maria.\n\nE re letsatsi ja botshelo jwa me\n\nLe phirima mme ke huduga fatshing\n\nke rata go tsena kwa legodimong\n\nKa pitso e: “Ave Maria.”\n\nAve, Ave, Ave, Maria.",
+    "related_hymns": []
+  },
+  {
+    "id": "mmopi",
+    "title": "Mmopi",
+    "lyrics": "Mmopi, re a go baka\n\nO Modimo le Morena.\n\nKa lefoko ja gago\n\nO tlhodile dibopiwa,\n\nBaengele le batho\n\nKe batlhanka ba gago.\n\nBaengele le batho\n\nKe batlhanka ba gago.\n\nO theile lefatshe\n\nO agile magodimo,\n\nO re file masedi.\n\nMotshegare le bosigo.\n\nTladi, pula le maru\n\nDi supa kaga gago.\n\nTladi, pula le maru\n\nDi supa kaga gago.\n\nO gabile mawatle\n\nLe dinoka le metswedi\n\nO tshedisa, o jesa\n\nRona batho le ditshedi,\n\nO molemo, o thata\n\nTsotlhe di tswa go wena.\n\nO molemo, o thata\n\nTsotlhe di tswa go wena.\n\nMme bogolo re baka\n\nKaelo ya rona batho,\n\nTlamelo tseleng tsotlhe,\n\nO goga ka lorato.\n\nO itshephisa mewa\n\nO rata go boloka.\n\nO itshephisa mewa\n\nO rata go boloka.",
+    "related_hymns": []
+  },
+  {
+    "id": "modimo-o-kgosi",
+    "title": "Modimo, O Kgosi",
+    "lyrics": "Modimo, O Kgosi ya kgalalelo;\n\nO kgosi ya lefatshe, ya dilo tsotlhe.\n\nBakang, dibopiwa,\n\nlo tlotleng Morena;\n\nMme lo obameleng\n\nModiri wa nyena.\n\nModimo, O wesi, O mongwe fela\n\nMo borarung jwa Rara, Morwa le Moya.\n\nModimo, O gone mafelong otlhe;\n\nO gone mo leseding le mo lefifing.\n\nModimo, ga wa ka wa simologa;\n\nMme ga O na bokhutlo o ntse ka metlha.\n\nModimo, O itse ‘tiralo tsotlhe,\n\nO bala dipelong tsa batho botlhe.\n\nO mothatiyotlhe, O nonofile.\n\nTsotlhe di mo taolong, atleng sa gago.\n\nModimo, ka gale o boitshepho;\n\nO ratile tshiamo, O tlhoa kgopo.\n\nModimo, O tla biletsa katlholong\n\nGo duela, go betsa ka fa tshwanelong.\n\nModimo, O re utlwele botlhoko;\n\nO itshwarele dibe, tlosa melato.",
+    "related_hymns": []
+  },
+  {
+    "id": "modisa-yo-o-molemo",
+    "title": "Modisa yo o molemo",
+    "lyrics": "Modisa yo o molemo,\n\nO ineetse dinku tsa gago.\n\nMo sakramenteng\n\n\n Sa mmele wa gago.\n\n\n Jesu re tlhomogele pelo.\n\nO ngaka le moalafi\n\nWa balwadi, wa babobodi.\n\nO tsala ya dikhutsana.\n\nOa re rata, Oa re tlamela.\n\nO gone ka bomodimo\n\nLe ka botho Le ka botshelo.\n\nMo tlung ya’ go re baeti\n\nO wa rona mothelesetsi.\n\nO senkgwe se se monate;\n\nLegodimong O fologile.\n\nTlhabelo sa rona batho\n\nSa tletlanyo le sa kagiso.\n\nKa wena re obamela\n\nKa tshwanelo Rara Morena.\n\nSejo sa bosaitsiweng,\n\nBoipelo jo bo sa feleng.\n\nBogobe jwa baengele;\n\nMme le rona re go neilwe.\n\nMotswedi wa tshegofatsa,\n\nWa grasia tsotlhe tse Jesu.\n\nMofago wa ba ba botshelong\n\nMme bogolo wa ba ba losung.\n\nSetshwantsho sa selalelo\n\nSe re tla se jang legodimong.\n\nKgopotso ya thekololo,\n\nYa dipogo, loso lwa Jesu.",
+    "related_hymns": []
+  },
+  {
+    "id": "mo-ditlhobaelong",
+    "title": "Mo ditlhobaelong",
+    "lyrics": "Mo ditlhobaelong tse dintsi tsa me\n\nKe go rapela ka re: “Rra we,\n\nModimo wa me, o mme ke go lope;\n\nA Senwelo sa ‘go se mphete.\n\nO tsholofelo mo botlhokong,\n\n‘Fatshe ga le nkgomotse,\n\nKa gale o botshabelo jwa batho,\n\nMatlho a me a go lebile.\n\nKe ipolela ka ntlha ya bosula\n\nPetso, kwatlhao di ntshwanetse.\n\nMme intshwarele, se bosulosetse\n\nDitiro tsa rona tse di maswe.\n\nRara, o thuse ba ba lelang botlhe,\n\nReetsa phegelo ya batlhoki,\n\nKhutlisa yone tlalelo, o dise\n\nDikhutsana, bahutsafadi.\n\nFa re gopola patikego tsotlhe\n\nRe boifa segolo Moyeng,\n\nDi wela motho, di tlhaselo pelo,\n\nGa di re neye Boikhutso.\n\nMatlhoko a rona a mantsi fela,\n\nKe: malwetsi, dintwa, leuba\n\nDikotsi, boswele le ditlhabano\n\nLe ditatlhegelo, diphatsa.\n\nDithaelo tsa bo Satane, dibe\n\nKe loso lwa grasia Moyeng\n\nRe di tshaba go feta dilo tsotlhe\n\nRe thuse kgatlhanong le tsone.\n\nFa re bogisega, fa re ipela\n\nA thato ya gago e dirwe\n\nMme ere re lela re tlhotlosetsa\n\nMatlho, diatla kwa go wena.",
+    "related_hymns": []
+  },
+  {
+    "id": "mohumagadi-wa-rona",
+    "title": "Mohumagadi wa rona",
+    "lyrics": "Mohumagadi wa rona,\n\nItumele, Maria.\n\nMorena Jesu, Morwa’o\n\nOa tshela, Aleluya.\n\nO tsogile ruri,\n\nO dule mo baswing.\n\nMaria, o itumele,\n\nIpele, Aleluya.\n\nO gomotsege, Maria\n\nMme o se hutsafale.\n\nJesu, jaaka a n’a bua\n\nO tsogile, a rulwa.\n\nA ba a kopela\n\nBobipo jwa mmaba.\n\n‘Godimo le bulegile.\n\nSe lele, Aleluya.\n\nMohumagadi, re utwe,\n\nRe tlhomogele pelo,\n\nRe rapelele ka metlha\n\nRe tle re tshele nau.\n\nMme re gorogele\n\nPusong ya ‘go rotlhe\n\nKwa re tla ipelang gone\n\nGo bina Aleluya.",
+    "related_hymns": []
+  },
+  {
+    "id": "molao-wa-gago",
+    "title": "Molao wa gago",
+    "lyrics": "Molao wa gago, Kgosi\n\nO itshekile thata;\n\nO itumedisa pelo\n\nMme o a re sedifatsa.\n\nRe sego fa re ka latela\n\nLesedi ja gago ka metlha.\n\nGa re na, ga re na,\n\nGa re na go timela.\n\nThuto ya ‘go ke mogogi\n\nYo o re tlhalefisang.\n\nE tlhomame, e siame;\n\nKe e e eletsegang;\n\nE bile e ntle, e monate,\n\nE kgatlha dipelo tsa botlhe.\n\nGa re na, ga re na,\n\nGa re na go timela.\n\nDikatlholo le mafoko\n\nA molomo wa gago\n\nA itekanetse gotlhe\n\nMme a boammaruri.\n\nRe sepela seding ja Jesu\n\nMme re barutwana ba gago.\n\nGa re na, ga re na,\n\nGa re na go timela.",
+    "related_hymns": []
+  },
+  {
+    "id": "moletlo-moletlo",
+    "title": "Moletlo, moletlo",
+    "lyrics": "Moletlo, moletlo\n\nMoletlo wa rona gompieno\n\nKe o montle; Tsatsi le lentle.\n\nTlotlang, bakang, lebogang Modimo;\n\nO re direla tse di molemo.\n\nThapelo, Thapelo,\n\nThapelo tsa rona o di utlwa\n\nO diratsa topo tsa rona.\n\nO itse, o itse\n\nO itse botlhoko: O gopola\n\nGo golola re ‘se re bue.\n\nIlelang, ilelang,\n\nIlelang malatsi otlhe fela\n\nLo a dire a borapedi.",
+    "related_hymns": []
+  },
+  {
+    "id": "monyadi-monyadiwa",
+    "title": "Monyadi, monyadiwa",
+    "lyrics": "Monyadi, monyadiwa,\n\nGopolang Modimo!\n\nO lo kopantse jaana\n\nGa lo kgaoganngwe.\n\nE, nyalo ke khunelo\n\nE e sa hunololweng\n\nKe khunelo ya tlhomamo\n\nGo ya bosafeleng.\n\nNyalo ke go ratana\n\nKa malatsi otlhe.\n\nGone ke go itshepha,\n\nGo tsahba bosula.\n\nNyalo ke go thusana\n\nKa boitshwarelo,\n\nMme ke go direlana\n\nTirong tsa botshelo.\n\nNyalo ke go godisa\n\nBana mo tumelong\n\nGo ba isa bogosing\n\nJo bo legodimong.",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-modimo",
+    "title": "Morena Modimo",
+    "lyrics": "Morena Modimo, O Boitshepho,\n\nO mothatiyotlhe. O busa lefatshe\n\nLe legodimo: Hosanna magodimong a a godimo.\n\nBaengele, baitshephi Ba baka Modimo,\n\nKgosi ya bone; Le rona re dumedisa\n\nJesu yo o tlang ka leina ja Rragwe.\n\nMetlha yotlhe fela, Tsotlhe dipaka\n\nDi go baka thata. Ka ga tlotlomalo\n\nYa ‘go di supa: Fa o le mmopi, motlamedi, modisa.\n\nBaengele, baitshephi Ba baka Modimo,\n\nKgosi ya bone; Le rona re dumedisa\n\nJesu yo o tlang ka leina ja Rragwe",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-o-montisi",
+    "title": "Morena, o montisi",
+    "lyrics": "Morena, o montisi, ga ke tlhoke sepe.\n\nO mphotisa mo Bontleng, o nkgogela gaeng.\n\nPelo ya me e ikantse; ga ke na poifo epe\n\nMo tshireletsong ya modisa\n\nDinku di a bolokesega.\n\nO nkisa kafa metsing a a didimetseng;\n\nMafulong a matala sekgweng le mo nageng.\n\nLe fa re ralala baba, mafelo a bogalaka,\n\nLe megogoro le dikaka\n\nRe tla nna re bolokesega.\n\nO lapolose moya o tlotse dingalo,\n\nO female ka tsamma, seikokotlelo.\n\nO na le bopelonolo le boutlwelobotlhoko,\n\nLe wena re dibelesega\n\nRuri re a bolokega.\n\nO itse dilo tsotlhe, di thateng ya gago,\n\nMme tsotlhe di dirana go rona molemong.\n\nKe gone re solofelang, re ratang, re go lebogeng;\n\nRe lelalela kwa go wena\n\nGo nna re bolokesega.\n\nBa ba utlwang Morena ba itse kagiso.\n\nBa sego, ba tla rua puso ya godimo.\n\nBa kgorisiwa lenyoreng, mme ba tladiwa mo tlaleng;\n\nBa bona kutlwelo-botlhoko\n\nMme ba tla bolokesega.",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-o-re-boleletse",
+    "title": "Morena o re boleletse",
+    "lyrics": "Morena o re boleletse:\n\n“Kagiso e nne le lefatshe.\n\nJaaka Rara a lo ratile\n\nLo rataneng, lo rataneng,\n\nBana ba me, lo rataneng.”\n\n“Thusa moga-eno botlhokong\n\nBotlhe fela ba ba tshwenyegong.\n\nBa ba tlhokang seatla sa’go:\n\nLo thusaneng, lo thusaneng.\n\nBana ba me, lo thusaneng.”\n\n“Ga ke a batla go direlwa;\n\nKe tsile go direla lona;\n\nLe lona lo ikokobetsang:\n\nDirelenang, direlanang,\n\nBana ba me, direlanang.”",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-o-segofatsa",
+    "title": "Morena, o segofatsa",
+    "lyrics": "Morena, o segofatsa letsatsi:\n\nTsatsi je lesha ja gompieno,\n\nKe tsatsi ja gago, re le neilwe\n\nGo gola mo loratong lwa ‘go.\n\nBonesetsa, tlhomamisa\n\nGo kgatlha batho le wena, Rra.\n\nGa re a bona botshelo jwa rona\n\nGo senya nako dilong tsa mono.\n\nJaaka baeti re fetele pele\n\nMo tseleng go ya legodimong.\n\nNgwana wa me, wa Mokreste,\n\nO se lebale, o se lale.\n\nBosigong o mpolokile ka Tshwaro\n\nMo lefifing le bontshung jwa sebe,\n\nKe go lebogela thuso, molemo\n\nLe tlamela ya Baengele.\n\nA ke dige letsatsi je\n\nKe diretse poloko ya me.\n\nMorena, thusa ka oura le oura\n\nKe ka tla ka roba thato ya ‘go.\n\nDiteko di dintsi, ditshekamelo:\n\nKe di boifa le thaelo.\n\nKa grasia ya ‘go fela\n\nKe tla nonofa go di fenya.\n\nMo lefatsheng ja matsapa le tiro\n\nMalatsi a rona ga a mantis,\n\nMme loso lo tla tla ka tshoganetso\n\nRe sa itse nako ya lone.\n\nA re nne re iketleetse\n\nA re fitlhelwe re siame.",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-re-mo-poifong",
+    "title": "Morena, re mo poifong",
+    "lyrics": "Morena, re mo poifong,\n\nA k’O re lebe tlalelong:\n\nGo swa mabele, dithobo;\n\nGo tsha didiba, melapo.\n\nBona morafe mo tlaleng;\n\nDinku, dipodi mo nageng.\n\nTsotlhe di tla nyelediwa\n\nFa o sa tle go re thusa.\n\nLefatshe le idibetse\n\nMme maru a tswalegile;\n\nMme maru a tswalegile;\n\nMme leuba le botlhoko.\n\nTsatsi le swetsa botshelo.\n\nMetswedi yotlhe ya boteng\n\nA e tloge e phunyege;\n\nMme dithoba tsa godimo\n\nDi ke di bulege jaanong.",
+    "related_hymns": []
+  },
+  {
+    "id": "morena-thusa",
+    "title": "Morena, thusa",
+    "lyrics": "Morena, thusa, re kopa pula.\n\nA pula e ne, re leubeng.\n\nBona: le senya mme le swafatsa\n\nSefatlhego sa ‘fatshe.\n\nRe dira, re lema,\n\nRe jala, tlhagola,\n\nWena fela o ka nosa.\n\nBona metswedi Bona melapo.\n\n‘Noka di tlhoka Morwalela.\n\nMaru aa gana, Tsatsi lea lela,\n\nMogote o mogolo.\n\nGo popamo, tlala,\n\nBojang bo a tlhaela;\n\nMorena, a pula e ne.",
+    "related_hymns": []
+  },
+  {
+    "id": "moshe-wa-rona",
+    "title": "Moshe wa rona",
+    "lyrics": "Moshe wa rona o fentse\n\nBaba ba Israele;\n\nMme re gololesegile:\n\nDikgole di ole.\n\nLo opele: aleluya:\n\n\nJeso o tsogile.\n\n\nDuduetsang: Aleluya:\n\n\nKwana e rudilwe.\n\nBakui ba re biletsa\n\nPololong, khudugong:\n\nRe tlogela lefatshe je,\n\nRe tswe Egepetong.\n\nRe se lelele tshwafatso\n\nYa puso ya sebe;\n\nRe se boife sekaka,\n\nRe tla se ralala.\n\nBonang leru ja Morena:\n\nLe tla re gogela\n\nKwa lefatsheng ja letlotlo;\n\nRe tla le latela.\n\nJeso, amogela puso\n\nLe boswa jwa gago.\n\nO itseele thata jaanong,\n\nTlotlo, kgalalelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "motho-yo-o-tsetsweng",
+    "title": "Motho yo o tsetsweng",
+    "lyrics": "Motho yo o tsetsweng fatshing\n\nO tla swa ka pela,\n\nO khutla jaaka sethunya\n\nMme o tla huduga.\n\nBotshelo jono jwa rona\n\nBo tletse tapiso,\n\nKa bofefo bo tla feta\n\nJaaka phefo fela.\n\nLefatsheng ga re na motse\n\nOpe o tlhomameng,\n\nBajaki, tsogang, lo batleng\n\nOle o sa feleng.\n\nE tlare ke fologela\n\nMoruting wa loso,\n\nRara, nkutlwele botlhoko,\n\nO nneye botshelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "moya-wa-ga-jesu",
+    "title": "Moya wa ga Jesu",
+    "lyrics": "Moya wa ga Jesu, o intshephise,\n\nMmele wa ga Kreste a ko o nkotle.\n\nMadi a Morena a ke a nnose,\n\nMetsi a a ntlhatswe a lotlhakore.\n\nLoso lwa ga Jesu, a k’O nkgolole;\n\nKa molemo wa’go, Jesu o nkutlwe.\n\nMo dinthong tsa gago a ko o mphitlhe.\n\nO mme ke nne nao ke se latlhege.\n\nKgatlhanong le mmaba a k’O mphemele.\n\nKa tsatsi ja loso o impilitse.\n\nO laole gore ke tsene Bontleng\n\nKe tle ke go tlotle ka bosafeleng.\n\nKe fa ke tla bonang borena jwa ‘go;\n\nKe fa ke tla itseng boitumelo,\n\nRuri go molemo go go direla\n\nLe mono lefatsheng re ntse re tshela.",
+    "related_hymns": []
+  },
+  {
+    "id": "nayang-modimo",
+    "title": "Nayang Modimo",
+    "lyrics": "Nayang Modimo tshupelo:\n\nKwana ya poloko.\n\nLo o ntshetseng ka lorato\n\nJaanong Setlhabelo.\n\nNayang le dipelo.\n\nNayang maikano;\n\nLo solofetseng tirelo e ntle\n\nMo botshelong jotlhe.\n\nRara, a k’o amogela\n\nDineo tse sentle.\n\nGa o kitla o re nyatsa\n\nFa re tla go wena.\n\nRe ne re le baba;\n\nJaanong re ditsala.\n\nA boineelo jono jwa rona\n\nBo go kgatlha thata.",
+    "related_hymns": []
+  },
+  {
+    "id": "nna-ke-rata-jesu-fela",
+    "title": "Nna ke rata Jesu fela",
+    "lyrics": "Nna ke rata Jesu fela,\n\nJesu mosefapanong.\n\nKe seganka se se thata\n\nSa dintwa tsa Modimo.\n\nO boletse legodimong\n\nGo tlhabana le mamba.\n\nKe Dafide wa Bakreste\n\nYo o fenyang kgogela.\n\nNna ke rata Jesu fela,\n\nJesu mosefapanong.\n\nO nyatsa tshaka, lerumo,\n\nGo ikanya Morena.\n\nKa thobane le majana:\n\nSefapano, dimapo,\n\nEe, ka tsone le go boga\n\nJesu o fentse mamba.\n\nNna ke rata Jesu fela,\n\nJesu mosefapanong.\n\nO re ruta go mo etsa\n\nLe go lwa jaaka ene.\n\n“Yo o nthatang a ntatele\n\nMme a tseye mokgoro,\n\nA ralala ‘fifi le nna\n\nGo tsena kgalalelong.”\n\nNna ke rata Jesu fela,\n\nJesu mosefapanong.\n\nLe nna ga nke ke boifa\n\nDitlhabi le dipogo.\n\nKa matlhoko a botshelo\n\nKe ka fenya Satane.\n\nSefapano le dimapo\n\nKe ditlhomelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "oh-jesu",
+    "title": "Oh Jesu",
+    "lyrics": "Oh Jesu, o tle go nna,\n\nO tsala ditseleng,\n\nKe a go eletsa,\n\nKe tla go rua leng?\n\nFa ke sa tshwanelo,\n\nMorena, o ntlhatswe,\n\nO mung wa dipelo\n\nLe wa pelo ya me.\n\nTlhapelo tsa fatshe\n\nRuri ke lefela,\n\nMolemo wa nnete\n\nKe go amogela.\n\nGapa moya wa me,\n\nnkgabisa ka bontle,\n\nNkgomotsa, ntshedisa,\n\nO intumedise.\n\nBajuta ba jele\n\nMana kwa sekakeng\n\nYa tswa kwa godimo\n\nGo jesa mabele.\n\nMme wena o sejo\n\nSe tswa kwa go Rra ‘go\n\nSe ka tlosa loso,\n\nSenaya botshelo.",
+    "related_hymns": []
+  },
+  {
+    "id": "oh-maria-kgarebane",
+    "title": "Oh Maria, kgarebane",
+    "lyrics": "Oh Maria, kgarebane,\n\nReetsa kodu tsa rona,\n\nO re lebe ka re tsile\n\nGo go itumedisa.\n\nWa re rata, Maria,\n\nLe fa re sa tshwanela.\n\nSegofatsa, oh mm’a rona,\n\nSegofatsa ba gago.\n\nRe tla tshela ka tlhwafalo\n\nGo go direla.\n\nRe eletsa ka kgotelo\n\nGo tshwana nao gotlhe.\n\nTirelo le dipako,\n\nRe di go naya jaanong.\n\nAmogela, oh mm’a rona,\n\nAmogela dineo.\n\nBona dipelo tsa rona:\n\nRe di ntsha setlhabelo.\n\nO di buse, di laole\n\nMo tseleng ya tshiamo.\n\nO re rute lorato,\n\nMolemo, boitshepho.\n\nMetlhaleng ya nao tsa’go\n\nRe tla ya legodimong.\n\nO modisa jaaka Jesu,\n\nRona re nku tsa gago.\n\nRe tlhokomele ka gale\n\nDiphatseng tsa botshelo.\n\nLentswe ja ‘go le botshe:\n\nTimelong o re bitse,\n\nGore re tatamalele\n\nKwa sakeng ja ga Jesu.",
+    "related_hymns": []
+  },
+  {
+    "id": "oh-maria-re-ratile",
+    "title": "Oh, Maria, re ratile",
+    "lyrics": "Oh, Maria, re ratile boitshepo jwa gago.\n\nO sekao se se gogang matlho otlhe, dipelo.\n\nO tshimo ya dithunya. tsotlhe di a re kgatlha:\n\nKe monkgo o o monate ke mebala e, mentle.\n\nGakgamalelang bonolo, lorato lo logolo:\n\nKe lorato lwa Modimo, ke lorato lwa batho.\n\nO tshiamo, tsalano, O boikokobetso:\n\nBoitsheko, borapedi: tsotlhe fela di dintle.\n\nRe tla ka tlhwafalo go go direla sentle.\n\nRe eletsa ka kgotelo go tshwana nao gotlhe.\n\nTirelo le dipako re di go naya jaanong.\n\nAmogela, oh Maria, amogela dineo.\n\nSegofatsa tsholofetso le maikaelelo.\n\nGogela mewa ya batho mo tseleng ya poloko.\n\nRe rata go latela, go tsaya malebela,\n\nGo tsamaya mo metlhaleng ya dinao tsa gago.",
+    "related_hymns": []
+  },
+  {
+    "id": "oh-modimo-wa-me",
+    "title": "Oh Modimo wa me",
+    "lyrics": "Oh Modimo wa me, Ke a tlhomamisa;\n\nEe ke dumela tshenolo tsa gago.\n\nKa ntlha ya lefoko\n\nKa ntlha ya lefoko\n\nLefoko ja gago.\n\nOh Modimo wa me, ke a solofela\n\nmme ke eletsa poloko ya moya:\n\nka ntlha ya tshwanelo\n\nKa ntlha ya tshwanelo\n\nTshwanelo tsa Jesu.\n\nOh Modimo wa me Ke tlhologeletse\n\nWena, Morena mme ke a go rata:\n\nKa ntlha ya molemo\n\nKa ntlha ya molemo\n\nMolemo wa gago.\n\nOh Modimo wa me, Ke a go ineela;\n\nKe tla direla wena wesi fela\n\nKa ntlha ya borena,\n\nKa ntlha ya borena\n\nBorena jwa gago.",
+    "related_hymns": []
+  },
+  {
+    "id": "o-itshubile",
+    "title": "O itshubile",
+    "lyrics": "O itshubile, Jeso.\n\nPopegong ya bogobe\n\nGo aga le rona\n\nKa metlha le metlha.\n\nRe ka tla mo go wena\n\nKa o teng mo senkgweng,\n\nKa o teng mo senkweng ,\n\nKa o teng mo senkweng.\n\nO rata go re thusa\n\nMo botlhokong jwa rona\n\nGo re lapolosa\n\nLe go re gomotsa\n\nMme re a itumela\n\nKa o teng mo senkgweng,\n\nKa o teng mo senkweng,\n\nKa o teng mo senkweng.",
+    "related_hymns": []
+  },
+  {
+    "id": "o-mogolo-modimo",
+    "title": "O mogolo, Modimo",
+    "lyrics": "O mogolo, Modimo;\n\nRe baka thata ya gago.\n\nMorena wa lefatshe,\n\nA botlhe ba go bake.\n\nLeina ja gago\n\nle lentle segolo.\n\nRara wa kgalalelo,\n\nLe Morwa’o Jesu Kreste,\n\nLe Moya wa Boitshepho:\n\nBorarung jo bogolo:\n\nO Kgosi dikgosing\n\nGo ya bosafeleng.\n\nMephato ya barongwa:\n\nKeruba gape Serafa,\n\nEa go dudueletsa,\n\nEa go itumelela,\n\nEa go opelela:\n\n“Boitshepho, Morena.”\n\nBaitshephi le bone\n\nBa go tlotla ka difela:\n\nBarutiwa ba gago\n\nLe baswela-tumelo,\n\nBaboledi-pele,\n\nBasiami botlhe.\n\nLona, batho ba fatshe,\n\nA lo lebala ka gale\n\nGo tlotla Kgosi, Mmopi\n\nWa nyena le modiri?\n\nNyaa, tlang go opela:\n\n“Pako mo go wena.”",
+    "related_hymns": []
+  },
+  {
+    "id": "phuthegang-lotlhe",
+    "title": "Phuthegang lotlhe",
+    "lyrics": "Phuthegang lotlhe Phuthegang lotlhe.\n\nTikologong yotlhe lo tsene tshiping.\n\nLo tseneng, lo tseneng.\n\nTlhomamang ka botlalo,\n\nLo tseneng, tlhomamang.\n\nGo lesaka lengwe Le modisa mongwe\n\nTikologong yotlhe Ke thato ya Modimo.\n\nLo tseneng, lo tseneng.\n\nTlhomamang ka botlalo,\n\nLo tseneng, tlhomamang.\n\nTlhotlhomisang thata, Itshenkeleng nnete;\n\nLo tshabeng timelo Lo senkeng Jesu.\n\nLo tseneng, lo tseneng.\n\nTlhomamang ka botlalo,\n\nLo tseneng, tlhomamang.",
+    "related_hymns": []
+  },
+  {
+    "id": "rara-kgosi",
+    "title": "Rara, Kgosi",
+    "lyrics": "Rara, Kgosi ya Legodimo,\n\nGalaletsa leina ja gago;\n\nSireletsa letsomanyane:\n\nModisa kwanyana tsa ga Jesu Kreste\n\nModisa kwanyana tsa ga Jesu Kreste.\n\nSegofatsa Papa Morena;\n\nThusa molebedi wa rona\n\nMo tshimong ya thobo ya mewa\n\nModimo, re mo rapelela,\n\nGore o mo godise ka gale,\n\nO namole, O mo female,\n\nO fenye tlhaselo tsa molete tsotlhe,\n\nO fenye tlhaselo tsa molete tsotlhe.\n\nOh Jesu, o gakologelwe\n\nTsholofetso e kgolo ya gago:\n\nGore dithata tsa molete\n\nGa di nke di fenya lefika: Kereke,\n\nGa di nke di fenya lefika: Kereke.",
+    "related_hymns": []
+  },
+  {
+    "id": "rara-leba",
+    "title": "Rara, leba",
+    "lyrics": "Rara, leba sefapanong:\n\nSetlhabelo sa ga Jesu:\n\nDintho diatleng, dinaung\n\nLe mo pelong, Le mo pelong.\n\nBona mmele: ga o tshele.\n\nKwana e swetse melato.\n\nAbela boitshwarelo\n\nRona bana, Rona bana.\n\nJesu o ya kwa go wena:\n\nO rapela : “Rara wa me,\n\nItshwarele, ba supetse\n\nBopelontle, Bopelontle.”",
+    "related_hymns": []
+  },
+  {
+    "id": "rara-o-tlhodile",
+    "title": "Rara, o tlhodile",
+    "lyrics": "Rara, o tlhodile\n\nBarongwa le batho\n\nGore ba go bake,\n\nBa go direle\n\nRe ipolela sebe sa rona:\n\nRe leofile, re fapogile\n\nKa molato wa rona,\n\nKa molato wa rona.\n\nMme re tsile jaanong\n\nMo setlhabelong se.\n\nGo go obamela,\n\nGo itshwarelwa.\n\nO se sekise maleo, dibe:\n\nRe amogela mme o letlane\n\nKa ntlha ya ga Morwa’o\n\nKa ntlha ya ga Morwa’o.",
+    "related_hymns": []
+  },
+  {
+    "id": "welcome-home",
+    "title": "Welcome Home",
+    "lyrics": "Many Christians are prepared\nto die for the founder and head of my Church, Jesus Christ, \nbut they are not prepared to die for the founders and heads of their churches. I wonder why.\n\nJust a Catholic wondering!",
+    "related_hymns": []
+  },
+  {
+    "id": "re-a-dumela",
+    "title": "Re a dumela",
+    "lyrics": "Re a dumela, Jeso,\n\nGore o motho le Modimo.\n\nO dule mo lebitleng ka bonatla:\n\nMung wa botshelo, wa loso Morena.\n\nKa kobamelo re a go baka:\n\nJeso, mofenyi, re a go tlotla.\n\nKwanyana ya Modimo,\n\nO tsholotse madi a gago,\n\nGo re naya sediba sa poloko,\n\nGo re tlhatswetsa ‘aparo sa nyalo.\n\nEkete pelo tsa rona batho\n\nDi kabo di tshwana le ya gago.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-a-go-opelela",
+    "title": "Re a go opelela",
+    "lyrics": "Re a go opelela, re a go tumisa,\n\nMme ka mogolokwane re a go godisa.\n\nKgosi, Morena, re re:\n\nAmogela pako tsa bana ba gago\n\nRe natefelwa thata ke go go gopola,\n\nGo akanya bogolo jwa gago, Jehofa.\n\nKgwedi, naledi, jone letsatsi\n\nTsotlhe tsotlhe fela di a go senola.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-a-go-rata",
+    "title": "Re a go rata",
+    "lyrics": "Re a go rata, Morena Modimo,\n\nKa o molemo, o rategile.\n\nGa o bolo go rata, go tlamela\n\nPele re ese re go ineele.\n\nIponaletse, re itshenolole,\n\nEtela ba re leng babotlana.\n\nO dire bonno mo pelong tsa rona,\n\nO nne ruri morati wa mewa.\n\nO nameditse rona ba lefatshe.\n\nGo tswa ditsala le baratiwa.\n\nO re gakgamatsa ka go gaisa;\n\nka boingotlo re tla go wena.\n\nRe batla go kgatlha matlho a gago\n\nGo ikgabisa ka bontle jotlhe.\n\nRe tle re tshwanelwe ke go bulelwa\n\nKgoro ya manno a go a mantle.\n\nLeba bokowa jwa botho jwa rona\n\nRe ntse re gogwa ke tsa lefatshe;\n\nRe bopilwe ka lorole, letsopa;\n\nRe tshele jang jaaka baengele?\n\nRe romele Moya wa Boitshepho,\n\nO gorometse one molelo.\n\nMolelo wa lorato a o tuke\n\nKafa o eleditseng ka gone.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-atamela-setulo",
+    "title": "Re atamela setulo",
+    "lyrics": "Re atamela setulo\n\nSa Bogosi jwa gago,\n\nGo ba rapelela botlhe\n\nBa ba mo khutsafalong.\n\nFa o lotolotsa dibe\n\nKana go ka ema mang?\n\nO ba utlwele botlhoko,\n\nPhimola tlolo tsotlhe.\n\nA ba tlhabelwe ke sedi\n\nJe le senang bokhutlo,\n\nBa robale ka kagiso\n\nBa bone boikhutso.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-go-eleletsa-masego",
+    "title": "Re go eleletsa masego",
+    "lyrics": "Re go eleletsa masego\n\nLe lorato lwa Morena\n\nKwa a go biletsang gone;\n\nMme a go re busetse sentle.\n\nA ye le wena, a ye le wena\n\nGo tsamaya re kopana gape.\n\nMme mo ditseleng o re gopole:\n\nMme o tla nna pelong tsa rona.\n\nTsela tsa ‘go di nne ditshweu\n\nKa taelo ya Morena.\n\nA o kgore ka mofago;\n\nMme a o goroge ka pula.\n\nA ye le wena, a ye le wena\n\nGo tsamaya re kopana gape.\n\nMme mo ditseleng o re gopole:\n\nMme o tla nna pelong tsa rona.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-ipeleng",
+    "title": "Re ipeleng",
+    "lyrics": "Re ipeleng, re opeleng.\n\nPhenyo ke e, go sule mamba.\n\nDitshaba tsotlhe di ka tshela.\n\nModimo o kokothetse\n\nLokwalo lwa kgolego e,\n\nMo mokgorong.\n\nRe ipeleng, re opeleng.\n\nUtlwa! Ba tshela losalaba:\n\nHosanna, pula, Aleluya:\n\nFatshe le boitumelong:\n\nBa bonye lesedi, tlotlo,\n\nBoipelo.\n\nRe ipeleng, re opeleng.\n\nGo ne go le molemo ruri\n\nGore mongwe a swele botlhe;\n\nKa tlalelo ya Modisa\n\nGo tshela dinku, dikwana.\n\nAleluya.\n\nRe ipeleng, re opeleng.\n\nModisa o buile jaana:\n\nGa nke ke tlhola ke mo lesa:\n\nKe na le ene, ke wa me,\n\nKe tla nna kwana ya gagwe.\n\nAleluya.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-itumeleng",
+    "title": "Re itumeleng",
+    "lyrics": "Re itumeleng gonne Maria\n\n\nO tla re thusa mo tlalelong\n\n\nMogang mokoro ono wa rona\n\n\nO tla bipiwang ke dinteelo.\n\nO sego basading, ee, o tlhogonolo\n\nMme mo go Morwa’o o thata yotlhe.\n\nBa re leng lewatleng ja botshelo jono\n\nRe batla kaelo: Ke wena yone.\n\nLefifing, bosigong re bona naledi:\n\nE nyedima sentle, ke wena yone.\n\nRe dikilwe babeng, poifong, bokoweng;\n\nO kae mofemedi? Ke wena ene.\n\nLe mo khutsafalong, pobolong le losung:\n\nO kae Mogomotsi? Ke wena ene.\n\nMme fa re Bontleng, mo boitumelong\n\nRe tla tlhakanela tsotlhe le wena.\n\nA re ka lebala monei, moabi?\n\nA re mo ntshetseng tebogo le pako.\n\nO kgoro, mojako wa ntlo ya Morena:\n\nEre re goroga o re bulele.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-mo-tlung",
+    "title": "Re mo tlung",
+    "lyrics": "Re mo tlung ya’go Modimo;\n\nRe tsile mo setlhabelong,\n\nGo go obamela\n\nLe go go direla,\n\nGo godisa bogosi jwa gago.\n\nGape re ikwatlhaela\n\nDitlolo tsotlhe tsa rona.\n\nGa re a tshwanela\n\nGo go atamela;\n\nKa re ikanyologile thata.\n\nTshiamololo tsa rona\n\nDi ntsi, di a re imela.\n\nMme re solofela\n\nMo go wena fela:\n\nItlhaganele go itshwarela.\n\nUtlwa dikodu tsa rona\n\nFa re lela, re rapela.\n\nO se nne bogale,\n\nO se didimale\n\nMme o arabe ka pelonolo.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-opeleng",
+    "title": "Re opeleng",
+    "lyrics": "Re opeleng gompijeno\n\nLesomo ja legodimo,\n\nMephato ya ba ba tuelong;\n\nMewa e e boitshepho.\n\nKe ba merafe le ditshika,\n\nBa mafatshe otlhe fela,\n\nMme jaanong ba roba mabele\n\nA ba a jetseng matsapeng.\n\nBonang barutwa ba ga Jeso\n\nBa ba rutang ditshaba,\n\nJaanong ba busa Iseraele\n\nBa beilwe go atlholwa.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-opeleleng-morena",
+    "title": "Re opeleleng Morena",
+    "lyrics": "Re opeleleng Morena:\n\n“O boitshepho ka metlha.”\n\nLegodimo le lefatshe\n\nDi tletse kopelo e ntle:\n\nGo go tshwanetse Morena,\n\nMalebogo, pako, thata\n\nGompieno le ka metlha.\n\nGo sego yo o tlang jaana:\n\nJesu, Morwa wa Morena,\n\nKe kgosi ya kgalalelo;\n\nRe e bakeng ka tumelo:\n\nGo go tshwanetse Morena,\n\nMalebogo, pako, thata\n\nGompieno le ka metlha.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-rapela-rara",
+    "title": "Re rapela Rara",
+    "lyrics": "Re rapela Rara, gore neo tse\n\nO di supediwe ke baengele.\n\nAmogela Kwanyana e e tlhabilweng:\n\nKe Jesu Morwa’o yo o re swetseng.\n\nGopola tlhabelo sa ga Abrama,\n\nSa ga Melkisede, sa ga Abele,\n\nGa mmanete Abele ene Isake\n\nBa supile Jesu mo aletareng.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-supeditswe-lesedi",
+    "title": "Re supeditswe lesedi",
+    "lyrics": "Re supeditswe lesedi\n\nSedi ja tumelo;\n\nMme re ntshitswe mo lefifing\n\nFifing ja timelo.\n\nRe neilwe dikaelo,\n\nMelao le thuto\n\nTsa gago, Jeso , Morena,\n\nTsa baapostola.\n\nGo gontle mme go monate\n\nGo rutwa botlhale\n\nJwa poloko le botshelo:\n\nTsela ya godimo.\n\nRuri re itumelela\n\nNeo ya sedi je,\n\nKe gone re solofetsang\n\nGo utlwa ka gale.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-tla-go-ntshetsa",
+    "title": "Re tla go ntshetsa",
+    "lyrics": "Re tla go ntshetsa neo tsa rona:\n\nO di fetole go nna sejo sa moya.\n\nSenkgwe, mofine dijo tsa fatshe\n\nKa lefoko di dirwe tlhabelo sa Jesu.\n\nPelo tsa rona di tla jesiwa\n\nKa mmele le ka madi a gagwe.\n\nMme ka lorato mmogo le Jesu\n\nRe itira tshupelo fa ‘naung tsa ‘go.\n\nThato, ditiro le megopolo\n\nDikeletso tsa pelo: O di itshepise.\n\nRe tshabe sebe mme re ikgaphe\n\nGo nnela ka malatsi molemong.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-tlotleng",
+    "title": "Re tlotleng",
+    "lyrics": "Re tlotleng, re godiseng\n\nLorato lwa Kreste.\n\nRe tlotleng, re godiseng\n\nPelo e, ya bontle.\n\nBakang, bakang,\n\nPelo ya morerati.\n\nBakang, bakang\n\nMmoloki wa batho:\n\nLorato lwa Jesu\n\nLorato lwa Jesu.\n\nO dule legodimong\n\nKa bopelonomi,\n\nMme rona dibopiwa\n\nRe mo rukhuthetse.\n\nLe gone gompieno\n\nRe mo tlhokofatsa\n\nKa go nyatsa taolo\n\nTsa Kgosi ya rona.\n\nBakreste, lo bakeleng\n\nBoleo, bosula.\n\nGomotsang Jesu jaana:\n\nKa go ikanyega.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-tsile-go-opela",
+    "title": "Re tsile go opela",
+    "lyrics": "Re tsile go opela sefela sa pako,\n\nRe opelela pelo ya Mmoloki Jesu.\n\nA re itumeleleng Pelo ya Morena.\n\nA go bakwe lorato lwa gagwe ka metlha.\n\nA Pelo ya ga Jesu, a Tshwaro, tsalano!\n\nE re tlhabetswe batho go tlosa melato.\n\nKe Pelo e e tukang kgabo tsa molelo\n\nMolelo wa lorato go gotsa lobopo.\n\nE atlhametse rona gore re ikhutse,\n\nRe bone botshabelo re itapolose.",
+    "related_hymns": []
+  },
+  {
+    "id": "re-tswa-mo-setlhabelong",
+    "title": "Re tswa mo setlhabelong",
+    "lyrics": "Re tswa mo setlhabelong\n\nRe segofaditswe.\n\nRe nole mo Sedibeng\n\nSa Morekolodi.\n\nDisa letsomane,\n\nJesu, Mmoloki\n\nRe boloke mo phiring,\n\nMasweng, bosuleng.\n\nRe ne re solofetsa\n\nGo bona masego.\n\nO rile: “Lesang bana\n\nBotlhe ba tle go nna.\n\nBa ba tlhokang\n\nKe babobodi,\n\nMme ke tsile go bitsa\n\nBa ba timetseng.”",
+    "related_hymns": []
+  },
+  {
+    "id": "rra-etsho",
+    "title": "Rra etsho",
+    "lyrics": "Rra etsho, Modimo\n\nYo o leng godimo,\n\nLeina ja gago\n\nLe bakwe ke batho.\n\nMme puso ya gago\n\nE buse dipelo.\n\nMolao, taolo\n\nDi dirwe le mono.\n\nRe neye ka jeno\n\nSejo sa botshelo.\n\nPhimola le dibe\n\nMme o re letlanye.\n\nSe lese ba gago\n\nKa bosi thaelong.\n\nGolola diphatseng\n\nBotlhukong, masuleng.",
+    "related_hymns": []
+  },
+  {
+    "id": "ruri-ke-moleofi",
+    "title": "Ruri, ke moleofi",
+    "lyrics": "Ruri, ke moleofi,\n\nMotho wa boleo;\n\nMme ke a ikwatlhaya\n\nEe, ka boikgobo.\n\nKe rarabologetswe\n\nMme ke tla nanoga.\n\nke tla ya kwa go Rara\n\nMme ke tla ingotla.\n\nKe tloga ke boela\n\nKwa morekoloding\n\nJesu, o nthekegele:\n\nKe motlhabologi.\n\nKe ipona mo losong,\n\nFifing ja timelo,\n\nPhamola moya wa me\n\nKe se ye molelong.\n\nO nthuse ke ikana\n\nGo latlha Satane,\n\nTirelo ya molete,\n\nMenate ya fatshe.\n\nJesu, goga kwanyana\n\nKe se ka ka tlhola\n\nKe katogela kgosi\n\nYa me le Morena.",
+    "related_hymns": []
+  },
+  {
+    "id": "setlhabelo-sa-poloko",
+    "title": "Setlhabelo sa poloko",
+    "lyrics": "Setlhabelo sa poloko\n\nSe se bulang legodimo,\n\nDintwa di a re patika:\n\nRe neye thuso le thata.\n\nTebogo le tlotlo di nne\n\nMoreneng a le mongwe.\n\nBotshelo jo bo sa khutleng\n\nA re bo newe kwa gae.",
+    "related_hymns": []
+  },
+  {
+    "id": "sakramente-sa-yukariste",
+    "title": "Sakramente sa Yukariste",
+    "lyrics": "Sakramente sa Yukariste\n\nRuri ke mmele le madi\n\nLe moya gape bomodimo\n\nJwa ga Jeso, morerati.\n\nSakramente se a re otla,\n\nRona bajaki ba lefatshe.\n\nSakramente sa Yukariste\n\n\nKe sejo sa bosakhutleng,\n\n\nKe sejo sa bosakhutleng.\n\nJeso, o re ratile thata,\n\nOa re jesa, oa re nosa,\n\nMme o kgatlhegile go aga,\n\nGo sala gare ga rona.\n\nO se ka wa ba wa tlogela\n\nBone ba ba ntseng ba tlhabana.\n\nA ruri popego ya senkgwe\n\nKe bonno jo bo lekanyeng\n\nWena, Mmopi wa magodimo?\n\nA ke jo bo go tshwanetseng?\n\nSegakgamalelwa altareng\n\nModimo o gone bogobeng.\n\nE rile o tswa legodimong\n\nGo tsalelwa mo lefatsheng,\n\nWa tlhopha motse: Betlehema\n\nKa gonne ke ‘ntlo ya senkgwe.\n\nMme le rona re na le wena:\n\nKereke e, ke Betlehema.\n\nO ipeile mo mabogong\n\nA Maria le Josefa;\n\nWa ba wa ineela barutwa;\n\nO sa ineele.\n\nLe rona re go amogela.\n\nKa loleme, pelo le moya.",
+    "related_hymns": [
+      {
+        "lang": "zulu",
+        "id": "amasakrament-angcwele",
+        "title": "AmaSakrament’ aNgcwele"
+      },
+      {
+        "lang": "xhosa",
+        "id": "nantsi-isakramente",
+        "title": "Nantsi isakramente"
+      },
+      {
+        "lang": "xhosa",
+        "id": "zisixhenx-isakramente",
+        "title": "Zisixhenx’ iSakramente"
+      }
+    ]
+  },
+  {
+    "id": "sakramente-se-se-botshe",
+    "title": "Sakramente se se botshe",
+    "lyrics": "Sakramente se se botshe,\n\nO naya botshelo,\n\nA o tlotliwe ka gale\n\nKe lotlhe lobopo.\n\nBonang mmele wa Morena:\n\nSejo sa Barongwa\n\nLe sa bana ba Modimo:\n\nMofago wa mewa.\n\nKana golo fa ga rona\n\nGo boitshega jang.\n\nMojako wa legodimo\n\nLe ntlo ya Morena.\n\nA re khubameng fa fatshe\n\nFa pele ga Jesu,\n\nA a re beye diatla\n\nA fe tshegofatso.",
+    "related_hymns": [
+      {
+        "lang": "zulu",
+        "id": "amasakrament-angcwele",
+        "title": "AmaSakrament’ aNgcwele"
+      },
+      {
+        "lang": "xhosa",
+        "id": "nantsi-isakramente",
+        "title": "Nantsi isakramente"
+      },
+      {
+        "lang": "xhosa",
+        "id": "zisixhenx-isakramente",
+        "title": "Zisixhenx’ iSakramente"
+      }
+    ]
+  },
+  {
+    "id": "se-leleng",
+    "title": "Se leleng",
+    "lyrics": "Se leleng, lona Bakreste,\n\nLo se leleng moswi;\n\nKa a ineetse Morena\n\nKa pelo ya ‘gwe yotlhe.\n\nOh Bakreste se lebaleng:\n\nRe bajaki lefatsheng.\n\nA re thuseng bang-ka-rona\n\nBa ba swetseng ba ile.\n\nBa re sa leng mo botshelong\n\nRe ba gakologelweng:\n\nKwa dipogong tsa molelo\n\nba bona bontlafatso.\n\nRara wa maitshwarelo,\n\nO re tlhwaele tsebe:\n\nDirela mewa ya bone\n\nKa fa tshwarong ya gago.\n\nLentswe la Jeso le bitsa\n\nBotlhe ba ba nyorilweng;\n\nRato lwa ‘gwe lo laletsa\n\nBotlhe ba ba imetsweng.\n\nO tla tsoga modumedi,\n\nO tla tsena leseding;\n\nO tla bona motshedisi:\n\nJeso, morekolodi",
+    "related_hymns": []
+  },
+  {
+    "id": "tla-mmoloki",
+    "title": "Tla, Mmoloki",
+    "lyrics": "Tla, Mmoloki wa batho,\n\nTla yo o solofeditsweng.\n\nWena, Morw’a Modimo.\n\nFologela fatshing.\n\nParadising borraetsho\n\nBa solofeditswe kgosi,\n\nKgosi e kgolo le mmusi.\n\nBaprofeta gantsi fela\n\nBa rutile Israela\n\nKaga Mesia wa rona.\n\nO gopole se lebale\n\nKgolagano le Abrame,\n\nIsaka, bo-Jakobe botlhe.\n\nKhutsafalong le tshenyegong:\n\nA ga re tlhomole pelo\n\nA o ka gana ka thuso.",
+    "related_hymns": []
+  },
+  {
+    "id": "tla-moya-moretlhodi",
+    "title": "Tla, Moya, moretlhodi",
+    "lyrics": "Tla, Moya, moretlhodi,\n\nEtela mewa yotlhe.\n\nPelo tsa badumedi\n\nO di tlatse dineo,\n\nO di tlatse dineo.\n\nRe go bitsa molelo;\n\nMotswedi wa botshelo\n\nLe neo ya Modimo,\n\nMotlotsi le morati,\n\nMotlotsi le morati.\n\nMokaedi wa rona,\n\nNeo tsa ‘go di supa.\n\nRara o go romile\n\nGo re naya botlhale,\n\nGo re naya botlhale.\n\nO budulole matlho,\n\nGotsa pelong lorato;\n\nO nonotshe bokowa\n\nJwa mmele le jwa moya,\n\nJwa mmele le jwa moya.\n\nLeleka baba botlhe,\n\nKagiso o e re fe;\n\nNna jaana le ka gale\n\nMoeteledi-pele,\n\nMoeteledi-pele.\n\nRe fe go itse Rara,\n\nRe fe go itse Morwa,\n\nMme re dumele thata\n\nThuto tsa gago, Moya.\n\nThuto tsa gago, Moya.\n\nPako e nne mo kgosing\n\nLe mo go yo o tsetsweng;\n\nPako e nne mo Moyeng:\n\nBorarung, bongwefeleng;\n\nBorarung, bongwefeleng.",
+    "related_hymns": []
+  },
+  {
+    "id": "tla-moya-wa-boitshepho",
+    "title": "Tla, Moya wa boitshepho",
+    "lyrics": "Tla, Moya wa boitshepho\n\nLe dineo tsa gago;\n\nFologa legodimong.\n\nTla Rr’a bahumanegi,\n\nWa grasia monei,\n\nLesedi ja dipelo.\n\nMogomotsi botlhukong,\n\nMothusi mo tlalelong,\n\nBoikhutso mo tirong,\n\nTapoloso matsapeng,\n\nTshediso mo selelong,\n\nBotshelo mo khutsafalong.\n\nO letsatsi je lentle;\n\nO bonesa lefifi\n\nJe le pelong tsa rona.\n\nGa go na bontle bope,\n\nGa go tshiamo epe\n\nO se yo mo go rona.",
+    "related_hymns": []
+  },
+  {
+    "id": "tlang-re-gateng",
+    "title": "Tlang, re gateng",
+    "lyrics": "Tlang, re gateng ka lorato\n\nMo metlhaleng ya ga Jesu\n\nTseleng ya sefapano.\n\nUtlwang, kgotleng ya Pilato\n\nBajuta ba lopa loso\n\nLwa ga Jesu, Morena.\n\nJesu o belegesiwa\n\nMokgoro o o boima,\n\nKe logong lwa poloko.\n\nMo mosepeleng wa gagwe\n\nJesu o wa a lapile.\n\nTlhase ga sefapano.\n\nJaanong tseleng ya dilelo\n\nMaria o bona Jesu\n\nA le mo tlhokofalong.\n\nBajuta ba patikela\n\nSimone, mmoni wa Sirena,\n\nGo sikara mokgoro.\n\nVeronica o ralala\n\nBatlhabani go phimola\n\nSefatlhego sa Jesu.\n\nLwa bobedi Jesu o wa\n\nMo tseleng e, mme Bajuta\n\nBa mo tsosa ka kgalo.\n\nJesu o raya basadi:\n\n“Se nteleleng, iteleleng,\n\nLona bana ba batho.”\n\nMmoloki o theekela\n\nLwa boraro mme o wela\n\nFatshe mo go botlhoko.\n\nRe mo tlhomogeleng pelo:\n\nO apolwa diaparo\n\nBa mo ronkgela dintho.\n\nBonang: Ba tla ka dimapo\n\nMme godimo ga mokgoro\n\nBa kokotela Jesu.\n\nJesu o wetsa tlhabelo\n\nSa gagwe sa thekololo\n\nO kgaoga kagisong.\n\nDitsala di pagolola\n\nMmele wa Jesu, Morena\n\nKa ‘rato lo logolo.\n\nBa ya go fitlha setoto\n\nKa tlotlo le khutsafalo\n\nMo lebitleng le lesha.\n\nOh Jesu, gakologelwe:\n\nO nkgolotse ka go ntshwela:\n\nA go se nne lefela.",
+    "related_hymns": []
+  },
+  {
+    "id": "tlotlo",
+    "title": "Tlotlo",
+    "lyrics": "Tlotlo le be ho Molimo\n\nEa busang maholimong\n\nKhotso e be teng lefatsheng\n\nHo batho ba lokileng.\n\nRe u boka ka thabo.\n\nRe phehella thorisong.\n\nGloria, Gloria in excelsis deo!\n\nRe ntse re u khumamela\n\nKa tumelo e phelang.\n\nA re roriseng Molimo\n\nTebohong e sa feleng.\n\nU mohloli e moholo\n\nEa busang maholimong.\n\nJesu, Mora oa Molimo\n\nU Konyana e tlosang\n\nLibe tsa lefatshe lohle\n\nRe batla ho u rata.\n\nU re hauhele bohle\n\nBa llang mona lefatsheng.",
+    "related_hymns": []
+  },
+  {
+    "id": "tlotlo-a-e-nne-ya-modimo",
+    "title": "TLOTLO a e nne ya Modimo",
+    "lyrics": "Tlotlo a e nne ya Modimo kwa magodimodimong!\n\nLe kagiso mo lefatsheng\n\nmo bathong ba o ba itumelelang.\n\nMorena Modimo, Kgosi ya legodimo,\n\nRara yo o thatayotlhe. Re a go boka, re a go leboga,\n\nMme re baka kgalalelo ya gago e kgolo.\n\nMorena Jesu Kreste, Morwa Rara, Morena Modimo,\n\nKonyana ya Modimo:\n\nWena yo o tlosang boleo jwa lefatshe\n\no re utlwele botlhoko.\n\nWena yo o bapileng le Rara:\n\nre amogelele Dithapelo.\n\nGonne ke wena fela o leng Boitshepho:\n\nke wena fela o leng Morena,\n\nke wena fela o leng Mogodimodimo, Jesu Kreste,\n\nyo o leng mo kgalalelong ya Modimo Rara\n\nmmogo le Moya o o Boitshepho.",
+    "related_hymns": []
+  },
+  {
+    "id": "utlwang-bakreste",
+    "title": "Utlwang, Bakreste",
+    "lyrics": "Utlwang, Bakreste, ‘tlhoko a ga Jesu:\n\nMoya wa gagwe o tletse poifo.\n\nMo tshimong a rapela;\n\nA goela go Rara\n\nMo ditlalelong tse di boitshegang.\n\nUtlwang, Bakreste, ‘tlhoko a ga Jesu:\n\nBa mo seola kgotleng ya Pilato.\n\nFong ba mo sotla thata\n\nMme ba mo rwesa mitlwa;\n\nBa mo tlotlolola ka kgobo, kgalo.\n\nUtlwang, Bakreste, ‘tlhoko a ga Jesu:\n\nBa mo kabisa logong lwa mokgoro.\n\nBa kopa Barabase,\n\nBa latlha Jesu ba re,\n\n‘A a bapolwe, a isiwe losong.’\n\nUtlwang, Bakreste, ‘tlhoko a ga Jesu:\n\nBa mo gogela thabeng ya lonyatso.\n\nMme gone ba mmapola\n\nMme ba mo kokothela\n\nMo setlharing sa botshelo le loso.\n\nUtlwang, Bakreste, ‘tlhoko a ga Jesu:\n\nBontsing jwa batho gare ga magodu\n\nMorena a kgaoga,\n\nA neela Rra’gwe moya\n\nMme lobopo lotlhe lo hutsafetse.",
+    "related_hymns": []
+  },
+  {
+    "id": "utlwa-ngwana-wa-me",
+    "title": "Utlwa, ngwana wa me",
+    "lyrics": "“Utlwa, ngwana wa me, tla go ntshala morago.\n\nSikara mokgoro. kaba sefapano.”\n\nJesu wa me Jesu bona bokete jo.\n\nGa nke ke latela ke sa le mmotlana.\n\n“Ke tshotse mokgoro fa ke sa le mmotlana:\n\nKa lela bojelong, ka swa sefapanong.”\n\nJesu wa me Jesu ke boifa thata;\n\nGonne nka tlhoboga gongwe ke ka lapa.\n\n“E rile ke kaba mokgweleo wa dibe\n\nKa utlwa letsapa mme ka go gopola.”\n\nJesu wa me Jesu ke ila botlhoko.\n\nKe batla boikhutso le boitumelo.\n\n“Yo o ratng fela botshelo jwa lefatshe,\n\nEne ga se tsala, mme o tla latlhega.”\n\nJesu wa me Jesu, kana go thata jang\n\nGo ikgapha jalo, bo itshoka mono.\n\n“Batlhabani fela ka bona legodimo.\n\nKe tla ba duela ka menate thata.”\n\nJesu wa me Jesu, ke ineela jaanong.\n\nNnaya sefapano, mung wa me, Modimo.",
+    "related_hymns": []
+  }
+]
