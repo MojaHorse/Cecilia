@@ -111,6 +111,9 @@ const BibleReadPage = () => {
     const pEl = e.target.closest('.p');
     if (!pEl) return;
     
+    e.stopPropagation();
+    if (e.nativeEvent) e.nativeEvent.stopImmediatePropagation();
+    
     const vSpan = pEl.querySelector('.yv-v');
     if (vSpan) {
       const verseNum = vSpan.getAttribute('v');
@@ -129,7 +132,7 @@ const BibleReadPage = () => {
   // Hide popover on scroll or click elsewhere
   useEffect(() => {
     const hidePopover = (e) => {
-      if (e.target.closest && !e.target.closest('.highlight-popover') && !e.target.closest('.bible-read-content .p')) {
+      if (e.target.closest && !e.target.closest('.highlight-popover') && !e.target.closest('.p')) {
         setPopover(prev => ({ ...prev, visible: false }));
       }
     };
@@ -142,7 +145,10 @@ const BibleReadPage = () => {
   }, []);
 
   const applyHighlight = async (color, e) => {
-    if (e) e.stopPropagation();
+    if (e) {
+      e.stopPropagation();
+      if (e.nativeEvent) e.nativeEvent.stopImmediatePropagation();
+    }
     const { verseKey } = popover;
     if (!verseKey) return;
     
