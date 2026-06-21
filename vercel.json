@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/api/liturgy/:path*",
+      "destination": "http://calapi.inadiutorium.cz/api/v0/en/calendars/default/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

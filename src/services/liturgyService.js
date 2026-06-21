@@ -59,9 +59,10 @@ export function getDailyHymn(lang = 'sesotho') {
  */
 export async function fetchTodayLiturgy() {
   try {
-    // Note: calapi is HTTP only
-    const res = await fetch('http://calapi.inadiutorium.cz/api/v0/en/calendars/default/today');
-    if (!res.ok) throw new Error('API Error');
+    // We use a relative path that gets proxied by Vite in dev and Vercel in production
+    // This avoids Mixed Content (HTTP on HTTPS) errors.
+    const res = await fetch('/api/liturgy/today');
+    if (!res.ok) throw new Error('Failed to fetch liturgy');
     const data = await res.json();
     
     // The first celebration is usually the highest ranking one for the day
