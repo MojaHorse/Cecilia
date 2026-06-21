@@ -3,7 +3,9 @@ import {
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword, 
   signInWithPopup, 
+  signInWithCredential,
   linkWithCredential, 
+  linkWithPopup,
   EmailAuthProvider,
   GoogleAuthProvider
 } from 'firebase/auth';
@@ -44,7 +46,7 @@ const AuthModal = () => {
       
       if (currentUser && currentUser.isAnonymous && mode === 'signup') {
         try {
-          await currentUser.linkWithPopup(googleProvider);
+          await linkWithPopup(currentUser, googleProvider);
         } catch (linkError) {
           if (linkError.code === 'auth/credential-already-in-use') {
             // Fallback to sign in if account exists
