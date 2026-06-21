@@ -42,6 +42,12 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
   animation: fadeIn 0.8s ease-out both;
 }
 
+.page-content-inner {
+  padding: 8rem 1.5rem 6rem; /* Ensure content clears the fixed header and has side padding */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
 /* ============================================================
