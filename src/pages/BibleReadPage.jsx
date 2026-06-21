@@ -121,6 +121,11 @@ const BibleReadPage = () => {
       const verseNum = vSpan.getAttribute('v');
       const verseKey = `${chapterId}.${verseNum}`;
       
+      let rawText = pEl.textContent.trim();
+      if (rawText.startsWith(verseNum)) {
+         rawText = rawText.substring(verseNum.length).trim();
+      }
+      
       const containerRect = pEl.closest('.bible-read-container').getBoundingClientRect();
       const relativeX = e.clientX - containerRect.left;
       const relativeY = e.clientY - containerRect.top;
