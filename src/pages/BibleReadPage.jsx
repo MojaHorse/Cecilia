@@ -247,7 +247,9 @@ const BibleReadPage = () => {
       
       <style>
         {Object.entries(highlights).map(([key, color]) => {
-          const [chapterId, verseNum] = key.split('.');
+          const parts = key.split('.');
+          const verseNum = parts.pop();
+          const chapterId = parts.join('.');
           return `
             [data-chapter-id="${chapterId}"] .p:has(.yv-v[v="${verseNum}"]) {
               background-color: ${color};
@@ -383,7 +385,7 @@ const BibleReadPage = () => {
         boxShadow: '-4px 0 20px rgba(0,0,0,0.5)',
         transform: isDrawerOpen ? 'translateX(0)' : 'translateX(100%)',
         transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-        zIndex: 2000,
+        zIndex: 10000,
         padding: '2rem',
         overflowY: 'auto'
       }}>
@@ -426,7 +428,7 @@ const BibleReadPage = () => {
             height: '100vh',
             backgroundColor: 'rgba(0,0,0,0.3)',
             backdropFilter: 'blur(2px)',
-            zIndex: 1999
+            zIndex: 9999
           }}
         />
       )}
