@@ -1386,33 +1386,74 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 /* ============================================================
    BIBLE STYLES
    ============================================================ */
-.bible-books-grid, .bible-chapters-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
+.bible-books-section {
+  margin-bottom: 3rem;
 }
 
-.bible-book-card, .bible-chapter-card {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  padding: 1rem;
-  text-align: center;
+.bible-books-section h2 {
   font-family: var(--font-serif-heading);
-  font-weight: 600;
+  font-size: 1.5rem;
   color: var(--color-ink);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.5rem;
+}
+
+.bible-books-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.bible-book-item {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 6px;
   transition: all 0.2s ease;
+}
+
+.bible-book-item:hover {
+  background-color: var(--color-cream);
+  color: var(--color-burgundy);
   text-decoration: none;
 }
 
-.bible-book-card:hover, .bible-chapter-card:hover {
+/* Compact Chapters Grid */
+.bible-chapters-compact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.bible-chapter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.bible-chapter-btn:hover {
   background-color: var(--color-cream);
   color: var(--color-burgundy);
   border-color: var(--color-gold);
   text-decoration: none;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .bible-read-container {
@@ -1449,15 +1490,19 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 }
 
 .bible-read-content p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.bible-read-content .label {
-  font-size: 0.75em;
-  font-weight: bold;
+.bible-read-content .label,
+.bible-read-content .v {
+  font-size: 0.65em;
+  font-family: var(--font-sans);
+  font-weight: 700;
   vertical-align: super;
   color: var(--color-burgundy);
-  margin-right: 0.25rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  opacity: 0.9;
 }
 
 .bible-read-content .chapter {

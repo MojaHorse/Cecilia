@@ -41,12 +41,12 @@ const BibleBookPage = () => {
       <Link to="/bible" className="back-link">← Back to Books</Link>
       <h1 className="page-title">{BOOK_NAMES[bookId] || bookId}</h1>
       
-      <div className="bible-chapters-grid">
+      <div className="bible-chapters-compact-grid">
         {chapters.map(chapter => (
           <Link 
             key={chapter.id} 
             to={`/bible/${bookId}/${chapter.id}`} 
-            className="bible-chapter-card"
+            className="bible-chapter-btn"
           >
             {chapter.title}
           </Link>

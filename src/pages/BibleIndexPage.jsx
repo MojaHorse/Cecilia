@@ -28,6 +28,9 @@ const BibleIndexPage = () => {
     loadBooks();
   }, [bibleId]);
 
+  const otBooks = books.slice(0, 46);
+  const ntBooks = books.slice(46);
+
   if (loading) {
     return <div className="page-content-inner"><p>Loading books...</p></div>;
   }
@@ -40,17 +43,31 @@ const BibleIndexPage = () => {
     <div className="page-content-inner">
       <h1 className="page-title">{t('nav_bible')}</h1>
       
-      <div className="bible-books-grid">
-        {books.map(bookUSFM => (
-          <Link 
-            key={bookUSFM} 
-            to={`/bible/${bookUSFM}`} 
-            className="bible-book-card"
-          >
-            {BOOK_NAMES[bookUSFM] || bookUSFM}
-          </Link>
-        ))}
-      </div>
+      {books.length > 0 && (
+        <>
+          <div className="bible-books-section">
+            <h2>Old Testament</h2>
+            <div className="bible-books-list">
+              {otBooks.map(bookUSFM => (
+                <Link key={bookUSFM} to={`/bible/${bookUSFM}`} className="bible-book-item">
+                  {BOOK_NAMES[bookUSFM] || bookUSFM}
+                </Link>
+              ))}
+            </div>
+          </div>
+          
+          <div className="bible-books-section">
+            <h2>New Testament</h2>
+            <div className="bible-books-list">
+              {ntBooks.map(bookUSFM => (
+                <Link key={bookUSFM} to={`/bible/${bookUSFM}`} className="bible-book-item">
+                  {BOOK_NAMES[bookUSFM] || bookUSFM}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
