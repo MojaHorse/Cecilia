@@ -14,6 +14,8 @@ import BibleIndexPage from './pages/BibleIndexPage'
 import BibleBookPage from './pages/BibleBookPage'
 import BibleReadPage from './pages/BibleReadPage'
 import BookmarksPage from './pages/BookmarksPage'
+import CookieBanner from './components/CookieBanner'
+import CaptureModal from './components/CaptureModal'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -155,6 +157,10 @@ function App() {
           </p>
         </div>
       </footer>
+
+      {/* Global Modals & Overlays */}
+      <CookieBanner />
+      <CaptureModal />
     </div>
   )
 }
