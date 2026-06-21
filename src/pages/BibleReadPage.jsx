@@ -16,6 +16,8 @@ const BibleReadPage = () => {
   const [isFullRead, setIsFullRead] = useState(false);
   
   const [highlights, setHighlights] = useState({});
+  const [bookmarks, setBookmarks] = useState({});
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [popover, setPopover] = useState({ visible: false, x: 0, y: 0, verseKey: null });
 
   const { uiLang } = useLanguage();
@@ -45,7 +47,7 @@ const BibleReadPage = () => {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        fetchBookHighlights(user.uid);
+        fetchUserData(user.uid);
       }
     });
     return () => unsubscribe();
@@ -119,12 +121,17 @@ const BibleReadPage = () => {
       const verseNum = vSpan.getAttribute('v');
       const verseKey = `${chapterId}.${verseNum}`;
       
-      const x = Math.min(e.clientX, window.innerWidth - 150);
+      let rawText = pEl.textContent.trim();
+      if (rawText.startsWith(verseNum)) {
+         rawText = rawText.substring(verseNum.length).trim();
+      }
+
       setPopover({
         visible: true,
-        x: x,
+        x: e.clientX,
         y: e.clientY,
-        verseKey
+        verseKey,
+        text: rawText
       });
     }
   };
@@ -143,6 +150,45 @@ const BibleReadPage = () => {
       window.removeEventListener('click', hidePopover);
     };
   }, []);
+
+    const toggleBookmark = async (e) => {
+    if (e) {
+      e.stopPropagation();
+      if (e.nativeEvent) e.nativeEvent.stopImmediatePropagation();
+    }
+    const { verseKey, text } = popover;
+    if (!verseKey) return;
+    
+    const isBookmarked = !!bookmarks[verseKey];
+    
+    setBookmarks(prev => {
+      const newMap = { ...prev };
+      if (isBookmarked) delete newMap[verseKey];
+      else newMap[verseKey] = { text, timestamp: new Date(), bibleId, bookId, chapterId: verseKey.split('.').slice(0, 2).join('.') };
+      return newMap;
+    });
+    
+    if (!auth.currentUser) return;
+
+    try {
+      const docRef = doc(db, "bookmarks", `${auth.currentUser.uid}_${bibleId}_${verseKey}`);
+      if (isBookmarked) {
+        await deleteDoc(docRef);
+      } else {
+        await setDoc(docRef, {
+          userId: auth.currentUser.uid,
+          bibleId,
+          bookId,
+          chapterId: verseKey.split('.').slice(0, 2).join('.'),
+          verseKey,
+          text,
+          timestamp: new Date()
+        });
+      }
+    } catch (err) {
+      console.error("Error saving bookmark", err);
+    }
+  };
 
   const applyHighlight = async (color, e) => {
     if (e) {
@@ -294,6 +340,66 @@ const BibleReadPage = () => {
             </Link>
           ) : <div />}
         </div>
+      )}
+
+      {/* Bookmarks Drawer */}
+      <div style={{
+        position: 'fixed',
+        top: 0,
+        right: 0,
+        height: '100vh',
+        width: '320px',
+        backgroundColor: '#1f2937',
+        color: '#f9fafb',
+        boxShadow: '-4px 0 20px rgba(0,0,0,0.5)',
+        transform: isDrawerOpen ? 'translateX(0)' : 'translateX(100%)',
+        transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+        zIndex: 2000,
+        padding: '2rem',
+        overflowY: 'auto'
+      }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
+          <h2 style={{ margin: 0, fontSize: '1.25rem', fontWeight: 600 }}>Bookmarks</h2>
+          <button onClick={() => setIsDrawerOpen(false)} style={{ background: 'none', border: 'none', color: '#9ca3af', cursor: 'pointer' }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+        </div>
+        
+        {Object.keys(bookmarks).length === 0 ? (
+          <p style={{ color: '#9ca3af', fontSize: '0.875rem' }}>No bookmarks yet. Click a verse and tap the bookmark icon to save it.</p>
+        ) : (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {Object.entries(bookmarks)
+              .sort((a, b) => b[1].timestamp - a[1].timestamp)
+              .map(([key, data]) => (
+              <div key={key} style={{ backgroundColor: '#374151', padding: '1rem', borderRadius: '8px' }}>
+                <div style={{ fontSize: '0.75rem', color: '#9ca3af', marginBottom: '0.5rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  {data.bookId} {data.chapterId.split('.').pop()}:{key.split('.').pop()}
+                </div>
+                <div style={{ fontSize: '0.875rem', lineHeight: 1.6, color: '#e5e7eb' }}>
+                  "{data.text}"
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Drawer Overlay */}
+      {isDrawerOpen && (
+        <div 
+          onClick={() => setIsDrawerOpen(false)}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            backgroundColor: 'rgba(0,0,0,0.3)',
+            backdropFilter: 'blur(2px)',
+            zIndex: 1999
+          }}
+        />
       )}
     </div>
   );
