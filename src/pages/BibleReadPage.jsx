@@ -88,7 +88,12 @@ const BibleReadPage = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1 className="page-title" style={{ margin: 0 }}>{passages[0]?.reference}</h1>
           <button 
-            onClick={() => setIsFullRead(!isFullRead)}
+            onClick={() => {
+              if (isFullRead) {
+                setPassages(prev => [prev[0]]);
+              }
+              setIsFullRead(!isFullRead);
+            }}
             style={{
               padding: '0.5rem 1rem',
               borderRadius: '999px',

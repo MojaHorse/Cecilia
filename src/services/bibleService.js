@@ -77,7 +77,7 @@ export const fetchChapters = async (bibleId, bookUSFM) => {
  */
 export const fetchPassage = async (bibleId, reference) => {
   try {
-    const response = await fetch(`${API_BASE}/bibles/${bibleId}/passages/${reference}`, {
+    const response = await fetch(`${API_BASE}/bibles/${bibleId}/passages/${reference}?format=html`, {
       headers: getHeaders()
     });
     

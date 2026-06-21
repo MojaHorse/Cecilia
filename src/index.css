@@ -1500,7 +1500,8 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 }
 
 .bible-read-content .label,
-.bible-read-content .v {
+.bible-read-content .v,
+.bible-read-content .yv-vlbl {
   font-size: 0.65em;
   font-family: var(--font-sans);
   font-weight: 700;
