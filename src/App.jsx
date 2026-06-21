@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Link, NavLink } from 'react-router-dom'
 import { useLanguage } from './context/LanguageContext'
-import { signInUserAnonymously } from './services/firebase'
+import { signInUserAnonymously, auth } from './services/firebase'
+import { onAuthStateChanged, signOut } from 'firebase/auth'
 import HomePage from './pages/HomePage'
 import HymnIndexPage from './pages/HymnIndexPage'
 import HymnPage from './pages/HymnPage'
@@ -23,10 +24,19 @@ function App() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const { uiLang, setUiLang, t, availableLangs } = useLanguage()
 
+  const [user, setUser] = useState(null)
+
   useEffect(() => {
-    signInUserAnonymously().then(user => {
-      if (user) console.log("Anonymously signed in:", user.uid);
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      if (currentUser) {
+        setUser(currentUser);
+      } else {
+        signInUserAnonymously().then(user => {
+          if (user) console.log("Anonymously signed in:", user.uid);
+        });
+      }
     });
+    return () => unsubscribe();
   }, []);
 
   const closeMobileMenu = () => {
@@ -84,7 +94,11 @@ function App() {
           </div>
 
           <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
-          <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Sign In / Up</a>
+          {user && !user.isAnonymous ? (
+            <a href="#" onClick={(e) => { e.preventDefault(); signOut(auth); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Log Out</a>
+          ) : (
+            <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Sign In / Up</a>
+          )}
         </nav>
         <div className="header-actions">
           {/* Mobile Language Selector */}
@@ -158,16 +172,29 @@ function App() {
             {t('footer_verse')}
           </p>
           <div style={{ marginTop: '1.5rem' }}>
-            <button 
-              onClick={() => window.dispatchEvent(new CustomEvent('openAuthModal'))}
-              style={{
-                background: 'transparent', border: '1px solid currentColor', borderRadius: '999px',
-                padding: '0.5rem 1rem', cursor: 'pointer', fontFamily: 'var(--font-sans)',
-                fontSize: '0.875rem', color: 'inherit', fontWeight: 600
-              }}
-            >
-              Sign In / Create Account
-            </button>
+            {user && !user.isAnonymous ? (
+              <button 
+                onClick={() => signOut(auth)}
+                style={{
+                  background: 'transparent', border: '1px solid currentColor', borderRadius: '999px',
+                  padding: '0.5rem 1rem', cursor: 'pointer', fontFamily: 'var(--font-sans)',
+                  fontSize: '0.875rem', color: 'inherit', fontWeight: 600
+                }}
+              >
+                Log Out
+              </button>
+            ) : (
+              <button 
+                onClick={() => window.dispatchEvent(new CustomEvent('openAuthModal'))}
+                style={{
+                  background: 'transparent', border: '1px solid currentColor', borderRadius: '999px',
+                  padding: '0.5rem 1rem', cursor: 'pointer', fontFamily: 'var(--font-sans)',
+                  fontSize: '0.875rem', color: 'inherit', fontWeight: 600
+                }}
+              >
+                Sign In / Create Account
+              </button>
+            )}
           </div>
         </div>
       </footer>
