@@ -13,6 +13,7 @@ import TodayPage from './pages/TodayPage'
 import BibleIndexPage from './pages/BibleIndexPage'
 import BibleBookPage from './pages/BibleBookPage'
 import BibleReadPage from './pages/BibleReadPage'
+import BookmarksPage from './pages/BookmarksPage'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -75,6 +76,7 @@ function App() {
               <NavLink to="/merapelo" onClick={closeMobileMenu}>Prayers</NavLink>
               <NavLink to="/misa" onClick={closeMobileMenu}>Order of Mass</NavLink>
               <NavLink to="/bible" onClick={closeMobileMenu}>Bible</NavLink>
+              <NavLink to="/bookmarks" onClick={closeMobileMenu}>Bookmarks</NavLink>
             </div>
           </div>
 
@@ -123,6 +125,7 @@ function App() {
           <Route path="/bible" element={<BibleIndexPage />} />
           <Route path="/bible/:bookId" element={<BibleBookPage />} />
           <Route path="/bible/:bookId/:chapterId" element={<BibleReadPage />} />
+          <Route path="/bookmarks" element={<BookmarksPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </main>
