@@ -45,10 +45,31 @@ const BibleReadPage = () => {
     }
   };
 
+  const fetchUserBookmarks = async (userId) => {
+    try {
+      const q = query(
+        collection(db, "bookmarks"),
+        where("userId", "==", userId),
+        where("bibleId", "==", bibleId),
+        where("bookId", "==", bookId)
+      );
+      const querySnapshot = await getDocs(q);
+      const bookmarksMap = {};
+      querySnapshot.forEach(docSnap => {
+        const data = docSnap.data();
+        bookmarksMap[data.verseKey] = data; // store the whole object or just true
+      });
+      setBookmarks(bookmarksMap);
+    } catch (err) {
+      console.error("Error fetching bookmarks:", err);
+    }
+  };
+
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        fetchUserData(user.uid);
+        fetchBookHighlights(user.uid);
+        fetchUserBookmarks(user.uid);
       }
     });
     return () => unsubscribe();
