@@ -86,7 +86,7 @@ export const fetchPassage = async (bibleId, reference) => {
     }
     
     const data = await response.json();
-    return data.data; // Contains 'content' (HTML) and 'reference' string
+    return data.data || data; // Contains 'content' (HTML) and 'reference' string
   } catch (error) {
     console.error('Error fetching passage:', error);
     throw error;
