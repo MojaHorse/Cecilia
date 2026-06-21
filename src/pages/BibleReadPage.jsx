@@ -174,9 +174,10 @@ const BibleReadPage = () => {
     };
   }, []);
 
-  const applyHighlight = async (color) => {
+  const applyHighlight = async (color, e) => {
+    if (e) e.stopPropagation();
     const { verseKey } = popover;
-    if (!verseKey || !auth.currentUser) return;
+    if (!verseKey) return;
     
     setHighlights(prev => {
       const newMap = { ...prev };
@@ -189,6 +190,11 @@ const BibleReadPage = () => {
     });
     
     setPopover(prev => ({ ...prev, visible: false }));
+
+    if (!auth.currentUser) {
+      console.warn("Not signed in, highlight won't save to cloud.");
+      return;
+    }
 
     try {
       const docRef = doc(db, "highlights", `${auth.currentUser.uid}_${bibleId}_${verseKey}`);
@@ -235,12 +241,12 @@ const BibleReadPage = () => {
           padding: '8px',
           zIndex: 1000
         }}>
-          <button onClick={() => applyHighlight('#fef08a')} style={{ background: '#fef08a', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Yellow"></button>
-          <button onClick={() => applyHighlight('#fbcfe8')} style={{ background: '#fbcfe8', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Pink"></button>
-          <button onClick={() => applyHighlight('#bfdbfe')} style={{ background: '#bfdbfe', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Blue"></button>
-          <button onClick={() => applyHighlight('#bbf7d0')} style={{ background: '#bbf7d0', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Green"></button>
+          <button onClick={(e) => applyHighlight('#fef08a', e)} style={{ background: '#fef08a', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Yellow"></button>
+          <button onClick={(e) => applyHighlight('#fbcfe8', e)} style={{ background: '#fbcfe8', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Pink"></button>
+          <button onClick={(e) => applyHighlight('#bfdbfe', e)} style={{ background: '#bfdbfe', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Blue"></button>
+          <button onClick={(e) => applyHighlight('#bbf7d0', e)} style={{ background: '#bbf7d0', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Green"></button>
           <div style={{ width: '1px', background: '#e5e7eb', margin: '0 4px' }}></div>
-          <button onClick={() => applyHighlight('clear')} style={{ background: 'transparent', width: '28px', height: '28px', borderRadius: '50%', border: '1px solid #d1d5db', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', color: '#6b7280' }} aria-label="Clear">✕</button>
+          <button onClick={(e) => applyHighlight('clear', e)} style={{ background: 'transparent', width: '28px', height: '28px', borderRadius: '50%', border: '1px solid #d1d5db', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', color: '#6b7280' }} aria-label="Clear">✕</button>
         </div>
       )}
 
