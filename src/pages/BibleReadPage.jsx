@@ -210,6 +210,13 @@ const BibleReadPage = () => {
           text,
           timestamp: new Date()
         });
+        
+        // If they are anonymous, prompt them to save their data
+        if (auth.currentUser.isAnonymous) {
+           window.dispatchEvent(new CustomEvent('openAuthModal', { 
+             detail: { message: "Want to save your bookmarks permanently? Create a free account to sync your data across all your devices." } 
+           }));
+        }
       }
     } catch (err) {
       console.error("Error saving bookmark", err);

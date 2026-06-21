@@ -16,6 +16,7 @@ import BibleReadPage from './pages/BibleReadPage'
 import BookmarksPage from './pages/BookmarksPage'
 import CookieBanner from './components/CookieBanner'
 import CaptureModal from './components/CaptureModal'
+import AuthModal from './components/AuthModal'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -159,6 +160,7 @@ function App() {
       </footer>
 
       {/* Global Modals & Overlays */}
+      <AuthModal />
       <CookieBanner />
       <CaptureModal />
     </div>
