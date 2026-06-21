@@ -37,20 +37,14 @@ export const fetchBibles = async (languageRange = 'eng') => {
  * Fetch books for a specific Bible ID (e.g. 42 for CPDV)
  */
 export const fetchBooks = async (bibleId) => {
-  // Books are actually returned as part of the bible object, but let's 
-  // fetch the bible detail again just to be safe if we only have the ID.
   try {
-    const response = await fetch(`${API_BASE}/bibles`, { headers: getHeaders() });
-    if (!response.ok) throw new Error('Failed to fetch bibles');
+    const response = await fetch(`${API_BASE}/bibles/${bibleId}`, { headers: getHeaders() });
+    if (!response.ok) throw new Error('Failed to fetch bible details');
     
     const data = await response.json();
-    const bible = data.data.find(b => b.id === parseInt(bibleId));
-    
-    if (!bible) throw new Error('Bible not found');
     
     // We get book abbreviations like ['GEN', 'EXO', ...]. 
-    // We will need a mapping for full names, but let's return the abbreviations for now.
-    return bible.books || [];
+    return data.books || [];
   } catch (error) {
     console.error('Error fetching books:', error);
     throw error;
