@@ -130,6 +130,39 @@
     text-align: center;
     padding: 1rem;
   }
+
+  /* --- Nav Dropdown Mobile Overrides --- */
+  .nav-dropdown {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .nav-dropdown-btn {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .nav-dropdown-content {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .nav-dropdown-content a {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    color: var(--color-ink-light);
+  }
+  
+  .nav-dropdown-content.show {
+    display: flex;
+    flex-direction: column;
+  }
   
   /* --- Hero Section --- */
   .hero-vatican {

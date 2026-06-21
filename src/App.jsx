@@ -9,12 +9,24 @@ import MassPage from './pages/MassPage'
 import AboutPage from './pages/AboutPage'
 import ReadingsPage from './pages/ReadingsPage'
 import TodayPage from './pages/TodayPage'
+import BibleIndexPage from './pages/BibleIndexPage'
+import BibleBookPage from './pages/BibleBookPage'
+import BibleReadPage from './pages/BibleReadPage'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const { uiLang, setUiLang, t, availableLangs } = useLanguage()
 
-  const closeMobileMenu = () => setIsMobileMenuOpen(false)
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false)
+    setIsDropdownOpen(false)
+  }
+
+  const toggleDropdown = (e) => {
+    e.preventDefault();
+    setIsDropdownOpen(!isDropdownOpen);
+  }
 
   return (
     <div className="site-container">
@@ -43,9 +55,22 @@ function App() {
         <nav className={`header-nav ${isMobileMenuOpen ? 'open' : ''}`} aria-label="Main navigation">
           <NavLink to="/" end onClick={closeMobileMenu}>Home</NavLink>
           <NavLink to="/today" onClick={closeMobileMenu}>Today</NavLink>
-          <NavLink to="/lifela" onClick={closeMobileMenu}>Hymns</NavLink>
-          <NavLink to="/merapelo" onClick={closeMobileMenu}>Prayers</NavLink>
-          <NavLink to="/misa" onClick={closeMobileMenu}>Order of Mass</NavLink>
+          
+          <div className="nav-dropdown" 
+               onMouseEnter={() => setIsDropdownOpen(true)} 
+               onMouseLeave={() => setIsDropdownOpen(false)}>
+            <button className="nav-dropdown-btn" onClick={toggleDropdown}>
+              Library
+              <span className="dropdown-arrow">▼</span>
+            </button>
+            <div className={`nav-dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
+              <NavLink to="/lifela" onClick={closeMobileMenu}>Hymns</NavLink>
+              <NavLink to="/merapelo" onClick={closeMobileMenu}>Prayers</NavLink>
+              <NavLink to="/misa" onClick={closeMobileMenu}>Order of Mass</NavLink>
+              <NavLink to="/bible" onClick={closeMobileMenu}>Bible</NavLink>
+            </div>
+          </div>
+
           <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
         </nav>
         <div className="header-actions">
@@ -88,6 +113,9 @@ function App() {
           <Route path="/misa" element={<MassPage />} />
           <Route path="/readings" element={<ReadingsPage />} />
           <Route path="/today" element={<TodayPage />} />
+          <Route path="/bible" element={<BibleIndexPage />} />
+          <Route path="/bible/:bookId" element={<BibleBookPage />} />
+          <Route path="/bible/:bookId/:chapterId" element={<BibleReadPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </main>

@@ -6,6 +6,7 @@ const translations = {
     nav_hymns: 'Lifela',
     nav_prayers: 'Merapelo',
     nav_mass: "Tsamaiso ea 'Misa",
+    nav_bible: 'Bibele',
     nav_about: 'Ka Rona',
     tagline: 'Difela Tsa Bakatolike',
     footer_verse: '"O binele Morena sefela se secha" — Pesalema 98:1',
@@ -49,6 +50,7 @@ const translations = {
     nav_hymns: 'Amaculo',
     nav_prayers: 'Imithandazo',
     nav_mass: 'Inqubo yeMisa',
+    nav_bible: 'IBhayibheli',
     nav_about: 'Mayelana Nathi',
     tagline: 'Amaculo amaKhatholika',
     footer_verse: '"Mhubeleni iNkosi ihubo elisha" — AmaHubo 98:1',
@@ -92,6 +94,7 @@ const translations = {
     nav_hymns: 'Amaculo',
     nav_prayers: 'Imithandazo',
     nav_mass: 'UMthetho weMisa',
+    nav_bible: 'IBhayibhile',
     nav_about: 'Ngathi',
     tagline: 'Amaculo amaKatolika',
     footer_verse: '"Mvumeleni uNdikhoyo ingoma entsha" — INdumiso 98:1',
@@ -135,6 +138,7 @@ const translations = {
     nav_hymns: 'Difela',
     nav_prayers: 'Merapelo',
     nav_mass: 'Tsamaiso ya Misa',
+    nav_bible: 'Baebele',
     nav_about: 'Ka Rona',
     tagline: 'Difela Tsa Bakatolike',
     footer_verse: '"Mopeleleng Morena sefela se sesha" — Pesalema 98:1',
@@ -178,6 +182,7 @@ const translations = {
     nav_hymns: 'Hymns',
     nav_prayers: 'Prayers',
     nav_mass: 'Order of Mass',
+    nav_bible: 'Bible',
     nav_about: 'About Us',
     tagline: 'Catholic Hymns',
     footer_verse: '"Sing to the Lord a new song" — Psalm 98:1',
@@ -216,6 +221,15 @@ const translations = {
     home_readings_desc: "The Catholic Church provides daily scripture readings for Mass. Read today's official Lectionary texts in full below.",
     home_readings_btn: "Read Today's Readings →"
   }
+};
+
+export const languageToBibleId = {
+  // Using 42 (CPDV) as a fallback for everything for now until licenses propagate
+  sesotho: 42,
+  zulu: 42,
+  xhosa: 42,
+  setswana: 42,
+  english: 42,
 };
 
 const LanguageContext = createContext();
