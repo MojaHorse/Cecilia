@@ -121,15 +121,14 @@ const BibleReadPage = () => {
       const verseNum = vSpan.getAttribute('v');
       const verseKey = `${chapterId}.${verseNum}`;
       
-      let rawText = pEl.textContent.trim();
-      if (rawText.startsWith(verseNum)) {
-         rawText = rawText.substring(verseNum.length).trim();
-      }
+      const containerRect = pEl.closest('.bible-read-container').getBoundingClientRect();
+      const relativeX = e.clientX - containerRect.left;
+      const relativeY = e.clientY - containerRect.top;
 
       setPopover({
         visible: true,
-        x: e.clientX,
-        y: e.clientY,
+        x: relativeX,
+        y: relativeY,
         verseKey,
         text: rawText
       });
@@ -260,14 +259,14 @@ const BibleReadPage = () => {
 
       {popover.visible && (
         <div className="highlight-popover" style={{
-          position: 'fixed',
-          top: popover.y - 50,
-          left: popover.x,
-          background: 'white',
-          border: '1px solid #e5e7eb',
-          borderRadius: '8px',
-          boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
+          position: 'absolute',
+          top: Math.max(0, popover.y - 65),
+          left: Math.max(0, popover.x - 120),
+          backgroundColor: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
           display: 'flex',
+          alignItems: 'center',
           gap: '8px',
           padding: '8px',
           zIndex: 1000
@@ -276,8 +275,14 @@ const BibleReadPage = () => {
           <button onClick={(e) => applyHighlight('#fbcfe8', e)} style={{ background: '#fbcfe8', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Pink"></button>
           <button onClick={(e) => applyHighlight('#bfdbfe', e)} style={{ background: '#bfdbfe', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Blue"></button>
           <button onClick={(e) => applyHighlight('#bbf7d0', e)} style={{ background: '#bbf7d0', width: '28px', height: '28px', borderRadius: '50%', border: 'none', cursor: 'pointer' }} aria-label="Green"></button>
-          <div style={{ width: '1px', background: '#e5e7eb', margin: '0 4px' }}></div>
+          <div style={{ width: '1px', height: '24px', background: '#e5e7eb', margin: '0 4px' }}></div>
           <button onClick={(e) => applyHighlight('clear', e)} style={{ background: 'transparent', width: '28px', height: '28px', borderRadius: '50%', border: '1px solid #d1d5db', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', color: '#6b7280' }} aria-label="Clear">✕</button>
+          <div style={{ width: '1px', height: '24px', background: '#e5e7eb', margin: '0 4px' }}></div>
+          <button onClick={(e) => toggleBookmark(e)} style={{ background: 'transparent', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: bookmarks[popover.verseKey] ? '#ef4444' : '#9ca3af' }} aria-label="Bookmark">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill={bookmarks[popover.verseKey] ? "currentColor" : "none"} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            </svg>
+          </button>
         </div>
       )}
 
@@ -285,27 +290,51 @@ const BibleReadPage = () => {
         <Link to={`/bible/${bookId}`} className="back-link">← {BOOK_NAMES[bookId] || bookId}</Link>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1 className="page-title" style={{ margin: 0 }}>{passages[0]?.reference}</h1>
-          <button 
-            onClick={() => {
-              if (isFullRead) {
-                setPassages(prev => [prev[0]]);
-              }
-              setIsFullRead(!isFullRead);
-            }}
-            style={{
-              padding: '0.5rem 1rem',
-              borderRadius: '999px',
-              border: `1px solid ${isFullRead ? 'var(--color-burgundy)' : 'var(--color-border)'}`,
-              background: isFullRead ? 'var(--color-cream)' : 'transparent',
-              color: isFullRead ? 'var(--color-burgundy)' : 'var(--color-ink)',
-              fontFamily: 'var(--font-sans)',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'all 0.2s ease'
-            }}
-          >
-            {isFullRead ? 'Full Read: ON' : 'Full Read: OFF'}
-          </button>
+          <div style={{ display: 'flex', gap: '0.75rem' }}>
+            <button 
+              onClick={() => {
+                if (isFullRead) {
+                  setPassages(prev => [prev[0]]);
+                }
+                setIsFullRead(!isFullRead);
+              }}
+              style={{
+                padding: '0.5rem 1rem',
+                borderRadius: '999px',
+                border: `1px solid ${isFullRead ? 'var(--color-burgundy)' : 'var(--color-border)'}`,
+                background: isFullRead ? 'var(--color-cream)' : 'transparent',
+                color: isFullRead ? 'var(--color-burgundy)' : 'var(--color-ink)',
+                fontFamily: 'var(--font-sans)',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              Full Read: {isFullRead ? 'ON' : 'OFF'}
+            </button>
+            <button 
+              onClick={() => setIsDrawerOpen(true)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                padding: '0.5rem 1rem',
+                borderRadius: '999px',
+                border: '1px solid var(--color-border)',
+                background: 'transparent',
+                color: 'var(--color-ink)',
+                fontFamily: 'var(--font-sans)',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+              </svg>
+              Bookmarks
+            </button>
+          </div>
         </div>
       </div>
       
