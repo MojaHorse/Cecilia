@@ -41,12 +41,12 @@ function App() {
           </div>
         </Link>
         <nav className={`header-nav ${isMobileMenuOpen ? 'open' : ''}`} aria-label="Main navigation">
-          <NavLink to="/" end onClick={closeMobileMenu}>{t('nav_home')}</NavLink>
+          <NavLink to="/" end onClick={closeMobileMenu}>Home</NavLink>
           <NavLink to="/today" onClick={closeMobileMenu}>Today</NavLink>
-          <NavLink to="/lifela" onClick={closeMobileMenu}>{t('nav_hymns')}</NavLink>
-          <NavLink to="/merapelo" onClick={closeMobileMenu}>{t('nav_prayers')}</NavLink>
-          <NavLink to="/misa" onClick={closeMobileMenu}>{t('nav_mass')}</NavLink>
-          <NavLink to="/about" onClick={closeMobileMenu}>{t('nav_about')}</NavLink>
+          <NavLink to="/lifela" onClick={closeMobileMenu}>Hymns</NavLink>
+          <NavLink to="/merapelo" onClick={closeMobileMenu}>Prayers</NavLink>
+          <NavLink to="/misa" onClick={closeMobileMenu}>Order of Mass</NavLink>
+          <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
         </nav>
         <div className="header-actions">
           {/* Mobile Language Selector */}

@@ -314,7 +314,7 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 .hero-vatican {
   position: relative;
   width: 100%;
-  min-height: 90vh; 
+  min-height: 100vh; 
   background: linear-gradient(135deg, #A2B9CA 0%, #7695AA 100%);
   display: flex;
   align-items: center;
@@ -385,10 +385,10 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 
 .hero-vatican-image {
   position: absolute;
-  bottom: 0;
-  right: 0%; 
-  width: 65%; 
-  max-width: 850px; 
+  bottom: -60px; 
+  right: 8%; 
+  width: 40%; 
+  max-width: 470px; 
   z-index: 2; /* Sits behind the cream curve but over the watermark */
 }
 

@@ -114,7 +114,7 @@ function TodayPage() {
   return (
     <div className="today-page readings-page">
       <div className="index-header" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-        <span className="section-label">Kajeno / Today</span>
+        <span className="section-label">{t('nav_today')}</span>
         <h1 className="section-title">{getGreeting()}</h1>
         {readingsData && readingsData.date && (
           <p className="section-subtitle" style={{ color: 'var(--color-burgundy)', fontWeight: '600' }}>
@@ -131,7 +131,7 @@ function TodayPage() {
           
           {/* Liturgy of the Day */}
           <div className="dashboard-card liturgy-card">
-            <span className="dashboard-label">Today's Liturgy</span>
+            <span className="dashboard-label">{t('today_liturgy')}</span>
             <h2 className="dashboard-card-title">
               {liturgy ? liturgy.title || (liturgy.season.charAt(0).toUpperCase() + liturgy.season.slice(1) + " Season") : 'Loading...'}
             </h2>
@@ -147,7 +147,7 @@ function TodayPage() {
 
           {/* Daily Checklist */}
           <div className="dashboard-card checklist-card">
-            <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>Daily Spiritual Checklist</span>
+            <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>{t('today_checklist')}</span>
             <div className="checklist-items">
               <label className={`checklist-item ${checklist.morningPrayer ? 'done' : ''}`}>
                 <input type="checkbox" checked={checklist.morningPrayer} onChange={() => toggleTask('morningPrayer')} />
@@ -175,7 +175,7 @@ function TodayPage() {
           {/* Daily Hymn */}
           {hymn && (
             <div className="dashboard-card hymn-widget">
-              <span className="dashboard-label" style={{ color: 'var(--color-gold)' }}>Daily Hymn</span>
+              <span className="dashboard-label" style={{ color: 'var(--color-gold)' }}>{t('today_hymn')}</span>
               <h3 className="dashboard-card-title" style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>{hymn.title}</h3>
               <p style={{ fontStyle: 'italic', color: 'var(--color-ink-light)', fontSize: '0.9rem', marginBottom: '1rem' }}>
                 "{hymn.lyrics.replace(/\\n/g, '\n').split('\n').filter(l => l.trim() !== '' && !l.startsWith('Sefela'))[0]}..."
@@ -189,7 +189,7 @@ function TodayPage() {
           {/* Saint of the Hour */}
           {saintData && (
             <div className="dashboard-card saint-card">
-              <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>Saint of the Hour</span>
+              <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>{t('today_saint')}</span>
               {saintData.thumbnail && (
                 <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem', textAlign: 'center' }}>
                   <img src={saintData.thumbnail.source} alt={saintData.title} style={{ maxWidth: '100%', maxHeight: '280px', borderRadius: '8px', objectFit: 'cover', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
@@ -208,7 +208,7 @@ function TodayPage() {
           {/* Fun Fact */}
           {funFact && (
             <div className="dashboard-card fact-card" style={{ background: 'linear-gradient(135deg, var(--color-burgundy) 0%, #5a1214 100%)', color: 'var(--color-white)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <span className="dashboard-label" style={{ color: 'var(--color-gold)', borderColor: 'rgba(212, 175, 55, 0.3)', background: 'rgba(212, 175, 55, 0.1)' }}>Did You Know?</span>
+              <span className="dashboard-label" style={{ color: 'var(--color-gold)', borderColor: 'rgba(212, 175, 55, 0.3)', background: 'rgba(212, 175, 55, 0.1)' }}>{t('today_fact')}</span>
               <p style={{ fontSize: '1.3rem', lineHeight: '1.6', fontStyle: 'italic', marginTop: '1.5rem', fontFamily: 'var(--font-serif)' }}>
                 "{funFact}"
               </p>
@@ -217,7 +217,7 @@ function TodayPage() {
 
           {/* Quick Prayers */}
           <div className="dashboard-card prayers-widget">
-            <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>Quick Prayers</span>
+            <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>{t('today_quick_prayers')}</span>
             <div className="quick-prayers-list">
               <Link to="/merapelo" className="quick-prayer-item">
                 <strong>Glory Be</strong>
@@ -233,7 +233,7 @@ function TodayPage() {
 
       <div className="readings-container">
         {/* === TODAY'S READINGS === */}
-        <h2 className="section-title" style={{ fontSize: '2.2rem', marginBottom: '2rem', marginTop: '3rem', textAlign: 'center' }}>Mass Readings</h2>
+        <h2 className="section-title" style={{ fontSize: '2.2rem', marginBottom: '2rem', marginTop: '3rem', textAlign: 'center' }}>{t('today_readings')}</h2>
 
         {!readingsData && !error && (
           <div className="loading-spinner-container">
