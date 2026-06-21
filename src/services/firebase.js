@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, enableIndexedDbPersistence } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDFMIRL6Q9bcSZMpxgy0ZGklx0UglpCVQY",
@@ -14,6 +14,15 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
+// Enable offline persistence for Firestore
+enableIndexedDbPersistence(db).catch((err) => {
+  if (err.code === 'failed-precondition') {
+    console.warn("Multiple tabs open, offline persistence disabled for this tab.");
+  } else if (err.code === 'unimplemented') {
+    console.warn("Current browser does not support offline persistence.");
+  }
+});
 
 // Helper to ensure the user is anonymously signed in
 export const signInUserAnonymously = async () => {
