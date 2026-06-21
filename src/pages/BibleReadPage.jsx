@@ -107,62 +107,29 @@ const BibleReadPage = () => {
     if (node) observer.current.observe(node);
   }, [loadingMore, isFullRead, nextChapter]);
 
-  // Handle highlights rendering and click events
-  useEffect(() => {
-    const verseElements = document.querySelectorAll('.bible-read-content .p');
+  const handlePassageClick = (e, chapterId) => {
+    const pEl = e.target.closest('.p');
+    if (!pEl) return;
     
-    const handleVerseClick = (e) => {
-      const cid = e.currentTarget.closest('[data-chapter-id]')?.getAttribute('data-chapter-id');
-      const vSpan = e.currentTarget.querySelector('.yv-v');
-      if (vSpan && cid) {
-        const verseNum = vSpan.getAttribute('v');
-        const verseKey = `${cid}.${verseNum}`;
-        
-        // Prevent showing off-screen
-        const x = Math.min(e.clientX, window.innerWidth - 150);
-        
-        setPopover({
-          visible: true,
-          x: x,
-          y: e.clientY,
-          verseKey
-        });
-      }
-    };
-
-    verseElements.forEach(el => {
-      const cid = el.closest('[data-chapter-id]')?.getAttribute('data-chapter-id');
-      const vSpan = el.querySelector('.yv-v');
+    const vSpan = pEl.querySelector('.yv-v');
+    if (vSpan) {
+      const verseNum = vSpan.getAttribute('v');
+      const verseKey = `${chapterId}.${verseNum}`;
       
-      if (vSpan && cid) {
-        const verseNum = vSpan.getAttribute('v');
-        const verseKey = `${cid}.${verseNum}`;
-        
-        el.style.backgroundColor = highlights[verseKey] || 'transparent';
-        el.style.borderRadius = '4px';
-        el.style.cursor = 'pointer';
-        
-        // hover effect
-        el.onmouseenter = () => { if(!highlights[verseKey]) el.style.backgroundColor = '#f3f4f6'; };
-        el.onmouseleave = () => { if(!highlights[verseKey]) el.style.backgroundColor = 'transparent'; };
-      }
-      
-      el.addEventListener('click', handleVerseClick);
-    });
-    
-    return () => {
-      verseElements.forEach(el => {
-        el.removeEventListener('click', handleVerseClick);
-        el.onmouseenter = null;
-        el.onmouseleave = null;
+      const x = Math.min(e.clientX, window.innerWidth - 150);
+      setPopover({
+        visible: true,
+        x: x,
+        y: e.clientY,
+        verseKey
       });
-    };
-  }, [passages, highlights]);
+    }
+  };
 
   // Hide popover on scroll or click elsewhere
   useEffect(() => {
     const hidePopover = (e) => {
-      if (!e.target.closest('.highlight-popover') && !e.target.closest('.bible-read-content .p')) {
+      if (e.target.closest && !e.target.closest('.highlight-popover') && !e.target.closest('.bible-read-content .p')) {
         setPopover(prev => ({ ...prev, visible: false }));
       }
     };
@@ -227,6 +194,18 @@ const BibleReadPage = () => {
   return (
     <div className="page-content-inner bible-read-container" style={{ position: 'relative' }}>
       
+      <style>
+        {Object.entries(highlights).map(([key, color]) => {
+          const [chapterId, verseNum] = key.split('.');
+          return `
+            [data-chapter-id="${chapterId}"] .p:has(.yv-v[v="${verseNum}"]) {
+              background-color: ${color};
+              border-radius: 4px;
+            }
+          `;
+        }).join('\n')}
+      </style>
+
       {popover.visible && (
         <div className="highlight-popover" style={{
           position: 'fixed',
@@ -284,6 +263,7 @@ const BibleReadPage = () => {
           <div 
             className="bible-read-content" 
             dangerouslySetInnerHTML={{ __html: passage.content }} 
+            onClick={(e) => handlePassageClick(e, passage.chapterId)}
           />
         </div>
       ))}

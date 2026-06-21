@@ -1498,6 +1498,13 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
 .bible-read-content p,
 .bible-read-content .p {
   display: inline;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bible-read-content .p:hover {
+  background-color: #f3f4f6 !important;
+  border-radius: 4px;
 }
 
 .bible-read-content .p::after {
