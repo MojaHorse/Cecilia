@@ -1,5 +1,6 @@
 const API_BASE = 'https://api.youversion.com/v1';
 const API_KEY = import.meta.env.VITE_YV_API_KEY;
+import { getCachedData, setCachedData } from './cacheService';
 
 const getHeaders = () => ({
   'X-YVP-App-Key': API_KEY,
@@ -10,6 +11,10 @@ const getHeaders = () => ({
  * Fetch a list of Bibles for a specific language code (e.g. 'eng', 'sot', 'zul')
  */
 export const fetchBibles = async (languageRange = 'eng') => {
+  const cacheKey = `bibles_${languageRange}`;
+  const cached = await getCachedData(cacheKey);
+  if (cached) return cached;
+
   try {
     const url = new URL(`${API_BASE}/bibles`);
     url.searchParams.append('language_ranges[]', languageRange);
@@ -26,7 +31,10 @@ export const fetchBibles = async (languageRange = 'eng') => {
     }
     
     const data = await response.json();
-    return data.data || [];
+    const result = data.data || [];
+    
+    await setCachedData(cacheKey, result, 30); // 30 days TTL
+    return result;
   } catch (error) {
     console.error('Error fetching bibles:', error);
     throw error;
@@ -37,14 +45,19 @@ export const fetchBibles = async (languageRange = 'eng') => {
  * Fetch books for a specific Bible ID (e.g. 42 for CPDV)
  */
 export const fetchBooks = async (bibleId) => {
+  const cacheKey = `books_${bibleId}`;
+  const cached = await getCachedData(cacheKey);
+  if (cached) return cached;
+
   try {
     const response = await fetch(`${API_BASE}/bibles/${bibleId}`, { headers: getHeaders() });
     if (!response.ok) throw new Error('Failed to fetch bible details');
     
     const data = await response.json();
+    const result = data.books || [];
     
-    // We get book abbreviations like ['GEN', 'EXO', ...]. 
-    return data.books || [];
+    await setCachedData(cacheKey, result, 30); // 30 days TTL
+    return result;
   } catch (error) {
     console.error('Error fetching books:', error);
     throw error;
@@ -55,6 +68,10 @@ export const fetchBooks = async (bibleId) => {
  * Fetch chapters for a specific book in a specific bible.
  */
 export const fetchChapters = async (bibleId, bookUSFM) => {
+  const cacheKey = `chapters_${bibleId}_${bookUSFM}`;
+  const cached = await getCachedData(cacheKey);
+  if (cached) return cached;
+
   try {
     const response = await fetch(`${API_BASE}/bibles/${bibleId}/books/${bookUSFM}/chapters`, {
       headers: getHeaders()
@@ -65,7 +82,10 @@ export const fetchChapters = async (bibleId, bookUSFM) => {
     }
     
     const data = await response.json();
-    return data.data || [];
+    const result = data.data || [];
+    
+    await setCachedData(cacheKey, result, 30); // 30 days TTL
+    return result;
   } catch (error) {
     console.error('Error fetching chapters:', error);
     throw error;
@@ -76,6 +96,10 @@ export const fetchChapters = async (bibleId, bookUSFM) => {
  * Fetch the text content of a specific passage (e.g., JHN.3)
  */
 export const fetchPassage = async (bibleId, reference) => {
+  const cacheKey = `passage_${bibleId}_${reference}`;
+  const cached = await getCachedData(cacheKey);
+  if (cached) return cached;
+
   try {
     const response = await fetch(`${API_BASE}/bibles/${bibleId}/passages/${reference}?format=html`, {
       headers: getHeaders()
@@ -86,7 +110,10 @@ export const fetchPassage = async (bibleId, reference) => {
     }
     
     const data = await response.json();
-    return data.data || data; // Contains 'content' (HTML) and 'reference' string
+    const result = data.data || data; // Contains 'content' (HTML) and 'reference' string
+    
+    await setCachedData(cacheKey, result, 30); // 30 days TTL
+    return result;
   } catch (error) {
     console.error('Error fetching passage:', error);
     throw error;

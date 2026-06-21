@@ -21,7 +21,7 @@ const BookmarksPage = () => {
     return () => unsubscribe();
   }, []);
 
-  const fetchBookmarks = async (uid) => {
+  async function fetchBookmarks(uid) {
     try {
       setLoading(true);
       const q = query(
