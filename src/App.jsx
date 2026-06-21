@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Routes, Route, Link, NavLink } from 'react-router-dom'
 import { useLanguage } from './context/LanguageContext'
+import { signInUserAnonymously } from './services/firebase'
 import HomePage from './pages/HomePage'
 import HymnIndexPage from './pages/HymnIndexPage'
 import HymnPage from './pages/HymnPage'
@@ -17,6 +18,12 @@ function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const { uiLang, setUiLang, t, availableLangs } = useLanguage()
+
+  useEffect(() => {
+    signInUserAnonymously().then(user => {
+      if (user) console.log("Anonymously signed in:", user.uid);
+    });
+  }, []);
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false)
