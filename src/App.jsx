@@ -84,6 +84,7 @@ function App() {
           </div>
 
           <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
+          <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Sign In / Up</a>
         </nav>
         <div className="header-actions">
           {/* Mobile Language Selector */}
@@ -156,6 +157,18 @@ function App() {
           <p className="footer-text footer-verse">
             {t('footer_verse')}
           </p>
+          <div style={{ marginTop: '1.5rem' }}>
+            <button 
+              onClick={() => window.dispatchEvent(new CustomEvent('openAuthModal'))}
+              style={{
+                background: 'transparent', border: '1px solid currentColor', borderRadius: '999px',
+                padding: '0.5rem 1rem', cursor: 'pointer', fontFamily: 'var(--font-sans)',
+                fontSize: '0.875rem', color: 'inherit', fontWeight: 600
+              }}
+            >
+              Sign In / Create Account
+            </button>
+          </div>
         </div>
       </footer>
 
