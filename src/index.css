@@ -1495,8 +1495,13 @@ a:hover { color: var(--color-burgundy-dark); text-decoration: underline; }
   color: var(--color-ink);
 }
 
-.bible-read-content p {
-  margin-bottom: 1rem;
+.bible-read-content p,
+.bible-read-content .p {
+  display: inline;
+}
+
+.bible-read-content .p::after {
+  content: " ";
 }
 
 .bible-read-content .label,
