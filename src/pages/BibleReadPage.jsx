@@ -20,7 +20,7 @@ const BibleReadPage = () => {
       try {
         setLoading(true);
         const [fetchedPassage, fetchedChapters] = await Promise.all([
-          fetchPassage(bibleId, chapterId),
+          fetchPassage(bibleId, `${bookId}.${chapterId}`),
           fetchChapters(bibleId, bookId)
         ]);
         
