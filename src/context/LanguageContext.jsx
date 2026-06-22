@@ -84,7 +84,8 @@ const translations = {
     auth_switch_to_signin: "U se u na le ak'haonte? Kena mona",
     auth_switch_to_create: "U hloka ak'haonte? Theha e 'ngoe",
     nav_signin: "Kena / Theha Ak'haonte",
-    nav_logout: "Tsoa"
+    nav_logout: "Tsoa",
+    search_placeholder: 'Batla lifela, mantsoe kapa libuka...'
   },
   zulu: {
     nav_home: 'Ikhaya',
@@ -133,7 +134,7 @@ const translations = {
     bible_old_testament: "ITestamente Elidala",
     bible_new_testament: "ITestamente Elisha",
     bible_chapter: "Isahluko",
-    bible_loading: "Iyalayisha imininingwane yencwadi...",
+    bible_loading: "Iyalayisha imininingwane yencwane...",
     bible_error: "Ihlulekile ukulayisha izincwadi. Sicela uhlole i-inthanethi yakho.",
     bookmarks_title: "Amabhukumaka Ami",
     bookmarks_subtitle: "Onke amavesi akho owagcinile eBhayibhelini.",
@@ -169,7 +170,8 @@ const translations = {
     auth_switch_to_signin: "Usuvele unayo i-akhawunti? Ngena",
     auth_switch_to_create: "Udinga i-akhawunti? Dala enye",
     nav_signin: "Ngena / Dala",
-    nav_logout: "Phuma"
+    nav_logout: "Phuma",
+    search_placeholder: 'Sesha amaculo, amagama, noma amabhukumaka...'
   },
   xhosa: {
     nav_home: 'Ikhaya',
@@ -254,7 +256,8 @@ const translations = {
     auth_switch_to_signin: "Usenayo i-akhawunti? Ngena apha",
     auth_switch_to_create: "Ufuna i-akhawunti? Dala enye",
     nav_signin: "Ngena / Dala",
-    nav_logout: "Phuma"
+    nav_logout: "Phuma",
+    search_placeholder: 'Khangela amaculo, amagama, okanye iibhukumaka...'
   },
   setswana: {
     nav_home: 'Gae',
@@ -339,7 +342,8 @@ const translations = {
     auth_switch_to_signin: "O setse o na le akhaonto? Tsena fano",
     auth_switch_to_create: "A o tlhoka akhaonto? Dira e nngwe",
     nav_signin: "Tsena / Dira",
-    nav_logout: "Tswa"
+    nav_logout: "Tswa",
+    search_placeholder: 'Batla difela, mafoko, kgotsa dibukamak...'
   },
   english: {
     nav_home: 'Home',
@@ -424,7 +428,8 @@ const translations = {
     auth_switch_to_signin: "Already have an account? Sign in",
     auth_switch_to_create: "Need an account? Create one",
     nav_signin: "Sign In / Up",
-    nav_logout: "Log Out"
+    nav_logout: "Log Out",
+    search_placeholder: 'Search hymns, lyrics, or bookmarks...'
   }
 };
 

@@ -18,10 +18,12 @@ import BookmarksPage from './pages/BookmarksPage'
 import CookieBanner from './components/CookieBanner'
 import CaptureModal from './components/CaptureModal'
 import AuthModal from './components/AuthModal'
+import GlobalSearchModal from './components/GlobalSearchModal'
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const [isSearchOpen, setIsSearchOpen] = useState(false)
   const { uiLang, setUiLang, t, availableLangs } = useLanguage()
 
   const [user, setUser] = useState(null)
@@ -117,9 +119,12 @@ function App() {
             <option value="setswana">Setswana</option>
             <option value="english">English</option>
           </select>
-          <span className="search-icon" style={{ display: 'none' }}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          </span>
+          {/* Search Icon */}
+          <button className="search-icon" onClick={() => setIsSearchOpen(true)} aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
           <button 
             id="tour-hamburger-menu"
             className={`hamburger-menu ${isMobileMenuOpen ? 'open' : ''}`} 
@@ -215,6 +220,7 @@ function App() {
       <AuthModal />
       <CookieBanner />
       <CaptureModal />
+      <GlobalSearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   )
 }
