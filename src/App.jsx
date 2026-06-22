@@ -68,6 +68,7 @@ function App() {
       {/* Site Header */}
       <header className="site-header">
         <Link to="/" className="header-logo" onClick={closeMobileMenu}>
+          <img src="/Group 69.svg" alt="The Good Shepherd" />
           <div className="header-logo-text">
             <span className="header-logo-name">
               The Good Shepherd 
@@ -76,26 +77,26 @@ function App() {
           </div>
         </Link>
         <nav className={`header-nav ${isMobileMenuOpen ? 'open' : ''}`} aria-label="Main navigation">
-          <NavLink to="/" end onClick={closeMobileMenu}>Home</NavLink>
-          <NavLink to="/today" onClick={closeMobileMenu}>Today</NavLink>
+          <NavLink to="/" end onClick={closeMobileMenu}>{t('nav_home')}</NavLink>
+          <NavLink to="/today" onClick={closeMobileMenu}>{t('nav_today')}</NavLink>
           
           <div className="nav-dropdown" 
                onMouseEnter={() => setIsDropdownOpen(true)} 
                onMouseLeave={() => setIsDropdownOpen(false)}>
             <button className="nav-dropdown-btn" onClick={toggleDropdown}>
-              Library
+              {t('nav_library') || 'Library'}
               <span className="dropdown-arrow">▼</span>
             </button>
             <div className={`nav-dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
-              <NavLink to="/lifela" onClick={closeMobileMenu}>Hymns</NavLink>
-              <NavLink to="/merapelo" onClick={closeMobileMenu}>Prayers</NavLink>
-              <NavLink to="/misa" onClick={closeMobileMenu}>Order of Mass</NavLink>
-              <NavLink to="/bible" onClick={closeMobileMenu}>Bible</NavLink>
-              <NavLink to="/bookmarks" onClick={closeMobileMenu}>Bookmarks</NavLink>
+              <NavLink to="/lifela" onClick={closeMobileMenu}>{t('nav_hymns')}</NavLink>
+              <NavLink to="/merapelo" onClick={closeMobileMenu}>{t('nav_prayers')}</NavLink>
+              <NavLink to="/misa" onClick={closeMobileMenu}>{t('nav_mass')}</NavLink>
+              <NavLink to="/bible" onClick={closeMobileMenu}>{t('nav_bible')}</NavLink>
+              <NavLink to="/bookmarks" onClick={closeMobileMenu}>{t('bookmarks_title')}</NavLink>
             </div>
           </div>
 
-          <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
+          <NavLink to="/about" onClick={closeMobileMenu}>{t('nav_about')}</NavLink>
           {user && !user.isAnonymous ? (
             <a href="#" onClick={(e) => { e.preventDefault(); signOut(auth); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_logout')}</a>
           ) : (
@@ -153,8 +154,16 @@ function App() {
       {/* Site Footer */}
       <footer className="site-footer">
         <div className="footer-inner">
-          <div className="footer-logo">
-            <img src="/The Good Shepherd (1)/Logo_Dark.svg" alt="The Good Shepherd Logo" />
+          <div className="footer-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', marginBottom: '2.5rem' }}>
+            <img src="/Group 69.svg" alt="The Good Shepherd Logo" style={{ height: '65px', width: 'auto', opacity: 1, filter: 'brightness(0) invert(1)' }} />
+            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
+              <span style={{ fontFamily: 'var(--font-legendary)', fontWeight: 700, fontSize: '2rem', letterSpacing: '0.05em', color: 'var(--color-white)', lineHeight: 1.1, paddingBottom: '0.2rem' }}>
+                The Good Shepherd 
+              </span>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.75rem', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.25em', fontWeight: 700 }}>
+                John 10:11
+              </span>
+            </div>
           </div>
           <p className="footer-text">
             <em>The Good Shepherd &mdash; {t('tagline')}</em>
