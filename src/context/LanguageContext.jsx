@@ -436,7 +436,7 @@ const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
   const [uiLang, setUiLang] = useState(() => {
-    return localStorage.getItem('globalUiLang') || 'sesotho';
+    return localStorage.getItem('globalUiLang') || 'english';
   });
 
   useEffect(() => {
@@ -444,7 +444,7 @@ export function LanguageProvider({ children }) {
   }, [uiLang]);
 
   const t = (key) => {
-    return translations[uiLang]?.[key] || translations['sesotho'][key] || key;
+    return translations[uiLang]?.[key] || translations['english'][key] || key;
   };
 
   return (
