@@ -8,8 +8,13 @@ import PageTour from '../components/PageTour'
 
 const prayersTourSteps = [
   {
+    target: '.lang-toggle-container',
+    content: 'You can read the Common Prayers in English, Sesotho, isiZulu, isiXhosa, or Setswana. Just tap here!',
+    placement: 'bottom',
+  },
+  {
     target: '#tour-prayers-private',
-    content: 'This isn\\'t just a static book! Click here to access your Private Journal, where you can write and securely save your own personal prayers.',
+    content: "This isn't just a static book! Click here to access your Private Journal, where you can write and securely save your own personal prayers.",
     placement: 'bottom',
   }
 ];

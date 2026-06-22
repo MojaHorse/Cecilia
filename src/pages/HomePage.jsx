@@ -1,31 +1,39 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import { getLiturgicalYear, getDailyHymn, fetchTodayLiturgy } from '../services/liturgyService'
 import PageTour from '../components/PageTour'
 
-const homeTourSteps = [
-  {
-    target: '#tour-header-logo',
-    content: 'Welcome to The Good Shepherd! Your digital library for Catholic hymns, prayers, and daily liturgy.',
-    disableBeacon: true,
-    placement: 'bottom',
-  },
-  {
-    target: '#tour-nav-library',
-    content: 'Open the Library to find the Bible, Order of Mass, Hymns, and your Bookmarks.',
-    placement: 'bottom',
-  },
-  {
-    target: '#tour-nav-auth',
-    content: 'Create a free account to securely save your Bookmarks and Private Prayers across all your devices!',
-    placement: 'bottom',
-  }
-];
-
 function HomePage() {
   const { t, uiLang } = useLanguage()
   const [liturgy, setLiturgy] = useState(null)
+
+  const homeTourSteps = useMemo(() => {
+    const isMobile = window.innerWidth <= 768;
+    return [
+      {
+        target: '#tour-header-logo',
+        content: 'Welcome to The Good Shepherd! Your digital library for Catholic hymns, prayers, and daily liturgy.',
+        disableBeacon: true,
+        placement: 'bottom',
+      },
+      {
+        target: isMobile ? '#tour-hamburger-menu' : '#tour-nav-library',
+        content: isMobile ? 'Tap the menu to find the Bible, Order of Mass, Hymns, and Bookmarks.' : 'Open the Library to find the Bible, Order of Mass, Hymns, and your Bookmarks.',
+        placement: 'bottom',
+      },
+      {
+        target: isMobile ? '#tour-hamburger-menu' : '#tour-nav-auth',
+        content: 'Create a free account to securely save your Bookmarks and Private Prayers across all your devices!',
+        placement: 'bottom',
+      },
+      {
+        target: '.liturgy-section',
+        content: 'Check here every day to find the liturgical colors, season, readings, and featured hymn for the daily Mass.',
+        placement: 'top',
+      }
+    ];
+  }, []);
 
   useEffect(() => {
     fetchTodayLiturgy().then(data => setLiturgy(data))

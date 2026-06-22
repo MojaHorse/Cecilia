@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useTour } from '../context/TourContext';
 
 const CookieBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const { hasCompletedTour } = useTour();
 
   useEffect(() => {
+    if (!hasCompletedTour('home_tour')) return;
+    
     // Check if user has already consented
     const consent = localStorage.getItem('cookie_consent');
     if (!consent) {
@@ -11,7 +15,7 @@ const CookieBanner = () => {
       const timer = setTimeout(() => setIsVisible(true), 1500);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [hasCompletedTour]);
 
   const handleAccept = (type) => {
     localStorage.setItem('cookie_consent', type);

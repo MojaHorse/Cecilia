@@ -18,6 +18,11 @@ const bibleTourSteps = [
     target: '#tour-bible-bookmarks-btn',
     content: 'You can quickly access all your saved verses right here in the Bookmarks drawer.',
     placement: 'bottom-start',
+  },
+  {
+    target: '#tour-bible-full-read',
+    content: 'Want to read without interruptions? Toggle Full Read mode on to hide navigation controls and verse numbers.',
+    placement: 'bottom',
   }
 ];
 
@@ -361,6 +366,7 @@ const BibleReadPage = () => {
           <h1 className="page-title" style={{ margin: 0 }}>{passages[0]?.reference}</h1>
           <div style={{ display: 'flex', gap: '0.75rem' }}>
             <button 
+              id="tour-bible-full-read"
               onClick={() => {
                 if (isFullRead) {
                   setPassages(prev => [prev[0]]);

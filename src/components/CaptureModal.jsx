@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../services/firebase';
+import { useTour } from '../context/TourContext';
 
 const CaptureModal = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('idle'); // idle, loading, success, error
+  const { hasCompletedTour } = useTour();
 
   useEffect(() => {
+    if (!hasCompletedTour('home_tour')) return;
+    
     const hasSeenModal = localStorage.getItem('capture_modal_seen');
     if (!hasSeenModal) {
       // Show modal after 15 seconds
@@ -17,7 +21,7 @@ const CaptureModal = () => {
       }, 15000);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [hasCompletedTour]);
 
   const handleClose = () => {
     setIsVisible(false);

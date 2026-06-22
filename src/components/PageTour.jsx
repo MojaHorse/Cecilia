@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import Joyride, { STATUS } from 'react-joyride';
+import React, { useEffect, useState, useMemo } from 'react';
+import { Joyride, STATUS } from 'react-joyride';
 import { useTour } from '../context/TourContext';
 
 const PageTour = ({ tourName, steps }) => {
   const { hasCompletedTour, markTourCompleted } = useTour();
   const [run, setRun] = useState(false);
+  const [stepIndex, setStepIndex] = useState(0);
 
   useEffect(() => {
     if (!hasCompletedTour(tourName)) {
@@ -17,21 +18,32 @@ const PageTour = ({ tourName, steps }) => {
   }, [tourName, hasCompletedTour]);
 
   const handleJoyrideCallback = (data) => {
-    const { status } = data;
+    const { action, index, status, type } = data;
     const finishedStatuses = [STATUS.FINISHED, STATUS.SKIPPED];
 
     if (finishedStatuses.includes(status)) {
       setRun(false);
       markTourCompleted(tourName);
+    } else if (type === 'step:after' || type === 'error') {
+      // Update step index
+      if (action === 'next') {
+        setStepIndex(index + 1);
+      } else if (action === 'prev') {
+        setStepIndex(index - 1);
+      }
     }
   };
 
-  if (!run) return null;
+  const enhancedSteps = useMemo(() => steps.map(step => ({ ...step, disableBeacon: true })), [steps]);
+
+  // If tour is already completed, don't mount Joyride at all
+  if (hasCompletedTour(tourName)) return null;
 
   return (
     <Joyride
-      steps={steps}
+      steps={enhancedSteps}
       run={run}
+      stepIndex={stepIndex}
       continuous={true}
       showSkipButton={true}
       showProgress={true}

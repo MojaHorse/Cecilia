@@ -17,7 +17,7 @@ const todayTourSteps = [
   },
   {
     target: '#tour-today-liturgy',
-    content: 'Find the official Liturgical color, season, and readings for today\\'s Mass right here.',
+    content: "Find the official Liturgical color, season, and readings for today's Mass right here.",
     placement: 'right',
   }
 ];
