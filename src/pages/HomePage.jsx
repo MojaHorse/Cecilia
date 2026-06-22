@@ -2,6 +2,26 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import { getLiturgicalYear, getDailyHymn, fetchTodayLiturgy } from '../services/liturgyService'
+import PageTour from '../components/PageTour'
+
+const homeTourSteps = [
+  {
+    target: '#tour-header-logo',
+    content: 'Welcome to The Good Shepherd! Your digital library for Catholic hymns, prayers, and daily liturgy.',
+    disableBeacon: true,
+    placement: 'bottom',
+  },
+  {
+    target: '#tour-nav-library',
+    content: 'Open the Library to find the Bible, Order of Mass, Hymns, and your Bookmarks.',
+    placement: 'bottom',
+  },
+  {
+    target: '#tour-nav-auth',
+    content: 'Create a free account to securely save your Bookmarks and Private Prayers across all your devices!',
+    placement: 'bottom',
+  }
+];
 
 function HomePage() {
   const { t, uiLang } = useLanguage()
@@ -25,6 +45,7 @@ function HomePage() {
 
   return (
     <>
+      <PageTour tourName="home_tour" steps={homeTourSteps} />
       {/* ===== HERO: VATICAN.VA INSPIRED LAYOUT ===== */}
       <section className="hero-vatican">
         <div className="hero-vatican-inner">

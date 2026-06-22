@@ -5,6 +5,7 @@ import { LanguageProvider } from './context/LanguageContext'
 import './index.css'
 import './mobile.css'
 import App from './App.jsx'
+import { TourProvider } from './context/TourContext'
 import { registerSW } from 'virtual:pwa-register'
 
 // Register service worker for PWA
@@ -14,7 +15,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <LanguageProvider>
-        <App />
+        <TourProvider>
+          <App />
+        </TourProvider>
       </LanguageProvider>
     </BrowserRouter>
   </StrictMode>,

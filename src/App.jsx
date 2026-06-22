@@ -67,7 +67,7 @@ function App() {
 
       {/* Site Header */}
       <header className="site-header">
-        <Link to="/" className="header-logo" onClick={closeMobileMenu}>
+        <Link to="/" className="header-logo" onClick={closeMobileMenu} id="tour-header-logo">
           <img src="/Group 69.svg" alt="The Good Shepherd" />
           <div className="header-logo-text">
             <span className="header-logo-name">
@@ -80,7 +80,7 @@ function App() {
           <NavLink to="/" end onClick={closeMobileMenu}>{t('nav_home')}</NavLink>
           <NavLink to="/today" onClick={closeMobileMenu}>{t('nav_today')}</NavLink>
           
-          <div className="nav-dropdown" 
+          <div className="nav-dropdown" id="tour-nav-library"
                onMouseEnter={() => setIsDropdownOpen(true)} 
                onMouseLeave={() => setIsDropdownOpen(false)}>
             <button className="nav-dropdown-btn" onClick={toggleDropdown}>
@@ -100,7 +100,7 @@ function App() {
           {user && !user.isAnonymous ? (
             <a href="#" onClick={(e) => { e.preventDefault(); signOut(auth); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_logout')}</a>
           ) : (
-            <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_signin')}</a>
+            <a href="#" id="tour-nav-auth" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_signin')}</a>
           )}
         </nav>
         <div className="header-actions">

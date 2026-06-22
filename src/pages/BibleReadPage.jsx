@@ -6,6 +6,20 @@ import { useLanguage, languageToBibleId } from '../context/LanguageContext';
 import { db, auth } from '../services/firebase';
 import { collection, query, where, getDocs, setDoc, doc, deleteDoc } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
+import PageTour from '../components/PageTour';
+
+const bibleTourSteps = [
+  {
+    target: '.bible-read-content',
+    content: 'Deepen your study: Tap or click on any verse text to highlight it or save it as a Bookmark!',
+    placement: 'bottom',
+  },
+  {
+    target: '#tour-bible-bookmarks-btn',
+    content: 'You can quickly access all your saved verses right here in the Bookmarks drawer.',
+    placement: 'bottom-start',
+  }
+];
 
 const BibleReadPage = () => {
   const { bookId, chapterId } = useParams();
@@ -273,11 +287,16 @@ const BibleReadPage = () => {
   }
 
   if (error && passages.length === 0) {
-    return <div className="page-content-inner"><p className="error-text">{error}</p></div>;
+    return (
+    <div className="bible-read-container">
+      <PageTour tourName="bible_tour" steps={bibleTourSteps} />
+      <div className="bible-read-header"><p className="error-text">{error}</p></div>
+    </div>);
   }
 
   return (
     <div className="page-content-inner bible-read-container" style={{ position: 'relative' }}>
+      <PageTour tourName="bible_tour" steps={bibleTourSteps} />
       
       <style>
         {Object.entries(highlights).map(([key, color]) => {
@@ -363,6 +382,7 @@ const BibleReadPage = () => {
               Full Read: {isFullRead ? 'ON' : 'OFF'}
             </button>
             <button 
+              id="tour-bible-bookmarks-btn"
               onClick={() => setIsDrawerOpen(true)}
               style={{
                 display: 'flex',

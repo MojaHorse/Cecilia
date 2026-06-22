@@ -4,6 +4,15 @@ import { auth, db } from '../services/firebase'
 import prayersData from '../data/prayers.json'
 import { useLanguage } from '../context/LanguageContext'
 import PrayerEditorModal from '../components/PrayerEditorModal'
+import PageTour from '../components/PageTour'
+
+const prayersTourSteps = [
+  {
+    target: '#tour-prayers-private',
+    content: 'This isn\\'t just a static book! Click here to access your Private Journal, where you can write and securely save your own personal prayers.',
+    placement: 'bottom',
+  }
+];
 
 function PrayersPage() {
   const { t, uiLang } = useLanguage()
@@ -120,6 +129,7 @@ function PrayersPage() {
 
   return (
     <div className="prayers-page">
+      <PageTour tourName="prayers_tour" steps={prayersTourSteps} />
       <div className="index-header" style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <span className="section-label">{t('nav_prayers')}</span>
         <h1 className="section-title" style={{ marginBottom: '1.5rem' }}>
@@ -143,6 +153,7 @@ function PrayersPage() {
             {t('prayers_common')}
           </button>
           <button 
+            id="tour-prayers-private"
             onClick={() => setActiveTab('private')}
             style={{
               padding: '0.75rem 1.5rem', borderRadius: '999px', fontSize: '1rem', fontWeight: 600,

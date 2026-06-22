@@ -2,6 +2,25 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import { getLiturgicalYear, getDailyHymn, fetchTodayLiturgy } from '../services/liturgyService'
+import PageTour from '../components/PageTour'
+
+const todayTourSteps = [
+  {
+    target: '#tour-today-saint',
+    content: 'Discover the Saint of the Hour! This updates throughout the day to inspire you with stories of faith.',
+    placement: 'bottom',
+  },
+  {
+    target: '#tour-today-checklist',
+    content: 'Build a daily habit! Check off these spiritual practices as you complete them each day.',
+    placement: 'left',
+  },
+  {
+    target: '#tour-today-liturgy',
+    content: 'Find the official Liturgical color, season, and readings for today\\'s Mass right here.',
+    placement: 'right',
+  }
+];
 
 function TodayPage() {
   const { t, uiLang } = useLanguage()
@@ -113,6 +132,7 @@ function TodayPage() {
 
   return (
     <div className="today-page readings-page">
+      <PageTour tourName="today_tour" steps={todayTourSteps} />
       <div className="index-header" style={{ textAlign: 'center', marginBottom: '3rem' }}>
         <span className="section-label">{t('nav_today')}</span>
         <h1 className="section-title">{getGreeting()}</h1>
@@ -130,7 +150,7 @@ function TodayPage() {
       <div className="dashboard-grid">
           
           {/* Liturgy of the Day */}
-          <div className="dashboard-card liturgy-card">
+          <div className="dashboard-card liturgy-card" id="tour-today-liturgy">
             <span className="dashboard-label">{t('today_liturgy')}</span>
             <h2 className="dashboard-card-title">
               {liturgy ? liturgy.title || (liturgy.season.charAt(0).toUpperCase() + liturgy.season.slice(1) + " Season") : 'Loading...'}
@@ -146,7 +166,7 @@ function TodayPage() {
           </div>
 
           {/* Daily Checklist */}
-          <div className="dashboard-card checklist-card">
+          <div className="dashboard-card checklist-card" id="tour-today-checklist">
             <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>{t('today_checklist')}</span>
             <div className="checklist-items">
               <label className={`checklist-item ${checklist.morningPrayer ? 'done' : ''}`}>
@@ -188,7 +208,7 @@ function TodayPage() {
 
           {/* Saint of the Hour */}
           {saintData && (
-            <div className="dashboard-card saint-card">
+            <div className="dashboard-card saint-card" id="tour-today-saint">
               <span className="dashboard-label" style={{ color: 'var(--color-burgundy)' }}>{t('today_saint')}</span>
               {saintData.thumbnail && (
                 <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem', textAlign: 'center' }}>
