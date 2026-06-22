@@ -69,7 +69,10 @@ function App() {
       <header className="site-header">
         <Link to="/" className="header-logo" onClick={closeMobileMenu}>
           <div className="header-logo-text">
-            <span className="header-logo-name">The Good Shepherd</span>
+            <span className="header-logo-name">
+              The Good Shepherd 
+              <span style={{ fontSize: '0.65em', opacity: 0.7, fontWeight: 500, marginLeft: '8px', verticalAlign: 'middle' }}>John 10:11</span>
+            </span>
             <span className="header-logo-tagline">{t('tagline')}</span>
           </div>
         </Link>
