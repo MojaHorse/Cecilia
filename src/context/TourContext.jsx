@@ -20,7 +20,8 @@ export function TourProvider({ children }) {
     }
   };
 
-  const hasCompletedTour = (tourName) => completedTours.includes(tourName);
+  // FEATURE PAUSED: Always return true to disable all tours and unblock popups
+  const hasCompletedTour = (tourName) => true;
 
   return (
     <TourContext.Provider value={{ completedTours, markTourCompleted, hasCompletedTour }}>
