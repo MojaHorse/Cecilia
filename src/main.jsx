@@ -5,6 +5,10 @@ import { LanguageProvider } from './context/LanguageContext'
 import './index.css'
 import './mobile.css'
 import App from './App.jsx'
+import { registerSW } from 'virtual:pwa-register'
+
+// Register service worker for PWA
+registerSW({ immediate: true })
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
