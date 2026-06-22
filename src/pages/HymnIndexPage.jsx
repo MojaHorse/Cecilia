@@ -23,6 +23,7 @@ function HymnIndexPage() {
   // Sync local lang with global uiLang if global changes, and it's a valid hymn language
   useEffect(() => {
     if (languages[uiLang] && uiLang !== currentLang) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCurrentLang(uiLang)
     }
   }, [uiLang])

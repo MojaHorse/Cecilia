@@ -8,6 +8,7 @@ function MassPage() {
 
   useEffect(() => {
     if (uiLang === 'english' || uiLang === 'sesotho') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLang(uiLang)
     }
   }, [uiLang])

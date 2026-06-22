@@ -9,18 +9,6 @@ const BookmarksPage = () => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-      if (currentUser) {
-        fetchBookmarks(currentUser.uid);
-      } else {
-        setLoading(false);
-      }
-    });
-    return () => unsubscribe();
-  }, []);
-
   async function fetchBookmarks(uid) {
     try {
       setLoading(true);
@@ -42,6 +30,20 @@ const BookmarksPage = () => {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      if (currentUser) {
+        fetchBookmarks(currentUser.uid);
+      } else {
+        setLoading(false);
+      }
+    });
+    return () => unsubscribe();
+  }, []);
+
+
 
   const removeBookmark = async (bookmarkId) => {
     try {

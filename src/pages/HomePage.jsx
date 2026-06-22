@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
-import vaticanNews from '../data/vaticanNews.json'
 import { getLiturgicalYear, getDailyHymn, fetchTodayLiturgy } from '../services/liturgyService'
 
 function HomePage() {
