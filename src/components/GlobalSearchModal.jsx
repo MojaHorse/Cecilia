@@ -107,7 +107,11 @@ export default function GlobalSearchModal({ isOpen, onClose }) {
               <ul className="search-results-list">
                 {results.hymns.map(h => (
                   <li key={h.id} className="search-result-item" onClick={() => { navigate(`/lifela/${h.id}`); onClose(); }}>
-                    <div className="search-result-icon">🎵</div>
+                    <div className="search-result-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                      </svg>
+                    </div>
                     <div className="search-result-text">
                       <span className="search-item-title">{h.title}</span>
                       <span className="search-item-desc">{h.lyrics.substring(0, 60).replace(/\\n/g, ' ')}...</span>
@@ -124,7 +128,11 @@ export default function GlobalSearchModal({ isOpen, onClose }) {
               <ul className="search-results-list">
                 {results.bookmarks.map(b => (
                   <li key={b.id} className="search-result-item" onClick={() => { navigate(`/bible/${b.bookId}/${b.chapterId}`); onClose(); }}>
-                    <div className="search-result-icon">🔖</div>
+                    <div className="search-result-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                      </svg>
+                    </div>
                     <div className="search-result-text">
                       <span className="search-item-title">{b.reference}</span>
                       <span className="search-item-desc">{b.text.substring(0, 60)}...</span>
