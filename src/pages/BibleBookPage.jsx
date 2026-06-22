@@ -9,7 +9,7 @@ const BibleBookPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   
-  const { uiLang } = useLanguage();
+  const { uiLang, t } = useLanguage();
   const bibleId = languageToBibleId[uiLang] || 42;
 
   useEffect(() => {
@@ -19,17 +19,17 @@ const BibleBookPage = () => {
         const fetchedChapters = await fetchChapters(bibleId, bookId);
         setChapters(fetchedChapters);
       } catch (err) {
-        setError('Failed to load chapters.');
+        setError(t('bible_error'));
       } finally {
         setLoading(false);
       }
     };
     
     loadChapters();
-  }, [bibleId, bookId]);
+  }, [bibleId, bookId, t]);
 
   if (loading) {
-    return <div className="page-content-inner"><p>Loading chapters...</p></div>;
+    return <div className="page-content-inner"><p>{t('bible_loading')}</p></div>;
   }
 
   if (error) {
@@ -38,7 +38,7 @@ const BibleBookPage = () => {
 
   return (
     <div className="page-content-inner">
-      <Link to="/bible" className="back-link">← Back to Books</Link>
+      <Link to="/bible" className="back-link">←</Link>
       <h1 className="page-title">{BOOK_NAMES[bookId] || bookId}</h1>
       
       <div className="bible-chapters-compact-grid">

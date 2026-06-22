@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import { collection, query, where, getDocs, deleteDoc, doc } from 'firebase/firestore';
 import { db, auth } from '../services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
+import { useLanguage } from '../context/LanguageContext';
 
 const BookmarksPage = () => {
+  const { t } = useLanguage();
   const [bookmarks, setBookmarks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
@@ -57,23 +59,23 @@ const BookmarksPage = () => {
   return (
     <div className="page-content-inner">
       <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-        <h1 className="page-title">My Bookmarks</h1>
+        <h1 className="page-title">{t('bookmarks_title')}</h1>
         <p style={{ color: 'var(--color-ink-light)', marginTop: '0.5rem', fontFamily: 'var(--font-serif-body)', fontSize: '1.2rem' }}>
-          All your saved verses across the Bible.
+          {t('bookmarks_subtitle')}
         </p>
       </div>
 
       {loading ? (
-        <p style={{ textAlign: 'center', color: 'var(--color-ink-light)' }}>Loading your bookmarks...</p>
+        <p style={{ textAlign: 'center', color: 'var(--color-ink-light)' }}>{t('bookmarks_loading')}</p>
       ) : !user ? (
-        <p style={{ textAlign: 'center', color: 'var(--color-ink-light)' }}>Connecting to your account...</p>
+        <p style={{ textAlign: 'center', color: 'var(--color-ink-light)' }}>{t('bookmarks_connecting')}</p>
       ) : bookmarks.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '4rem 2rem', background: 'var(--color-cream-dark)', borderRadius: '16px' }}>
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="var(--color-ink-light)" strokeWidth={1} style={{ marginBottom: '1rem', margin: '0 auto', display: 'block' }}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
           </svg>
-          <p style={{ color: 'var(--color-ink-light)', fontSize: '1.1rem' }}>You haven't bookmarked any verses yet.</p>
-          <Link to="/bible" className="pill-button" style={{ marginTop: '1.5rem', display: 'inline-block' }}>Start Reading</Link>
+          <p style={{ color: 'var(--color-ink-light)', fontSize: '1.1rem' }}>{t('bookmarks_empty')}</p>
+          <Link to="/bible" className="pill-button" style={{ marginTop: '1.5rem', display: 'inline-block' }}>{t('bookmarks_start_reading')}</Link>
         </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
@@ -100,7 +102,7 @@ const BookmarksPage = () => {
                   color: 'var(--color-ink-light)',
                   padding: '4px'
                 }}
-                title="Remove Bookmark"
+                title={t('bookmarks_remove')}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
@@ -128,7 +130,7 @@ const BookmarksPage = () => {
                     textDecoration: 'none'
                   }}
                 >
-                  Read Chapter →
+                  {t('bookmarks_read_chapter')} →
                 </Link>
               </div>
             </div>

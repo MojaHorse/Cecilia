@@ -19,7 +19,7 @@ const BibleIndexPage = () => {
         const fetchedBooks = await fetchBooks(bibleId);
         setBooks(fetchedBooks);
       } catch (err) {
-        setError('Failed to load books. Please check your connection.');
+        setError(t('bible_error'));
       } finally {
         setLoading(false);
       }
@@ -46,7 +46,7 @@ const BibleIndexPage = () => {
       {books.length > 0 && (
         <>
           <div className="bible-books-section">
-            <h2>Old Testament</h2>
+            <h2 className="testament-title">{t('bible_old_testament')}</h2>
             <div className="bible-books-list">
               {otBooks.map(bookUSFM => (
                 <Link key={bookUSFM} to={`/bible/${bookUSFM}`} className="bible-book-item">
@@ -57,7 +57,7 @@ const BibleIndexPage = () => {
           </div>
           
           <div className="bible-books-section">
-            <h2>New Testament</h2>
+            <h2 className="testament-title">{t('bible_new_testament')}</h2>
             <div className="bible-books-list">
               {ntBooks.map(bookUSFM => (
                 <Link key={bookUSFM} to={`/bible/${bookUSFM}`} className="bible-book-item">

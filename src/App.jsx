@@ -71,9 +71,8 @@ function App() {
           <div className="header-logo-text">
             <span className="header-logo-name">
               The Good Shepherd 
-              <span style={{ fontSize: '0.65em', opacity: 0.7, fontWeight: 500, marginLeft: '8px', verticalAlign: 'middle' }}>John 10:11</span>
             </span>
-            <span className="header-logo-tagline">{t('tagline')}</span>
+            <span className="header-logo-tagline">John 10:11</span>
           </div>
         </Link>
         <nav className={`header-nav ${isMobileMenuOpen ? 'open' : ''}`} aria-label="Main navigation">
@@ -98,9 +97,9 @@ function App() {
 
           <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
           {user && !user.isAnonymous ? (
-            <a href="#" onClick={(e) => { e.preventDefault(); signOut(auth); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Log Out</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); signOut(auth); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_logout')}</a>
           ) : (
-            <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>Sign In / Up</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_signin')}</a>
           )}
         </nav>
         <div className="header-actions">

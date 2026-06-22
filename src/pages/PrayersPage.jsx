@@ -140,7 +140,7 @@ function PrayersPage() {
               color: activeTab === 'common' ? 'white' : '#4b5563'
             }}
           >
-            Common Prayers
+            {t('prayers_common')}
           </button>
           <button 
             onClick={() => setActiveTab('private')}
@@ -151,7 +151,7 @@ function PrayersPage() {
               color: activeTab === 'private' ? 'white' : '#4b5563'
             }}
           >
-            My Prayers
+            {t('prayers_private')}
           </button>
         </div>
 
@@ -205,16 +205,16 @@ function PrayersPage() {
               <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
               </svg>
-              Write a New Prayer
+              {t('prayers_write_new')}
             </button>
           </div>
 
           {loadingPrivate ? (
-            <div style={{ textAlign: 'center', color: '#6b7280', padding: '3rem 0' }}>Loading your prayers...</div>
+            <div style={{ textAlign: 'center', color: '#6b7280', padding: '3rem 0' }}>{t('prayers_loading')}</div>
           ) : privatePrayers.length === 0 ? (
             <div style={{ textAlign: 'center', color: '#6b7280', padding: '3rem 0', background: '#f9fafb', borderRadius: '24px' }}>
-              <p style={{ margin: '0 0 1rem', fontSize: '1.125rem' }}>Your prayer journal is empty.</p>
-              <p style={{ margin: 0, fontSize: '0.95rem' }}>Write your own personal prayers and save them securely.</p>
+              <p style={{ margin: '0 0 1rem', fontSize: '1.125rem' }}>{t('prayers_empty_title')}</p>
+              <p style={{ margin: 0, fontSize: '0.95rem' }}>{t('prayers_empty_desc')}</p>
             </div>
           ) : (
             <div className="prayers-grid">

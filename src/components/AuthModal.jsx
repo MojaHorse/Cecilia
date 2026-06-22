@@ -10,8 +10,10 @@ import {
   GoogleAuthProvider
 } from 'firebase/auth';
 import { auth, googleProvider } from '../services/firebase';
+import { useLanguage } from '../context/LanguageContext';
 
 const AuthModal = () => {
+  const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
   const [promptMessage, setPromptMessage] = useState('');
   const [mode, setMode] = useState('signup'); // 'signup' or 'login'
@@ -137,7 +139,7 @@ const AuthModal = () => {
         </button>
 
         <h2 style={{ margin: '0 0 0.5rem', fontFamily: 'var(--font-serif-heading)', color: 'var(--color-ink)', fontSize: '1.75rem' }}>
-          {mode === 'signup' ? 'Save Your Data' : 'Welcome Back'}
+          {mode === 'signup' ? t('auth_save_data') : t('auth_welcome_back')}
         </h2>
         {mode === 'signup' && (
           <p style={{ margin: '0 0 2rem', color: 'var(--color-ink-light)', fontSize: '0.95rem', lineHeight: 1.5 }}>
@@ -162,22 +164,22 @@ const AuthModal = () => {
             <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
             <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
           </svg>
-          Continue with Google
+          {t('auth_google')}
         </button>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
           <div style={{ flex: 1, height: '1px', background: '#e5e7eb' }}></div>
-          <span style={{ color: '#9ca3af', fontSize: '0.875rem' }}>or</span>
+          <span style={{ color: '#9ca3af', fontSize: '0.875rem' }}>{t('auth_email_divider')}</span>
           <div style={{ flex: 1, height: '1px', background: '#e5e7eb' }}></div>
         </div>
 
         <form onSubmit={handleEmailAuth} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           <input 
-            type="email" placeholder="Email address" value={email} onChange={e => setEmail(e.target.value)} required
+            type="email" placeholder={t('auth_email_label')} value={email} onChange={e => setEmail(e.target.value)} required
             style={{ padding: '0.875rem', borderRadius: '12px', border: '1px solid var(--color-border)', fontSize: '1rem', outline: 'none' }}
           />
           <input 
-            type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} required
+            type="password" placeholder={t('auth_password_label')} value={password} onChange={e => setPassword(e.target.value)} required
             style={{ padding: '0.875rem', borderRadius: '12px', border: '1px solid var(--color-border)', fontSize: '1rem', outline: 'none' }}
           />
           {errorMsg && <div style={{ color: '#ef4444', fontSize: '0.875rem', textAlign: 'left' }}>{errorMsg}</div>}
@@ -187,15 +189,15 @@ const AuthModal = () => {
             color: 'white', fontSize: '1rem', fontWeight: 600, cursor: status === 'loading' ? 'not-allowed' : 'pointer',
             opacity: status === 'loading' ? 0.7 : 1, marginTop: '0.5rem'
           }}>
-            {status === 'loading' ? 'Please wait...' : (mode === 'signup' ? 'Create Account' : 'Sign In')}
+            {status === 'loading' ? '...' : (mode === 'signup' ? t('auth_btn_create') : t('auth_btn_signin'))}
           </button>
         </form>
 
         <div style={{ marginTop: '1.5rem', fontSize: '0.875rem', color: '#6b7280' }}>
           {mode === 'signup' ? (
-            <>Already have an account? <button onClick={() => {setMode('login'); setErrorMsg('');}} style={{ background: 'none', border: 'none', color: 'var(--color-burgundy)', fontWeight: 600, cursor: 'pointer', padding: 0 }}>Log In</button></>
+            <button onClick={() => {setMode('login'); setErrorMsg('');}} style={{ background: 'none', border: 'none', color: 'var(--color-burgundy)', fontWeight: 600, cursor: 'pointer', padding: 0 }}>{t('auth_switch_to_signin')}</button>
           ) : (
-            <>Don't have an account? <button onClick={() => {setMode('signup'); setErrorMsg('');}} style={{ background: 'none', border: 'none', color: 'var(--color-burgundy)', fontWeight: 600, cursor: 'pointer', padding: 0 }}>Sign Up</button></>
+            <button onClick={() => {setMode('signup'); setErrorMsg('');}} style={{ background: 'none', border: 'none', color: 'var(--color-burgundy)', fontWeight: 600, cursor: 'pointer', padding: 0 }}>{t('auth_switch_to_create')}</button>
           )}
         </div>
       </div>

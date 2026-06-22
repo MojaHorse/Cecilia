@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from '../context/LanguageContext';
 
 const PrayerEditorModal = ({ isOpen, onClose, onSave, initialData }) => {
+  const { t } = useLanguage();
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [isSaving, setIsSaving] = useState(false);
@@ -49,7 +51,7 @@ const PrayerEditorModal = ({ isOpen, onClose, onSave, initialData }) => {
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
           <h2 style={{ margin: 0, fontFamily: 'var(--font-serif-heading)', color: 'var(--color-ink)', fontSize: '1.5rem' }}>
-            {initialData ? 'Edit Prayer' : 'Write a New Prayer'}
+            {initialData ? t('prayer_editor_title_edit') : t('prayer_editor_title_new')}
           </h2>
           <button onClick={onClose} style={{
             background: 'transparent', border: 'none', cursor: 'pointer', color: '#9ca3af', padding: '4px'
@@ -62,10 +64,10 @@ const PrayerEditorModal = ({ isOpen, onClose, onSave, initialData }) => {
 
         <form onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1, overflowY: 'auto' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            <label style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-ink-light)' }}>Title</label>
+            <label style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-ink-light)' }}>{t('prayer_editor_label_title')}</label>
             <input 
               type="text" 
-              placeholder="e.g. Morning Offering" 
+              placeholder={t('prayer_editor_placeholder_title')} 
               value={title} 
               onChange={e => setTitle(e.target.value)} 
               required
@@ -74,9 +76,9 @@ const PrayerEditorModal = ({ isOpen, onClose, onSave, initialData }) => {
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flex: 1 }}>
-            <label style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-ink-light)' }}>Your Prayer</label>
+            <label style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-ink-light)' }}>{t('prayer_editor_label_content')}</label>
             <textarea 
-              placeholder="Speak to God..." 
+              placeholder={t('prayer_editor_placeholder_content')} 
               value={content} 
               onChange={e => setContent(e.target.value)} 
               required
@@ -93,7 +95,7 @@ const PrayerEditorModal = ({ isOpen, onClose, onSave, initialData }) => {
             color: 'white', fontSize: '1rem', fontWeight: 600, cursor: (isSaving || !title.trim() || !content.trim()) ? 'not-allowed' : 'pointer',
             opacity: (isSaving || !title.trim() || !content.trim()) ? 0.7 : 1, marginTop: '0.5rem'
           }}>
-            {isSaving ? 'Saving...' : 'Save Prayer'}
+            {isSaving ? t('prayer_editor_saving') : t('prayer_editor_save')}
           </button>
         </form>
       </div>
