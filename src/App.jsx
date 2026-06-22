@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Routes, Route, Link, NavLink } from 'react-router-dom'
 import { useLanguage } from './context/LanguageContext'
 import { signInUserAnonymously, auth } from './services/firebase'
@@ -23,6 +23,7 @@ import GlobalSearchModal from './components/GlobalSearchModal'
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const dropdownRef = useRef(null)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const { uiLang, setUiLang, t, availableLangs } = useLanguage()
 
@@ -41,6 +42,20 @@ function App() {
     return () => unsubscribe();
   }, []);
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
+
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false)
     setIsDropdownOpen(false)
@@ -53,19 +68,7 @@ function App() {
 
   return (
     <div className="site-container">
-      {/* Floating Language Selector (Desktop Only) */}
-      <select 
-        className="global-lang-select desktop-only" 
-        value={uiLang} 
-        onChange={(e) => setUiLang(e.target.value)}
-        aria-label="Select Language"
-      >
-        <option value="sesotho">Sesotho</option>
-        <option value="zulu">isiZulu</option>
-        <option value="xhosa">isiXhosa</option>
-        <option value="setswana">Setswana</option>
-        <option value="english">English</option>
-      </select>
+
 
       {/* Site Header */}
       <header className="site-header">
@@ -82,7 +85,7 @@ function App() {
           <NavLink to="/" end onClick={closeMobileMenu}>{t('nav_home')}</NavLink>
           <NavLink to="/today" onClick={closeMobileMenu}>{t('nav_today')}</NavLink>
           
-          <div className="nav-dropdown" id="tour-nav-library"
+          <div className="nav-dropdown" id="tour-nav-library" ref={dropdownRef}
                onMouseEnter={() => setIsDropdownOpen(true)} 
                onMouseLeave={() => setIsDropdownOpen(false)}>
             <button className="nav-dropdown-btn" onClick={toggleDropdown}>
@@ -104,21 +107,26 @@ function App() {
           ) : (
             <a href="#" id="tour-nav-auth" onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('openAuthModal')); closeMobileMenu(); }} style={{ fontWeight: 600, color: 'var(--color-burgundy)' }}>{t('nav_signin')}</a>
           )}
+          
+          <div className="nav-lang-container" style={{ display: 'flex', alignItems: 'center' }}>
+            <select 
+              className="nav-lang-select" 
+              value={uiLang} 
+              onChange={(e) => {
+                setUiLang(e.target.value);
+                closeMobileMenu();
+              }}
+              aria-label="Select Language"
+            >
+              <option value="sesotho">Sesotho</option>
+              <option value="zulu">isiZulu</option>
+              <option value="xhosa">isiXhosa</option>
+              <option value="setswana">Setswana</option>
+              <option value="english">English</option>
+            </select>
+          </div>
         </nav>
         <div className="header-actions">
-          {/* Mobile Language Selector */}
-          <select 
-            className="global-lang-select mobile-only" 
-            value={uiLang} 
-            onChange={(e) => setUiLang(e.target.value)}
-            aria-label="Select Language"
-          >
-            <option value="sesotho">Sesotho</option>
-            <option value="zulu">isiZulu</option>
-            <option value="xhosa">isiXhosa</option>
-            <option value="setswana">Setswana</option>
-            <option value="english">English</option>
-          </select>
           {/* Search Icon */}
           <button className="search-icon" onClick={() => setIsSearchOpen(true)} aria-label="Search">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

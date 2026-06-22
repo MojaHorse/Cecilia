@@ -134,8 +134,10 @@ export default function GlobalSearchModal({ isOpen, onClose }) {
                       </svg>
                     </div>
                     <div className="search-result-text">
-                      <span className="search-item-title">{b.reference}</span>
-                      <span className="search-item-desc">{b.text.substring(0, 60)}...</span>
+                      <span className="search-item-title">
+                        {b.bookId} {b.chapterId?.split('.').pop()}:{b.verseKey?.split('.').pop()}
+                      </span>
+                      <span className="search-item-desc">{b.text?.substring(0, 60)}...</span>
                     </div>
                   </li>
                 ))}
