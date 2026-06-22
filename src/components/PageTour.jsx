@@ -6,6 +6,8 @@ const PageTour = ({ tourName, steps }) => {
   const { hasCompletedTour, markTourCompleted } = useTour();
   const [run, setRun] = useState(false);
   const [stepIndex, setStepIndex] = useState(0);
+  
+  const isMobile = window.innerWidth <= 768;
 
   useEffect(() => {
     if (!hasCompletedTour(tourName)) {
@@ -45,17 +47,19 @@ const PageTour = ({ tourName, steps }) => {
       run={run}
       stepIndex={stepIndex}
       continuous={true}
+      disableScrollParentFix={true}
       showSkipButton={true}
       showProgress={true}
       scrollToFirstStep={true}
-      disableOverlayClose={true}
-      disableCloseOnEsc={true}
-      spotlightPadding={8}
+      disableOverlayClose={false}
+      disableCloseOnEsc={false}
+      spotlightPadding={isMobile ? 2 : 8}
       styles={{
         options: {
           primaryColor: 'var(--color-burgundy)',
           textColor: '#333',
           zIndex: 10000,
+          width: isMobile ? window.innerWidth - 40 : 380,
         },
         tooltipContainer: {
           textAlign: 'left',

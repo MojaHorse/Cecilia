@@ -10,21 +10,48 @@ function HomePage() {
 
   const homeTourSteps = useMemo(() => {
     const isMobile = window.innerWidth <= 768;
+    
+    if (isMobile) {
+      return [
+        {
+          target: '#tour-header-logo',
+          content: 'Welcome to The Good Shepherd! Your digital library for Catholic hymns, prayers, and daily liturgy.',
+          disableBeacon: true,
+          disableScroll: true,
+          placement: 'bottom',
+        },
+        {
+          target: '#tour-hamburger-menu',
+          content: 'Tap the menu to access the Library, your Bookmarks, and to Sign In or Create an Account.',
+          disableScroll: true,
+          placement: 'bottom',
+        },
+        {
+          target: '.liturgy-section',
+          content: 'Check here every day to find the liturgical colors, season, readings, and featured hymn for the daily Mass.',
+          placement: 'top',
+        }
+      ];
+    }
+
     return [
       {
         target: '#tour-header-logo',
         content: 'Welcome to The Good Shepherd! Your digital library for Catholic hymns, prayers, and daily liturgy.',
         disableBeacon: true,
+        disableScroll: true,
         placement: 'bottom',
       },
       {
-        target: isMobile ? '#tour-hamburger-menu' : '#tour-nav-library',
-        content: isMobile ? 'Tap the menu to find the Bible, Order of Mass, Hymns, and Bookmarks.' : 'Open the Library to find the Bible, Order of Mass, Hymns, and your Bookmarks.',
+        target: '#tour-nav-library',
+        content: 'Open the Library to find the Bible, Order of Mass, Hymns, and your Bookmarks.',
+        disableScroll: true,
         placement: 'bottom',
       },
       {
-        target: isMobile ? '#tour-hamburger-menu' : '#tour-nav-auth',
+        target: '#tour-nav-auth',
         content: 'Create a free account to securely save your Bookmarks and Private Prayers across all your devices!',
+        disableScroll: true,
         placement: 'bottom',
       },
       {
