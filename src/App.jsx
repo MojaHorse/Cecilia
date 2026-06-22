@@ -168,10 +168,10 @@ function App() {
       {/* Site Footer */}
       <footer className="site-footer">
         <div className="footer-inner">
-          <div className="footer-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', marginBottom: '2.5rem' }}>
+          <div className="footer-logo" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', marginBottom: '2.5rem' }}>
             <img src="/Group 69.svg" alt="The Good Shepherd Logo" style={{ height: '65px', width: 'auto', opacity: 1, filter: 'brightness(0) invert(1)' }} />
-            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
-              <span style={{ fontFamily: 'var(--font-legendary)', fontWeight: 700, fontSize: '2rem', letterSpacing: '0.05em', color: 'var(--color-white)', lineHeight: 1.1, paddingBottom: '0.2rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}>
+              <span style={{ fontFamily: 'var(--font-legendary)', fontWeight: 700, fontSize: '1.75rem', letterSpacing: '0.05em', color: 'var(--color-white)', lineHeight: 1.1, paddingBottom: '0.2rem' }}>
                 The Good Shepherd 
               </span>
               <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.75rem', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.25em', fontWeight: 700 }}>
@@ -182,19 +182,37 @@ function App() {
           <p className="footer-text">
             <em>The Good Shepherd &mdash; {t('tagline')}</em>
           </p>
-          <p className="footer-text">
-            {t('footer_source_hymns')}{' '}
-            <a href="https://catholichymns.co.za/" target="_blank" rel="noopener noreferrer">
-              Lifela Tsa BaKriste
-            </a>
-            {' '}&middot;{' '}
-            {t('footer_source_church')}{' '}
-            <a href="https://www.vatican.va/content/vatican/en.html" target="_blank" rel="noopener noreferrer">
-              {t('holy_church')}
-            </a>
-          </p>
-          <p className="footer-text footer-verse">
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '1rem', fontSize: '0.875rem', color: 'rgba(255, 255, 255, 0.7)' }}>
+            <div>
+              {t('footer_source_hymns')}{' '}
+              <a href="https://catholichymns.co.za/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)' }}>
+                Lifela Tsa BaKriste
+              </a>
+            </div>
+            <div>
+              {t('footer_source_church')}{' '}
+              <a href="https://www.vatican.va/content/vatican/en.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)' }}>
+                {t('holy_church')}
+              </a>
+            </div>
+            <div>
+              Bible verses provided by{' '}
+              <a href="https://www.youversion.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)' }}>
+                YouVersion
+              </a>
+            </div>
+            <div>
+              Mass Readings provided by{' '}
+              <a href="https://universalis.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-gold)' }}>
+                Universalis
+              </a>
+            </div>
+          </div>
+          <p className="footer-text footer-verse" style={{ marginTop: '1.5rem', marginBottom: '1rem' }}>
             {t('footer_verse')}
+          </p>
+          <p className="footer-text" style={{ fontWeight: 600, color: 'var(--color-gold)', fontSize: '0.875rem' }}>
+            Developed by ZeroToOne Studios
           </p>
           <div style={{ marginTop: '1.5rem' }}>
             {user && !user.isAnonymous ? (

@@ -362,8 +362,8 @@ const BibleReadPage = () => {
 
       <div className="bible-read-header">
         <Link to={`/bible/${bookId}`} className="back-link">← {BOOK_NAMES[bookId] || bookId}</Link>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h1 className="page-title" style={{ margin: 0 }}>{passages[0]?.reference}</h1>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+          <h1 className="page-title" style={{ margin: 0, whiteSpace: 'nowrap' }}>{passages[0]?.reference}</h1>
           <div style={{ display: 'flex', gap: '0.75rem' }}>
             <button 
               id="tour-bible-full-read"
